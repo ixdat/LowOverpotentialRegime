@@ -1,0 +1,17 @@
+{
+    "id": 217,
+    "name": "m217 is Taiwan1G exchange on 19L09 by ECMS",
+    "sample": "Taiwan1G",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19L17",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19L08_Taiwan\\pickles\\19L17_Taiwan1G_and_Trimi_02.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "264",
+    "EC_tag": null,
+    "category": "exchange"
+}

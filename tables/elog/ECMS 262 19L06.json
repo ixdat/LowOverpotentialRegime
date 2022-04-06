@@ -1,0 +1,26 @@
+{
+    "setup": "ECMS",
+    "number": "262",
+    "date": "19L06",
+    "field_data": {
+        "ID": 262,
+        "Date": "Fri Dec  6 15:13:24 2019",
+        "Record date": "2019-12-06 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Taiwan, Jazz",
+        "Sample Name": "",
+        "Removed from vacuum": "",
+        "RE_vs_RHE": "0.656",
+        "Resistor": "100",
+        "Chip": "",
+        "Electrolyte": "",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Jazz3": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "01... tilt\n\n... then mounted without o-ring\n\n02... tilt\n\nBoth times, it was wet behind the electrode.\n\nnot my day today. I will try again tomorrow.</pre></td></tr>\n"
+}

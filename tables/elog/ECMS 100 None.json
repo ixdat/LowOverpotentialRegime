@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 100,
+    "date": null,
+    "field_data": {
+        "ID": 100,
+        "Date": "Wed Apr 18 16:13:24 2018",
+        "Record date": "2018-04-18 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Roy1",
+        "Sample Name": "Roy1, electrodeposited NiFe",
+        "Removed from vacuum": "Deposited by Claudie yesterday",
+        "RE_vs_RHE": "1.385, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-4-A2",
+        "Electrolyte": "0.1 KOH in H2(18)O",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "QMS timestamp 16:12:05\n\n01... no isotope exchange\n\n02... accidentally tried to scan way to positive the first two times. Otherwise good calibration\n\n03... wrong settings\n\n04... no CO strip. Also, no sign of surface exchange with O2 dosing.\n\nChip has held up surprisingly long. So has isotope ratio. And I didn't even fill the bong tips with isotope\nwater. How can this be?\n\npacking up, chip hydrophillic but passes an extra drop test.\n\nScott out.</pre></td></tr>\n"
+}

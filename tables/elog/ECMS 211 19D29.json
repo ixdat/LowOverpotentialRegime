@@ -1,0 +1,47 @@
+{
+    "setup": "ECMS",
+    "number": "211",
+    "date": "19D29",
+    "field_data": {
+        "ID": 211,
+        "Date": "Mon Apr 29 15:27:59 2019",
+        "Record date": "2019-04-29 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Goof",
+        "Sample Name": "Jazz5, Folk3, Goof1A, Champ4A. Goof and Champ are sputtered Ir(18)Ox. at RT and 400 C, rsptv.",
+        "Removed from vacuum": "Goof sputtered yesterday, Champ sputtered today. Jazz5 last used as control 19C01",
+        "RE_vs_RHE": "0.715, uncalibrated",
+        "Resistor": "100",
+        "Chip": "SI-Nonaqueous-1",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Jazz5": [
+            163
+        ],
+        "_MS_data": [
+            167
+        ],
+        "Folk3": [
+            164
+        ],
+        "Goof1A": [
+            165,
+            169
+        ],
+        "Champ4A": [
+            166
+        ]
+    },
+    "measurement_EC_tags": {
+        "163": "01...",
+        "164": "02...",
+        "165": "03...",
+        "169": "03...",
+        "166": "04..."
+    },
+    "notes": "Goof1 involved a mistake, namely forgetting to open the Reactive Gas valve. It is therefore ~8nm IrOx on ~10 nm\nIr on ~5nm Ti on GC. I was quite worried about this mistake diluting the (18)O2, but Goof1A looks good in the\ntheta probe!\nChamp4 is sputtered today without any significant mistake except a small inturruption when the (18)O2 in the\nline ran out, and that the middle sample fell into the sputter chamber. It's about 10 nm Ru(18)O2 on ~5nm Ti on GC. \nJazz5 is the control, having (I think!) not seen (18)O. \n\n--- Jazz5 --- \n\n01...\nWTF?! There's exchange. I think that I have mislabeled samples or written a wrong sample in the notes file 19C01.\n\nIndeed, in 19C01 refers to Jazz5 as \"Ir on Ti on Au\" ... but the sample that I'm testing now is a GC substrate...\nJazz3 is an Au substrate. \n\nfirst electrolyte sample at 2 min, not 1 min. 1 min might in general be too early.\n\nPulled in some air during the 20 min electrolyte sample. .... Ah, shit, actually it was EC-lab programming mistake. It\ncycled down to 1.2 V vs RHE and back up WHILE I was extracting electrolyte.Also, spilled some of that electrolyte and\npippetted it up from the Al foil on the table.\nlink1\n\n\n02... Folk3.\nStupid EC-lab changed CP to 1 uA without asking.\nActual control. Just out of ISS. This one looks good.\nlink2\n\n\n03... Goof1A\nNo exchange! link3 \nall goes smooth. Few small bubbles, remarkably clean given it's a chipped electrode.\n03a... forgot to record OCP\n\n04... Champ4A\nStub too loose. Need Teflon tape. Checked conductance through RDE stick. Looks okay.\nBad first mount of cell, o-ring had come loose, leaking electrolyte. Some of this electrolyte collected as an OCP\ndissolution measurement.\n\nOCP looks much lower than others. CV indistinguishable from resistor. Maybe there's a crazy tilt.\n\nStupid EC-lab changed CP to 1 uA without asking. Change to 100 uA. Potential lower, O2 signal lower than it should be.\nYes, everything just looks crazy tilty.\n\nNo exchange though!\n\n\n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2700&amp;xmax=4700&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2700&amp;xmax=4700&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04</a>\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=7500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=7500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8000&amp;xmax=10000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8000&amp;xmax=10000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17522&amp;right_plotlist%5B%5D=17521&amp;chosen_group%5B%5D=2019-04-29+15%3A12%3A04</a></pre></td></tr>\n"
+}

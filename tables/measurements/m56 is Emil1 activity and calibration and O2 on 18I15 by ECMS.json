@@ -1,0 +1,21 @@
+{
+    "id": 56,
+    "name": "m56 is Emil1 activity and calibration and O2 on 18I15 by ECMS",
+    "sample": "Emil1",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "18I15",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I14_Emil1_18O\\01 Emil1 18I14 18I13_IrO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "136",
+    "EC_tag": null,
+    "category": [
+        "activity",
+        "calibration",
+        "O2"
+    ]
+}

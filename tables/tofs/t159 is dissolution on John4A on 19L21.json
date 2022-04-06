@@ -1,0 +1,20 @@
+{
+    "tof_type": "dissolution",
+    "rate": 8.510168261827355e-12,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 35,
+    "tspan": [
+        300.0,
+        500.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {
+        "t_electrolysis": 120.0
+    },
+    "description": "first 2 min",
+    "t_id": 159,
+    "amount": null,
+    "sample_name": null
+}

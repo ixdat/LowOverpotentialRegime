@@ -1,0 +1,17 @@
+{
+    "id": 102,
+    "name": "m102 is Nancy5 exchange on 19A09 by ECMS",
+    "sample": "Nancy5",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19A09",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19A10_Nancy_exchange\\pickles\\Nancy5_09_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "160",
+    "EC_tag": "09...",
+    "category": "exchange"
+}

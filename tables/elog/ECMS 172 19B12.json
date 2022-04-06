@@ -1,0 +1,27 @@
+{
+    "setup": "ECMS",
+    "number": "172",
+    "date": "19B12",
+    "field_data": {
+        "RE_vs_RHE": "0.715"
+    },
+    "sample_measurements": {
+        "Reshma4": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": null
+}

@@ -1,0 +1,12 @@
+{
+    "id": 56,
+    "ic_id": 7,
+    "m_id": 171,
+    "element": "Ir",
+    "mass": "M193",
+    "signal": 709.0274489606368,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 1760.0,
+    "description": "extraction 2 min"
+}

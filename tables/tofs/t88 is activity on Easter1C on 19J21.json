@@ -1,0 +1,18 @@
+{
+    "tof_type": "activity",
+    "rate": 2.8921162226587446e-10,
+    "tof": 0.037057090908380864,
+    "potential": null,
+    "current": 0.0001000388550262963,
+    "e_id": 26,
+    "tspan": [
+        900.0,
+        9000.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "steady then catostrophic failure overnight",
+    "t_id": 88,
+    "amount": null,
+    "sample_name": null
+}

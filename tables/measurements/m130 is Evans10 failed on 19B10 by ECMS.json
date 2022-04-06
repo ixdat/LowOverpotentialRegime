@@ -1,0 +1,17 @@
+{
+    "id": 130,
+    "name": "m130 is Evans10 failed on 19B10 by ECMS",
+    "sample": "Evans10",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19B10",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19B10_Evans_16O_01_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "170",
+    "EC_tag": null,
+    "category": "failed"
+}

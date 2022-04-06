@@ -1,0 +1,18 @@
+{
+    "m_id": 104,
+    "experiment_type": "k",
+    "tspan_plot": [
+        -50,
+        360
+    ],
+    "tspan_bg": [
+        0,
+        10
+    ],
+    "tspan_F": null,
+    "tspan_alpha": null,
+    "F": null,
+    "alpha": null,
+    "e_id": 4,
+    "plot_specs": {}
+}

@@ -1,0 +1,20 @@
+{
+    "id": 43,
+    "name": "m43 is Reshma1B activity and failed on 18I12 by ECMS",
+    "sample": "Reshma1B",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "18I12",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I06_Reshma1B_18O\\08 Reshma1B 18I06 18I06_Reshma1B_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "133",
+    "EC_tag": null,
+    "category": [
+        "activity",
+        "failed"
+    ]
+}

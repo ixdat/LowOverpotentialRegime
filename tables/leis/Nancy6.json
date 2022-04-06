@@ -1,0 +1,74 @@
+{
+    "file": "Nancy6.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190217-130724_Post measurement-Nancy 6-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Nancy6__2019-02-17 13_07_24__omicron__Post measurement.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2019-02-17 13:07:24",
+            "timestamp": 1550405244.0,
+            "comment": "Post measurement",
+            "note": [
+                "RuO2 sample. After sputtering 25 minutes Ar.\n"
+            ],
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190217-112558_Post measurement-Nancy 6-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
+            "pickle_name": "Nancy6__2019-02-17 11_25_58__omicron__Post measurement.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2019-02-17 11:25:58",
+            "timestamp": 1550399158.0,
+            "comment": "Post measurement",
+            "note": [
+                "RuO2 sample.\n"
+            ],
+            "num_of_datasets": 4
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 93.8284444923993,
+                    "1": 83.26727168706944,
+                    "2": 78.28902288417719,
+                    "3": 88.04222811118915
+                },
+                "O18": {
+                    "0": 6.171555507600694,
+                    "1": 16.732728312930558,
+                    "2": 21.710977115822818,
+                    "3": 11.957771888810848
+                },
+                "c_16": {
+                    "0": 0.06632861117381005,
+                    "1": 0.09935133307627599,
+                    "2": 0.40267582899821275,
+                    "3": 0.6167317161554718
+                },
+                "c_18": {
+                    "0": 0.0025328709412511603,
+                    "1": 0.011590926666020114,
+                    "2": 0.06483150345005467,
+                    "3": 0.04863036815578831
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 93.5271097753533
+                },
+                "O18": {
+                    "0": 6.472890224646709
+                },
+                "c_16": {
+                    "0": 1.0319185147555758
+                },
+                "c_18": {
+                    "0": 0.041462756140413046
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

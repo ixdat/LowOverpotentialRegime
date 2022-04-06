@@ -1,0 +1,20 @@
+{
+    "id": 160,
+    "name": "m160 is Easter1A exchange and CO on 19D26 by ECMS",
+    "sample": "Easter1A",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19D26",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19D30_Easter_and_Goof\\pickles\\19D26_Easter_16O_02.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "210",
+    "EC_tag": "02...",
+    "category": [
+        "exchange",
+        "CO"
+    ]
+}

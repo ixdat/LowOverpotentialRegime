@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 113,
+    "date": null,
+    "field_data": {
+        "ID": 113,
+        "Date": "Mon May 21 23:05:03 2018",
+        "Record date": "2018-05-21 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "EC4",
+        "Sample Name": "EC4, electrodeposited NiFe thin film",
+        "Removed from vacuum": "in air since claudie's measurement 3 weeks ago",
+        "RE_vs_RHE": "1.350, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-4-D6, B3, B1",
+        "Electrolyte": "0.1M KOH in H2(18)O, 0.1M KOH",
+        "pH": "13, nominally",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "01... through 03...\ncycling in drop. Activity starts low, slowly increases\n\nRinsed in normal water and then dried for a few seconds with Ar (probably shouldn't have done that)\n\n04... through 07...\nEC-MS in O18 electrolyte.\nIt's messy, but I do go anodic as the first thing, and there is no isotope exchange visible.\nThe M34/M36 ratio is not that high (5:1), but it's constant.\n\nsample left sitting under a drop of O18 water while the cell is dried.\n\nChip doing fine, but switching anyway because I'd hate for it to breach during this next, last experiment.\n\n08... through 12...\ncan't get fucking contact. Looks like it might be a new form of EC failure.\nChip breaches, giving me the excuse I need to give up.\n\nNew chip installed, with metal clamping ring. B1. Drop test looks good! Left pumping water though Valve 5.</pre></td></tr>\n"
+}

@@ -1,0 +1,34 @@
+{
+    "file": "Champ4A.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29a_tested_IrO2/19D29a_ISS/Mono 400\u00b5m/Champ4A/He ISS.avg",
+            "pickle_name": "Champ4A__2019-04-29 19_42_09__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-29 19:42:09",
+            "timestamp": 1556559729.0,
+            "comment": "",
+            "note": "'19D29a_tested_IrO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 32.765679257178824
+                },
+                "O18": {
+                    "0": 67.23432074282118
+                },
+                "c_16": {
+                    "0": 0.426239778255103
+                },
+                "c_18": {
+                    "0": 0.6491152511544237
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

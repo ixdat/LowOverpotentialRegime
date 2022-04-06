@@ -1,0 +1,46 @@
+{
+    "setup": "ECMS",
+    "number": "163",
+    "date": "19A27",
+    "field_data": {
+        "ID": 163,
+        "Date": "Sun Jan 27 14:23:50 2019",
+        "Record date": "2019-01-27 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Evans6, Evans7, Evans8",
+        "Removed from vacuum": "Evans were prepared by Choongman 19A11",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "14-C3, ?-C4",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans6": [
+            108,
+            109
+        ],
+        "Evans7": [
+            110
+        ],
+        "Evans8": [
+            111,
+            112,
+            113,
+            114
+        ]
+    },
+    "measurement_EC_tags": {
+        "108": "01...",
+        "109": "02...",
+        "110": "03...",
+        "111": "04...",
+        "112": "05...",
+        "113": "06...",
+        "114": "07..."
+    },
+    "notes": "------- Evans6 --------\n01... Whoa! Potent increases only very slowly with time, doesn't look like 100 uA worth of CO2. Woirried it's a\nhuge shunt current. Cranked it up to 200 uA. Seeing first sign of O2 at 0.55 V vs RE = 1.27 V vs RHE!!!! for\nreal?? Can I reproduce this with constant-potential steps?\nClear signal at 0.585 V vs RE, 1.3 V vs RHE. Can probably get even lower as background falls. Stepping up to 120\nmV overpotential, then stepping down. Background falling. A factor ~3 ever 10 mV, as expected by Tafel slope of\n~20 mV/decade\nAh, no loop in EC program :( okay, restarting\n\n02... continuing where 01... left off. Stepping the rest of the way up to 120 mV overpotential (+0.635 V vs RE),\nthen back down until I can see nothing.\nI think I get 60 mV overpotential! :D\n\nNow, cycling. 10 times at 5 mV/s from 0 to +1.4 V vs RHE. Takes 5600 seconds ~1 hr 40 minutes total.\n\n\n------ Evans7 .......\n03...\nLooks just as high-surface-area as Evans6! First sign of OER at 0.55 V vs RHE during 200 uA period.\nI have to consider another way of doing this when I test for exchange. Also, it just seem strange. 200 s to go 50\nmV, that's 0.25 mV/s. But 1 mV/s only gives ~100 uA in capacitance. Capacitance can only explain ~1/8 of the\ncurrent here. CO2 likely can only explain some. That's not 200 uA of OER.\nI'm scanning from the start on the next sample, not just doing the 200 uA. \n\n19300 s: Shit, humungous air signal in addition to the He signal. Flowing some electrolyte does nothing. It's a\nbig-assed crack in the chip. Neither does increasing pressure at PC2 to 1.05 bar. The latter does, however, cause\nme to lose electrical contact. Regain by flowing, but then potential control lost. \nClosed to QMS to be safe as I demount sample. Whewh, air leak is not behind valve 13.\n\nChanged chip (which was 14-C4) back to the one I previously used with Ru, ?-C4, which has a cracked carrier gas outlet.\n\nGonna leave Evans7 for use as a blank in the next 16-O round.\n\n---- Evans8 -------\n\n04... Started at 200 uA again, looks like the last ones. But wait! I wanted to try scanning first to avoid the long\nwait before OER.\n05... through 07... fucked up several times with settings, made bubbles, by the time (in 07..., 22800 s) that I get\nit to work, it looks like I've somehow completely deactivated the catalyst. It goes to mre than 0.85 V vs RE to\npull 100 uA. Flowing at 23200 s seems to fix it. We'll see.</pre></td></tr>\n"
+}

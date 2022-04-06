@@ -1,0 +1,154 @@
+{
+    "file": "Maundy4A.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS_cont/Mono 400\u00b5m/Maundy4A_again/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 16_17_54__thetaprobe__again.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 16:17:54",
+            "timestamp": 1555683474.0,
+            "comment": "again",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS/Mono 400\u00b5m/Maundy4A/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 15_26_21__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 15:26:21",
+            "timestamp": 1555680381.0,
+            "comment": "",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/ISS sputter profile/Mono 400\u00b5m/Maundy4A Ar sputtered 60 s/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 21_49_39__thetaprobe__Ar sputtered 60 s.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 21:49:39",
+            "timestamp": 1555703379.0,
+            "comment": "Ar sputtered 60 s",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/ISS sputter profile/Mono 400\u00b5m/Maundy4A Ar sputtered 120 s/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 22_03_03__thetaprobe__Ar sputtered 120 s.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 22:03:03",
+            "timestamp": 1555704183.0,
+            "comment": "Ar sputtered 120 s",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        },
+        "4": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/ISS sputter profile/Mono 400\u00b5m/Maundy4A Ar sputtered 35 s/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 21_16_03__thetaprobe__Ar sputtered 35 s.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 21:16:03",
+            "timestamp": 1555701363.0,
+            "comment": "Ar sputtered 35 s",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        },
+        "5": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/ISS sputter profile/Mono 400\u00b5m/Maundy4A/He ISS.avg",
+            "pickle_name": "Maundy4A__2019-04-19 20_55_57__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 20:55:57",
+            "timestamp": 1555700157.0,
+            "comment": "",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 43.852416822689136
+                },
+                "O18": {
+                    "0": 56.147583177310864
+                },
+                "c_16": {
+                    "0": 0.449834134321493
+                },
+                "c_18": {
+                    "0": 0.4274506000839273
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 45.53852622853156
+                },
+                "O18": {
+                    "0": 54.46147377146844
+                },
+                "c_16": {
+                    "0": 0.4286800037875314
+                },
+                "c_18": {
+                    "0": 0.3804868344394834
+                }
+            },
+            "5": {
+                "O16": {
+                    "0": 42.90560023051606
+                },
+                "O18": {
+                    "0": 57.09439976948394
+                },
+                "c_16": {
+                    "0": 0.5581076497670769
+                },
+                "c_18": {
+                    "0": 0.5511800563163759
+                }
+            },
+            "4": {
+                "O16": {
+                    "0": 43.855547522682656
+                },
+                "O18": {
+                    "0": 56.144452477317344
+                },
+                "c_16": {
+                    "0": 0.4575923877790122
+                },
+                "c_18": {
+                    "0": 0.43476752267562546
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 25.592901942639802
+                },
+                "O18": {
+                    "0": 74.4070980573602
+                },
+                "c_16": {
+                    "0": 0.16869358754992986
+                },
+                "c_18": {
+                    "0": 0.3639899549167007
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 59.620225302048304
+                },
+                "O18": {
+                    "0": 40.37977469795171
+                },
+                "c_16": {
+                    "0": 0.8044756582753565
+                },
+                "c_18": {
+                    "0": 0.4043702311413985
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "setup": "ECMS",
+    "number": "217",
+    "date": "19E07",
+    "field_data": {
+        "ID": 217,
+        "Date": "Tue May  7 22:41:00 2019",
+        "Record date": "2019-05-07 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Trimi1, Evans12",
+        "Removed from vacuum": "Evans12 deposited by Choongman on 19E04",
+        "RE_vs_RHE": "0.717",
+        "Resistor": "100",
+        "Chip": "Danchip-13-A2",
+        "Electrolyte": "0.1M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Trimi1": [
+            175,
+            178
+        ],
+        "Evans12": [
+            176
+        ]
+    },
+    "measurement_EC_tags": {
+        "175": "01...",
+        "176": "02..."
+    },
+    "notes": "01... Trimi1 again.\nIt looks like +0.185 V vs RE (ca +0.9 V vs RHE) is the best place to get extraction. (link1) ... everything\nafter that is just converging on a ratio, which actually isn't quite the same as that for m/z=34 to m/z=36\nbecause of the carbonic acid equilibrium.\n\nClear Ru contamination on the Pt: strange feature in first cycle of CO strip, and OER at +1.5 V vs RHE.\n\n\nExactly the same RE_vs_RHE as the (16)O electrolyte, to the millivolt. \n\n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=16600&amp;xmax=23000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17668&amp;left_plotlist%5B%5D=17670&amp;right_plotlist%5B%5D=17669&amp;right_plotlist%5B%5D=17671&amp;chosen_group%5B%5D=2019-05-07+16%3A42%3A55\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=16600&amp;xmax=23000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17668&amp;left_plotlist%5B%5D=17670&amp;right_plotlist%5B%5D=17669&amp;right_plotlist%5B%5D=17671&amp;chosen_group%5B%5D=2019-05-07+16%3A42%3A55</a>\n\n\n02... Evans12 again.\nAt first, way to high a potential, by about 50 mV, to hit the 100 uA. (recall, 100 uA * 100 Ohm = 10 mV). \nFlowing through counter (while at OCP) doesn't help.\nReattaching crocodile, though, does!\nActivity seems to pick up where it had left off (unfortunately half of the activity of Evans12 was lost while repeating +1.4 V vs RHE so many times in 16O.) This makes my life simpler.\n\nLooks like approx same capacitance as Evans6, but lower activity by a factor of ~3 :(\nAlso, a bit worse background, than Evans6 (down to 60 mV overpotential!) on 19A27. I can only get 80 mV today. links2\n\nlink2a: <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=28000&amp;xmax=31000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=6e-12&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17668&amp;left_plotlist%5B%5D=17669&amp;chosen_group%5B%5D=2019-05-07+16%3A42%3A55\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=28000&amp;xmax=31000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=6e-12&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17668&amp;left_plotlist%5B%5D=17669&amp;chosen_group%5B%5D=2019-05-07+16%3A42%3A55</a>\nlink2b: <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=7000&amp;xmax=10000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=5e-12&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14596&amp;chosen_group%5B%5D=2019-01-27+13%3A03%3A08\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=7000&amp;xmax=10000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=5e-12&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14596&amp;chosen_group%5B%5D=2019-01-27+13%3A03%3A08</a>\n\n\n\n\n\n\n\n </pre></td></tr>\n"
+}

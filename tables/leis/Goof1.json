@@ -1,0 +1,58 @@
+{
+    "file": "Goof1.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29_Goof1/19D29_ISS/Mono 400\u00b5m/Goof1/He ISS.avg",
+            "pickle_name": "Goof1__2019-04-29 08_24_16__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-29 08:24:16",
+            "timestamp": 1556519056.0,
+            "comment": "",
+            "note": "'19D29_Goof1'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D27_ISS/Mono 400\u00b5m/Goof1/He ISS.avg",
+            "pickle_name": "Goof1__2019-04-29 06_44_22__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-29 06:44:22",
+            "timestamp": 1556513062.0,
+            "comment": "",
+            "note": "'19D27_tested_RuO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 16.321094016245933
+                },
+                "O18": {
+                    "0": 83.67890598375408
+                },
+                "c_16": {
+                    "0": 0.2639149454036668
+                },
+                "c_18": {
+                    "0": 1.004214994684358
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 15.44706788477736
+                },
+                "O18": {
+                    "0": 84.55293211522263
+                },
+                "c_16": {
+                    "0": 0.26918087372566346
+                },
+                "c_18": {
+                    "0": 1.0935101180499267
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

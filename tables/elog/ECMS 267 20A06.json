@@ -1,0 +1,22 @@
+{
+    "setup": "ECMS",
+    "number": "267",
+    "date": "20A06",
+    "field_data": null,
+    "sample_measurements": {
+        "Legend4C": [
+            227
+        ],
+        "_MS_data": [
+            228
+        ],
+        "Decade1G": [
+            226
+        ]
+    },
+    "measurement_EC_tags": {
+        "226": "01...",
+        "227": "02..."
+    },
+    "notes": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": 72,
+    "name": "m72 is Rao1H broken on 18I17 by ECMS",
+    "sample": "Rao1H",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "18I17",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I17_Rao1H_18O\\01 Rao1H 18I17 18I17_IO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "139",
+    "EC_tag": null,
+    "category": "broken"
+}

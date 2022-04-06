@@ -1,0 +1,58 @@
+{
+    "file": "Jazz6.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_first_ISS/Mono 400\u00b5m/Jazz6/He ISS.avg",
+            "pickle_name": "Jazz6__2020-01-13 05_12_57__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-13 05:12:57",
+            "timestamp": 1578888777.0,
+            "comment": "",
+            "note": "'20A12_Sofie_and_Jazz_and_friends'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_XPS_and_ISS/Mono 400\u00b5m - ISS/Jazz6/He ISS.avg",
+            "pickle_name": "Jazz6__2020-01-13 06_15_38__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-13 06:15:38",
+            "timestamp": 1578892538.0,
+            "comment": "",
+            "note": "'20A12_Sofie_and_Jazz_and_friends'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 96.10548218284863
+                },
+                "O18": {
+                    "0": 3.894517817151375
+                },
+                "c_16": {
+                    "0": 0.11416705158256804
+                },
+                "c_18": {
+                    "0": 0.003433541558298736
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 78.34382187682662
+                },
+                "O18": {
+                    "0": 21.656178123173373
+                },
+                "c_16": {
+                    "0": 0.030726855171773797
+                },
+                "c_18": {
+                    "0": 0.00630363653719545
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

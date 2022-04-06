@@ -1,0 +1,30 @@
+{
+    "setup": "ECMS",
+    "number": "170",
+    "date": "19B10",
+    "field_data": {
+        "ID": 170,
+        "Date": "Sun Feb 10 15:15:47 2019",
+        "Record date": "2019-02-10 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Evans10",
+        "Removed from vacuum": "Electrodeposited by choongman last week",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "14-C2",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans10": [
+            130,
+            131,
+            132
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Strangely, the peak looks centered when I take 64 points per AMU, but looks a bit to the right of m/z=44 and 46\nwhen I take 16 points per AMU. link1\n\nThe m/z=44 signal in the mas_time_scan is higher when I center on m/z=44 rather than m/z=44.1 (7.5e-9 vs 6.5e-9)\nand same for m/z=46, but ratio seems basically unchanged. link2\n\n01...\n10 mV/s scan rate too high, seems that the current-caused potential overshoot is especially bad. Forgot to put something on loop\n02...\nWow, crazy high surface area! 80 uA at 1 mV/s. Just a tiny bit more than Evans6. Also crazy active, great signal/noise at 90 mV overpotential. \nProblem is just that there's an overshoot, rendering this useless seeing as my goal is a publication-ready figure for Evans in 16-O electrolyte.\n\nPulled WE back a little bit (5000 s) without de-mounting cell, i.e., using the threading of the RDE stick. \n03...\nmuch better, no overshoot evident in M32 signal. However, steady-state current also lower.\nBut still very high! Clear M32 at 70 mV overpotential!\n\nWill need a censor_bubbles function, using the m/z=28 signal to decide when there's a bubble and then remove outlying m/z=32 datapoints near there \n\nExcellent, no isotope effect, just constant M46/M44=0.7% when dosing CO at +1.3 V vs RHE.\n\nGiven 10 min in He at +1.35 V vs RHE, accidentally brought down to +1.2 V, then up again, then removed. I'm late. \n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=massspectrum&amp;xmin=43&amp;xmax=47&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15058&amp;left_plotlist%5B%5D=15057&amp;chosen_group%5B%5D=2019-02-10+14%3A56%3A56&amp;chosen_group%5B%5D=2019-02-10+14%3A56%3A29\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=massspectrum&amp;xmin=43&amp;xmax=47&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15058&amp;left_plotlist%5B%5D=15057&amp;chosen_group%5B%5D=2019-02-10+14%3A56%3A56&amp;chosen_group%5B%5D=2019-02-10+14%3A56%3A29</a>\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=100&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_logscale=checked&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15091&amp;left_plotlist%5B%5D=15092&amp;left_plotlist%5B%5D=15073&amp;left_plotlist%5B%5D=15074&amp;chosen_group%5B%5D=2019-02-10+15%3A09%3A58&amp;chosen_group%5B%5D=2019-02-10+15%3A09%3A00\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=100&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_logscale=checked&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15091&amp;left_plotlist%5B%5D=15092&amp;left_plotlist%5B%5D=15073&amp;left_plotlist%5B%5D=15074&amp;chosen_group%5B%5D=2019-02-10+15%3A09%3A58&amp;chosen_group%5B%5D=2019-02-10+15%3A09%3A00</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=11000&amp;xmax=14000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.18e-12&amp;left_ymax=1.6e-12&amp;right_ymin=0&amp;right_ymax=2e-10&amp;left_plotlist%5B%5D=15110&amp;right_plotlist%5B%5D=15109&amp;chosen_group%5B%5D=2019-02-10+15%3A22%3A20\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=11000&amp;xmax=14000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.18e-12&amp;left_ymax=1.6e-12&amp;right_ymin=0&amp;right_ymax=2e-10&amp;left_plotlist%5B%5D=15110&amp;right_plotlist%5B%5D=15109&amp;chosen_group%5B%5D=2019-02-10+15%3A22%3A20</a></pre></td></tr>\n"
+}

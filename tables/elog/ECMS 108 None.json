@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 108,
+    "date": null,
+    "field_data": {
+        "ID": 108,
+        "Date": "Sun Apr 22 17:52:33 2018",
+        "Record date": "2018-04-22 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Roy3",
+        "Sample Name": "Roy3, ",
+        "Removed from vacuum": "Taken out of theta-probe 14:45",
+        "RE_vs_RHE": "1.350",
+        "Resistor": "",
+        "Chip": "SI-3iv1-4-E2",
+        "Electrolyte": "0.1 KOH in H2(18)O",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "Hopefully the last sample for this study, if I get things right.\nLost a lot of time trying to get the sample out of the theta-probe load lock.\n\nNew chip put on (since I expect E1 to breach any moment), SI-3iv1-4-E2, leaks air, 5800s. Same chip tried again\nafter switching o-ring, wiping. Looks good, 6700s! \n\n01... guessed the exact right anodic limit of 1.465 V for this one. Data (at least m/z=34 and 36) looking very\ngood! CV also looking decent.\n\nTrying a different calibration protocol this time. Constant-potential, in the same file (01...)\nThis is much more square than anything I could do with Roy3. Whoa, first cycle going cathodic (to +0.465 V vs\nRHE), cycle 17, looks crazy! Lots of stuff to reduce apparently. \nGot a wide-range CV at 5 mV/s, then oxidized for 10+2 minutes at 0.12 V vs RE, 1.47 V vs RHE, then rinsed with a\ndrop of O18 water 15 times before giving to Jakob for LEIS. Left last drop for Jakob to remove just before\nputting in chamber.\n\nRemoved chip and put it with E1 to save for quick/unimportant stuff like RE calibration.</pre></td></tr>\n"
+}

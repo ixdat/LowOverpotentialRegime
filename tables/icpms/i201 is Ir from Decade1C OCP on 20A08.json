@@ -1,0 +1,12 @@
+{
+    "id": 201,
+    "ic_id": 12,
+    "m_id": 236,
+    "element": "Ir",
+    "mass": "M193",
+    "signal": 863.3680416,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 110.0,
+    "description": "OCP"
+}

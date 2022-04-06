@@ -1,0 +1,82 @@
+{
+    "file": "Folk5.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Folk5_smooth/He ISS.avg",
+            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__smooth.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-21 13:46:29",
+            "timestamp": 1576932389.0,
+            "comment": "smooth",
+            "note": "'19J21_Love_fresh'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Folk5_bumpy/He ISS.avg",
+            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__bumpy.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-21 13:46:29",
+            "timestamp": 1576932389.0,
+            "comment": "bumpy",
+            "note": "'19J21_Love_fresh'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_Trimi1_and_Folk5/20A08_first_ISS/Mono 400\u00b5m/Folk5/He ISS.avg",
+            "pickle_name": "Folk5__2020-01-08 09_09_21__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 09:09:21",
+            "timestamp": 1578470961.0,
+            "comment": "",
+            "note": "'20A08_Trimi1_and_Folk5'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 43.96428260179246
+                },
+                "O18": {
+                    "0": 56.03571739820755
+                },
+                "c_16": {
+                    "0": 0.1758898185680943
+                },
+                "c_18": {
+                    "0": 0.16638019783738495
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 36.047657856536254
+                },
+                "O18": {
+                    "0": 63.95234214346374
+                },
+                "c_16": {
+                    "0": 0.11093900291503249
+                },
+                "c_18": {
+                    "0": 0.1460695361790545
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 55.50899800254455
+                },
+                "O18": {
+                    "0": 44.49100199745545
+                },
+                "c_16": {
+                    "0": 0.20365515988512767
+                },
+                "c_18": {
+                    "0": 0.12114352507794698
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

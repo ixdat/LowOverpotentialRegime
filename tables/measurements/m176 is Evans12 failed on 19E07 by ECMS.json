@@ -1,0 +1,17 @@
+{
+    "id": 176,
+    "name": "m176 is Evans12 failed on 19E07 by ECMS",
+    "sample": "Evans12",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19E07",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19F10_Goof_and_Evans\\pickles\\19E07_Trimi_and_Evans_02_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "217",
+    "EC_tag": "02...",
+    "category": "failed"
+}

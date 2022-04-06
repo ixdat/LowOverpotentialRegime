@@ -1,0 +1,20 @@
+{
+    "id": 76,
+    "name": "m76 is Jazz4 calibration and RHE on 18I18 by ECMS",
+    "sample": "Jazz4",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "18I18",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I18_Jazz4_18O\\01 Jazz4 18I18 18I18_IrO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "140",
+    "EC_tag": null,
+    "category": [
+        "calibration",
+        "RHE"
+    ]
+}

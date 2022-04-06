@@ -1,0 +1,17 @@
+{
+    "id": 150,
+    "name": "m150 is Bernie5 exchange on 19B28 by ECMS",
+    "sample": "Bernie5",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19B28",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19B28_Bernie_16O_03_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "183",
+    "EC_tag": "03...",
+    "category": "exchange"
+}

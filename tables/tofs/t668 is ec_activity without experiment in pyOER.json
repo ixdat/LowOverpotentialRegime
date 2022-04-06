@@ -1,0 +1,15 @@
+{
+    "tof_type": "ec_activity",
+    "rate": 7.09954913406229e-10,
+    "tof": 0.040102340631704404,
+    "potential": 1.444,
+    "current": null,
+    "e_id": null,
+    "tspan": null,
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": null,
+    "t_id": 668,
+    "amount": null,
+    "sample_name": "Reshma1"
+}

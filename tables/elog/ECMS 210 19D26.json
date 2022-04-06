@@ -1,0 +1,45 @@
+{
+    "setup": "ECMS",
+    "number": "210",
+    "date": "19D26",
+    "field_data": {
+        "ID": 210,
+        "Date": "Fri Apr 26 16:18:24 2019",
+        "Record date": "2019-04-26 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Reshma4E, Easter1A, Easter1B",
+        "Sample Name": "Reshma4E waas sputtered last month at 400 C in 16(O), Easter1B was sputtered at RT 19D19 in (18)O",
+        "Removed from vacuum": "both in theta-probe until 19D24",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "First non-aqueous chip",
+        "Electrolyte": "",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma4E": [
+            159
+        ],
+        "_MS_data": [
+            162
+        ],
+        "Easter1A": [
+            160
+        ],
+        "Easter1B": [
+            161,
+            168,
+            170
+        ]
+    },
+    "measurement_EC_tags": {
+        "159": "01...",
+        "160": "02...",
+        "161": "03...",
+        "168": "03...",
+        "170": "03..."
+    },
+    "notes": "an adaptor from swagelok for the carrier gas inlet. \n\nChip is the non-aqueous chip that the interface block came with.\n\n\nJump during CP at 450 s indicates CV has become tilty. And, when it scans again, indeed it has. Holding at 1.25\nV vs RHE for dose of CO.\n\n--- Reshma4E ---\n01...\nBeautiful, no exchange (link1)\n(2.00e-12 - 3.5e-13) / (4.15e-10 - 0) = 1.65e-2/4.15 = 0.398% is natural ratio!\n\nLess than a microamp of COox, Can't really see any m/z=46\n\n--- Easter1A ---\n02... \nBeautiful, exchange! 20 minutes.\nBoth a transient excess and a bit of steady state! Also, incredibly steady signals. link2\n\nNo attempt on this sample to isolate the transient, but ready for next sample.\n\nAbout a microamp of COox, can't really see any m/z=46. Extraction doesn't seem worth it on this sample.\n\n-- Easter1B\n03...\nBeautiful, same amount of exchange as Easter1A. \nPotential goes up then comes down. Hm...\nEach time I flow a bit to withdraw electrolyte, m/z=34 to m/z=32 ratio converges to the natural ratio! (link3)\n\n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5000&amp;xmax=6000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5000&amp;xmax=6000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02</a>\n\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8900&amp;xmax=11000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8900&amp;xmax=11000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=14000&amp;xmax=16000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2.5e-12&amp;right_ymin=0&amp;right_ymax=5.37e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=14000&amp;xmax=16000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3.5e-13&amp;left_ymax=2.5e-12&amp;right_ymin=0&amp;right_ymax=5.37e-10&amp;left_plotlist%5B%5D=17504&amp;right_plotlist%5B%5D=17503&amp;chosen_group%5B%5D=2019-04-26+12%3A04%3A02</a></pre></td></tr>\n"
+}

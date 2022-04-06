@@ -1,0 +1,58 @@
+{
+    "file": "Stoff4Si.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Stoff4Si/He ISS.avg",
+            "pickle_name": "Stoff4Si__2019-10-20 21_20_36__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 21:20:36",
+            "timestamp": 1571599236.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Stoff4Si/He ISS.avg",
+            "pickle_name": "Stoff4Si__2019-10-20 20_22_02__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 20:22:02",
+            "timestamp": 1571595722.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 33.26278668262946
+                },
+                "O18": {
+                    "0": 66.73721331737053
+                },
+                "c_16": {
+                    "0": 0.36584082321059325
+                },
+                "c_18": {
+                    "0": 0.544750444350632
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 20.192960461153156
+                },
+                "O18": {
+                    "0": 79.80703953884685
+                },
+                "c_16": {
+                    "0": 0.5703217440680155
+                },
+                "c_18": {
+                    "0": 1.6728504814013574
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

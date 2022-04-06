@@ -1,0 +1,18 @@
+{
+    "tof_type": "activity",
+    "rate": 7.526351181486925e-12,
+    "tof": 1.0539387751106223e-05,
+    "potential": 1.3188933851063827,
+    "current": 2.098411418134073e-05,
+    "e_id": 72,
+    "tspan": [
+        2050,
+        2100
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": null,
+    "t_id": 559,
+    "amount": null,
+    "sample_name": null
+}

@@ -1,0 +1,12 @@
+{
+    "id": 177,
+    "ic_id": 11,
+    "m_id": 234,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 407.0068556,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 110.0,
+    "description": "OCP"
+}

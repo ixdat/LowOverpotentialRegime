@@ -1,0 +1,32 @@
+{
+    "setup": "ECMS",
+    "number": "141",
+    "date": "18I18",
+    "field_data": {
+        "ID": 141,
+        "Date": "Tue Sep 18 23:24:57 2018",
+        "Record date": "2018-09-18 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Folk, Reshma1B, Rao1D",
+        "Sample Name": "Folk5 is 10 nm Ir on 5 nm Ti on Au, sputtered earlier this week, Reshma1B is 25nm RuO2 sputtered at RT on 5nm Ti on GC. Rao1D is 10 ug hydrous RuO2 nanoparticles",
+        "Removed from vacuum": "Folk5 and Reshma1B had I.S.S. done, just came out of Omicron. Rao1D has been in air since last time.",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "500 Ohm",
+        "Chip": "SI-3iv1-5-A1",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Folk5": [],
+        "Rao1D": [
+            79
+        ],
+        "Trimi1": [
+            80
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "01...\nClear isotope exchange on Folk5! :D ... but it's the first in 16O after a lot in 18O, so some doubt, link 1\nbelow. ISS will say for sure.\nNoise in CV's due to Al-rusty CE wire. Then, huge shunt current also offseting potential on some of WE as\nevidenced by O2 evolution. No fun. Remounting and restarting.\n02...\nM34/M32 ratio seems basically to continue from where left off, a good sign that this is indeed exchange.\n\n\nlink 1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=200&amp;xmax=1000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=3.8e-10&amp;right_ymin=1.45e-12&amp;right_ymax=3.5e-12&amp;left_plotlist%5B%5D=13009&amp;right_plotlist%5B%5D=13010&amp;chosen_group%5B%5D=2018-09-18+20%3A39%3A47\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=200&amp;xmax=1000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=3.8e-10&amp;right_ymin=1.45e-12&amp;right_ymax=3.5e-12&amp;left_plotlist%5B%5D=13009&amp;right_plotlist%5B%5D=13010&amp;chosen_group%5B%5D=2018-09-18+20%3A39%3A47</a>\n\n------ Rreshma1B ------\n01...\neverything functioning perfectly. Also a quantifiable amount of exchange here! Link 2, below. But much less than Folk5. This is\nbeautiful.\n\nm/z=46 to m/z=44 ratio much higher than I can explain, but constant. Lack of transient m/z=46 is in contrast to\nthe transient m/z=44 when doing this in 18O. This points towards adsorbed CO2 from air.\n\nAlso, Reshma1B matches itself in 18O from earlier today so perectly that I feel fine without an additional RHE cal.\n\nlink 2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=200&amp;xmax=1500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=13009&amp;right_plotlist%5B%5D=13010&amp;chosen_group%5B%5D=2018-09-18+20%3A39%3A47\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=200&amp;xmax=1500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=13009&amp;right_plotlist%5B%5D=13010&amp;chosen_group%5B%5D=2018-09-18+20%3A39%3A47</a>\n\n\n---- Rao1D -----\nAgain, quantifiable :) but very small isotope effect. Looking back, Rao1F was NOT OXIDIZED when I finished its experiment on sunday. That was STUPID! I will have to do it again, but not now. This is my last thing.\n\nActivity and capacitance both appear lower than before.\nNot really any point in continuing the measurement.\n\n\n----- Trimi1 -------\n\nFinal calibration before I go home and go to the USA.\n\nIt actually looks more like RE_vs_RHE=0.715</pre></td></tr>\n"
+}

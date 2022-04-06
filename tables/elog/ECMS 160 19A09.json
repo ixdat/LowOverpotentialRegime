@@ -1,0 +1,59 @@
+{
+    "setup": "ECMS",
+    "number": "160",
+    "date": "19A09",
+    "field_data": {
+        "ID": 160,
+        "Date": "Wed Jan  9 19:39:43 2019",
+        "Record date": "2019-01-09 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans1, Nancy1, Nancy5, Nancy6, Trimi1",
+        "Sample Name": "Evans1 is el.dep. Ru, Trimi1 is Pt. Nancy are RuO2 sputtered at RT. Jazz2 is 10 nm Ir on Ti",
+        "Removed from vacuum": "cycled 18O: Nancy1 and Trimi1 on 19A07, Nancy5, Nancy6, Evans1 on 19A08. Jazz2 sputtered in July",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100 Ohm to start, see text",
+        "Chip": "?-C4",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans1": [
+            95,
+            96,
+            97
+        ],
+        "Trimi1": [
+            104,
+            105
+        ],
+        "Nancy1": [
+            99
+        ],
+        "Nancy5": [
+            100,
+            101,
+            102
+        ],
+        "Nancy6": [
+            103
+        ],
+        "Jazz2": [
+            98
+        ]
+    },
+    "measurement_EC_tags": {
+        "95": "01...",
+        "96": "02...",
+        "97": "03...",
+        "104": "04...",
+        "105": "05...",
+        "99": "06...",
+        "100": "07...",
+        "101": "08...",
+        "102": "09...",
+        "103": "10..."
+    },
+    "notes": "---- Evans1\n01... aborted because I want to wait until the m/z=32 background is down.\n\n02... Clear excess m/z=34 in the start of the CP :D. (link below). But crazy bubble noise right after that. Also, the final ratio looks like 0.5% rather than the natural 0.4%.\nSimilar story for CO2. (second link)\n\n03... Damn, sample showing that same terrible lag on O2 signal again.\n\nQMS crashed, new timestamp 21:07:58\n\n---- Trimi1\n04... OCV was +1.15 V vs RHE, consistent with the sample surface being oxidized. Looks like there's a tiny bit of excess O18 right in the beginning! \nNothing like the 1 ML of (18)O2 Koper once claims to have seen...\nAlso what is up with these shitty time responses???\n\n05... Bloody fucking brilliant! For the first time ever, I got the labeled oxygen out on demand! Fuck yes! I switched to CO while holding at ~+1 V vs RHE, i.e., where the oxygen stays in and CO is oxidized. \nThen I reduced it slowly. when I got to ~0.9 V vs RHE, I got an m/z=46 signal. This is the O18, which had been buried under a layer of O16 during the initial OER, which finally came out. It works! \n\ndid a CO2 calibration, then a CO strip. CO strip got a bit messed up because accidentally went to OCV just before strip (12000 s). Finally, did an RE_vs_RHE calibration a RE_vs_RHE calibration.\n\nRE_vs_RHE=0.719 by CVA but 0.715 by OCV. Biggest discrepency in those two measurements I've seen... I trust the OCV more, as CVA could be affected if there were a little bit of tilt.\n\n---- Nancy1\n\n06... looks fine, a bit bubbly again, but this is a good day, lattice exchange again!\nOnly ran at 60 uA though :(, see below.\n\n--- Nancy5\n07... shit, I may have jinxed it. No electrolytic contact from WE to CE. Flowed a bit through CE hole.\n08... still no. This time, tried sucking and blowing. OCV stable with REisCE, so maybe it'll work.\n09... \nShit! I was only 60 uA. Also last time, for Nancy1. Trimi1 and Evans1 looks good.  This time I changed it right away, so I think Nancy5 can count as if it was done right.\nNot super pretty, but again, I think you can see a bit of exchange :) \n\n--- Nancy6\n10... Think I see a tiny bit of exchange, perhaps least so far. \n\n\n--- Jazz2\nOkay, now to do a sample that's never seen 18-O, as a control. Searching through the notes here, Jazz2 satisfies that. I don't think it's ever been measured. Today, it will get 5 minutes of OER at 100 uA.\n\nBeautiful, no exchange! Something's funky though, it went to 1.7 V vs RHE at first, then down to 1.55 V vs RHE, didn't really stabilize. I would expect Ir to be better. Whatever, doesn't matter. I've proven the m/z=34 excess seen on all the 18-O treated samples today is real exchange.\n\n\n-------------- Links ---------------\nEvans1 -\nO2 <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=800&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.4e-12&amp;left_ymax=5.4e-12&amp;right_ymin=-0.5e-10&amp;right_ymax=10e-10&amp;left_plotlist%5B%5D=14433&amp;right_plotlist%5B%5D=14432&amp;chosen_groupC%5B%5D=2019-01-09+18%3A39%3A27\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=800&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.4e-12&amp;left_ymax=5.4e-12&amp;right_ymin=-0.5e-10&amp;right_ymax=10e-10&amp;left_plotlist%5B%5D=14433&amp;right_plotlist%5B%5D=14432&amp;chosen_groupC%5B%5D=2019-01-09+18%3A39%3A27</a>\nCO2 <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=800&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14435&amp;right_plotlist%5B%5D=14436&amp;chosen_group%5B%5D=2019-01-09+18%3A39%3A27\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=800&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14435&amp;right_plotlist%5B%5D=14436&amp;chosen_group%5B%5D=2019-01-09+18%3A39%3A27</a>\n\nTrimi1 - \nO2 <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=3000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.7e-12&amp;left_ymax=3.0e-12&amp;right_ymin=0&amp;right_ymax=5e-10&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=3000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.7e-12&amp;left_ymax=3.0e-12&amp;right_ymin=0&amp;right_ymax=5e-10&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\nreducing in CO\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=5000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14446&amp;left_plotlist%5B%5D=14447&amp;left_plotlist%5B%5D=14448&amp;left_plotlist%5B%5D=14449&amp;left_plotlist%5B%5D=14450&amp;left_plotlist%5B%5D=14451&amp;left_plotlist%5B%5D=14452&amp;left_plotlist%5B%5D=14453&amp;left_plotlist%5B%5D=14454&amp;left_plotlist%5B%5D=14455&amp;left_plotlist%5B%5D=14456&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=5000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14446&amp;left_plotlist%5B%5D=14447&amp;left_plotlist%5B%5D=14448&amp;left_plotlist%5B%5D=14449&amp;left_plotlist%5B%5D=14450&amp;left_plotlist%5B%5D=14451&amp;left_plotlist%5B%5D=14452&amp;left_plotlist%5B%5D=14453&amp;left_plotlist%5B%5D=14454&amp;left_plotlist%5B%5D=14455&amp;left_plotlist%5B%5D=14456&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3250&amp;xmax=8000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14454&amp;right_plotlist%5B%5D=14455&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3250&amp;xmax=8000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14454&amp;right_plotlist%5B%5D=14455&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\n\nNancy1 - \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=16100&amp;xmax=16500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=16100&amp;xmax=16500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\n\nNancy5 - \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=17800&amp;xmax=18200&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=17800&amp;xmax=18200&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\n\nNancy6 - \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=19100&amp;xmax=19500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=19100&amp;xmax=19500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a>\n\nJazz2 - \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=20650&amp;xmax=21050&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=20650&amp;xmax=21050&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14452&amp;right_plotlist%5B%5D=14451&amp;chosen_group%5B%5D=2019-01-09+21%3A07%3A58</a></pre></td></tr>\n"
+}

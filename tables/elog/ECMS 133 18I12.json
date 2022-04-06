@@ -1,0 +1,35 @@
+{
+    "setup": "ECMS",
+    "number": "133",
+    "date": "18I12",
+    "field_data": {
+        "ID": 133,
+        "Date": "Wed Sep 12 13:59:56 2018",
+        "Record date": "2018-09-06 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Reshma1B",
+        "Sample Name": "",
+        "Removed from vacuum": "a couple hours ago, after ISS",
+        "RE_vs_RHE": "0.730, but new RE",
+        "Resistor": "",
+        "Chip": "",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma1B": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "02... CV looks like shit. Constant current, independent of potential and doesn't change if I remove WE lead.\n03... same.\n04... switched back to my RE\n05...\n06... New RDE stick, can pull current, but need resistor.\n07... It was the contact between the RDE stick and the sample! Using a new RDE, CV is only as bad as it was\nTuesday. using 500 Ohm.\n08... Thomas' RE has maybe a bit less noise but CV looks the same.</pre></td></tr>\n"
+}

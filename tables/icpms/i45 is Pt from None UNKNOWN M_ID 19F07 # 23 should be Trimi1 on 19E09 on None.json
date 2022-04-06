@@ -1,0 +1,12 @@
+{
+    "id": 45,
+    "ic_id": 6,
+    "m_id": null,
+    "element": "Pt",
+    "mass": "M195",
+    "signal": 1540.1024872783048,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 19F07 # 23 should be Trimi1 on 19E09"
+}

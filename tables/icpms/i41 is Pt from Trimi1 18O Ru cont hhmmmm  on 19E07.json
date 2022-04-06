@@ -1,0 +1,12 @@
+{
+    "id": 41,
+    "ic_id": 6,
+    "m_id": 175,
+    "element": "Pt",
+    "mass": "M195",
+    "signal": 5908.10054300584,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 6000.0,
+    "description": "18O Ru cont? duplicate"
+}

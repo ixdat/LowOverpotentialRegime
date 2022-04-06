@@ -1,0 +1,464 @@
+{
+    "file": "Reshma1B.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180918-210928_Prepared for measurement-Reshma 1B-ESpHybrid_NanoSAM_ISS--4_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-18 21_09_28__omicron__Prepared for measurement.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-18 21:09:28",
+            "timestamp": 1537297768.0,
+            "comment": "Prepared for measurement",
+            "note": [
+                "\n"
+            ],
+            "num_of_datasets": 6
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180910-120712_Depth profile-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-10 12_07_12__omicron__Depth profile.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-10 12:07:12",
+            "timestamp": 1536574032.0,
+            "comment": "Depth profile",
+            "note": [
+                "Sputtered 20 minutes. Roughly a monolayer.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-114855_Last experiment 03-Reshma 1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-26 11_48_55__omicron__Last experiment 03.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-26 11:48:55",
+            "timestamp": 1537955335.0,
+            "comment": "Last experiment 03",
+            "note": [
+                "Prepared in O18. Experiment in O16.\n",
+                "Sputtered 40 min Ar.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180910-234652_Reduced 2-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-10 23_46_52__omicron__Reduced 2.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-10 23:46:52",
+            "timestamp": 1536616012.0,
+            "comment": "Reduced 2",
+            "note": [
+                "Cycled in O18 electrolyte (again).\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "4": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180907-104757_Isotope-Reshma1B-ESpHybrid_NanoSAM_ISS--7_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-07 10_47_57__omicron__Isotope.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-07 10:47:57",
+            "timestamp": 1536310077.0,
+            "comment": "Isotope",
+            "note": [
+                "\n"
+            ],
+            "num_of_datasets": 9
+        },
+        "5": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180905-144211_After EC-Reshma1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-05 14_42_11__omicron__After EC.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-05 14:42:11",
+            "timestamp": 1536151331.0,
+            "comment": "After EC",
+            "note": [
+                "\n"
+            ],
+            "num_of_datasets": 6
+        },
+        "6": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-101427_Last experiment 02-Reshma 1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-26 10_14_27__omicron__Last experiment 02.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-26 10:14:27",
+            "timestamp": 1537949667.0,
+            "comment": "Last experiment 02",
+            "note": [
+                "Prepared in O18. Experiment in O16.\n",
+                "Sputtered 20 min Ar.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "7": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180911-005446_Depth 2-Reshma 1B-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-11 00_54_46__omicron__Depth 2.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-11 00:54:46",
+            "timestamp": 1536620086.0,
+            "comment": "Depth 2",
+            "note": [
+                "Cycled in O18 electrolyte (again). Sputtered 20 minutes.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "8": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-063421_Last experiment 01-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-26 06_34_21__omicron__Last experiment 01.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-26 06:34:21",
+            "timestamp": 1537936461.0,
+            "comment": "Last experiment 01",
+            "note": [
+                "Prepared in O18. Experiment in O16.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "9": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180914-124318_Sputter depth 02-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-14 12_43_18__omicron__Sputter depth 02.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-14 12:43:18",
+            "timestamp": 1536921798.0,
+            "comment": "Sputter depth 02",
+            "note": [
+                "Sputtered 47 minutes.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "10": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180927-063508_Last experiment 04-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-27 06_35_08__omicron__Last experiment 04.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-27 06:35:08",
+            "timestamp": 1538022908.0,
+            "comment": "Last experiment 04",
+            "note": [
+                "Sputtered 85 minutes Ar total.\n"
+            ],
+            "num_of_datasets": 3
+        },
+        "11": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180925-151319_Last experiment 01-Reshma 1B-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
+            "pickle_name": "Reshma1B__2018-09-25 15_13_19__omicron__Last experiment 01.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2018-09-25 15:13:19",
+            "timestamp": 1537881199.0,
+            "comment": "Last experiment 01",
+            "note": [
+                "Prepared in O18. Experiment in O16.\n"
+            ],
+            "num_of_datasets": 2
+        }
+    },
+    "custom": {
+        "results": {
+            "5": {
+                "O16": {
+                    "0": null,
+                    "1": 63.48861526001755,
+                    "2": 74.65878630558207,
+                    "3": 91.24784144955882,
+                    "4": 91.81464874439244,
+                    "5": 91.00302562904255
+                },
+                "O18": {
+                    "0": null,
+                    "1": 36.51138473998245,
+                    "2": 25.341213694417945,
+                    "3": 8.75215855044117,
+                    "4": 8.18535125560755,
+                    "5": 8.996974370957446
+                },
+                "c_16": {
+                    "0": 0,
+                    "1": 0.02875890630527026,
+                    "2": 0.08211646063636298,
+                    "3": 0.7462217275443652,
+                    "4": 0.5280011311469847,
+                    "5": 0.47059068694974004
+                },
+                "c_18": {
+                    "0": 0,
+                    "1": 0.009601892738793399,
+                    "2": 0.016181871296573544,
+                    "3": 0.04155396807783971,
+                    "4": 0.027328275770230805,
+                    "5": 0.027010710891029615
+                }
+            },
+            "4": {
+                "O16": {
+                    "0": null,
+                    "1": 59.72850342158169,
+                    "2": 55.14062882232508,
+                    "3": 78.68912900663551,
+                    "4": 80.19309994037293,
+                    "5": 79.31749242843233,
+                    "6": 84.05062825310482,
+                    "7": 84.04515041908638,
+                    "8": 83.37532137213694
+                },
+                "O18": {
+                    "0": null,
+                    "1": 40.27149657841831,
+                    "2": 44.85937117767491,
+                    "3": 21.310870993364496,
+                    "4": 19.806900059627075,
+                    "5": 20.682507571567672,
+                    "6": 15.949371746895178,
+                    "7": 15.954849580913615,
+                    "8": 16.62467862786306
+                },
+                "c_16": {
+                    "0": 0,
+                    "1": 0.050329036954933966,
+                    "2": 0.07554681103944083,
+                    "3": 0.4730947361358502,
+                    "4": 0.36444727818265366,
+                    "5": 0.33058729359550254,
+                    "6": 0.6111712017431749,
+                    "7": 0.44442199515243613,
+                    "8": 0.39904149151520557
+                },
+                "c_18": {
+                    "0": 0,
+                    "1": 0.019700932872119353,
+                    "2": 0.035682036942745715,
+                    "3": 0.07438521326864285,
+                    "4": 0.05225962081484858,
+                    "5": 0.05004634990442009,
+                    "6": 0.06733138277411412,
+                    "7": 0.04898099856936933,
+                    "8": 0.046194027398823334
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 96.91706714584394,
+                    "1": 96.46356872153412,
+                    "2": 96.60765899427317
+                },
+                "O18": {
+                    "0": 3.0829328541560597,
+                    "1": 3.5364312784658876,
+                    "2": 3.392341005726846
+                },
+                "c_16": {
+                    "0": 1.0313689069399063,
+                    "1": 0.6849532311138643,
+                    "2": 0.580396903615359
+                },
+                "c_18": {
+                    "0": 0.0190471442944349,
+                    "1": 0.014578567489796657,
+                    "2": 0.01183218810236317
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 61.877243224924186,
+                    "1": 46.33280339105628,
+                    "2": 36.13486894562664
+                },
+                "O18": {
+                    "0": 38.122756775075814,
+                    "1": 53.667196608943726,
+                    "2": 63.86513105437336
+                },
+                "c_16": {
+                    "0": 0.09052127910020294,
+                    "1": 0.09049876784541837,
+                    "2": 0.08482753429657872
+                },
+                "c_18": {
+                    "0": 0.03237845028519244,
+                    "1": 0.06085762959925636,
+                    "2": 0.08704146698186845
+                }
+            },
+            "7": {
+                "O16": {
+                    "0": 42.03062416464349,
+                    "1": 41.58224678932515,
+                    "2": 41.84351225147861
+                },
+                "O18": {
+                    "0": 57.969375835356516,
+                    "1": 58.41775321067485,
+                    "2": 58.15648774852139
+                },
+                "c_16": {
+                    "0": 0.1848290372090259,
+                    "1": 0.13512482710306947,
+                    "2": 0.12801598403937997
+                },
+                "c_18": {
+                    "0": 0.14799771863158212,
+                    "1": 0.11021078203725311,
+                    "2": 0.10329665846974341
+                }
+            },
+            "9": {
+                "O16": {
+                    "0": 87.44020219678644,
+                    "1": 86.35063935322326,
+                    "2": 85.33058326979294
+                },
+                "O18": {
+                    "0": 12.559797803213549,
+                    "1": 13.649360646776751,
+                    "2": 14.669416730207066
+                },
+                "c_16": {
+                    "0": 1.186305604118111,
+                    "1": 0.8316227825843389,
+                    "2": 0.7376379484972909
+                },
+                "c_18": {
+                    "0": 0.09892820097357079,
+                    "1": 0.0763176808783382,
+                    "2": 0.07362128917658135
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": null,
+                    "1": 56.414420563906965,
+                    "2": 42.80311541667961,
+                    "3": 52.842428814428054,
+                    "4": 55.51210464554506,
+                    "5": 55.670384177449336
+                },
+                "O18": {
+                    "0": null,
+                    "1": 43.58557943609305,
+                    "2": 57.19688458332038,
+                    "3": 47.15757118557194,
+                    "4": 44.48789535445494,
+                    "5": 44.329615822550664
+                },
+                "c_16": {
+                    "0": 0,
+                    "1": 0.03306716806824683,
+                    "2": 0.057379163751795005,
+                    "3": 0.2867740369167045,
+                    "4": 0.2389096080236173,
+                    "5": 0.21812256207549416
+                },
+                "c_18": {
+                    "0": 0,
+                    "1": 0.014832068742007392,
+                    "2": 0.04451467871678829,
+                    "3": 0.1485800576939862,
+                    "4": 0.11115776802451026,
+                    "5": 0.1008375706501442
+                }
+            },
+            "11": {
+                "O16": {
+                    "0": 100.0,
+                    "1": 83.63572749066111
+                },
+                "O18": {
+                    "0": 4.5476912318628813e-17,
+                    "1": 16.36427250933889
+                },
+                "c_16": {
+                    "0": 0.049354346641286496,
+                    "1": 0.0484458897060378
+                },
+                "c_18": {
+                    "0": 1.3030719976802761e-20,
+                    "1": 0.0055031814816136615
+                }
+            },
+            "8": {
+                "O16": {
+                    "0": 72.52754374728006,
+                    "1": 73.92961652509662,
+                    "2": 72.48506015155175
+                },
+                "O18": {
+                    "0": 27.47245625271992,
+                    "1": 26.07038347490337,
+                    "2": 27.51493984844825
+                },
+                "c_16": {
+                    "0": 0.3147119369057488,
+                    "1": 0.23200368733726542,
+                    "2": 0.21455631693198499
+                },
+                "c_18": {
+                    "0": 0.06920855335315614,
+                    "1": 0.047498061772627005,
+                    "2": 0.04728391242600891
+                }
+            },
+            "6": {
+                "O16": {
+                    "0": 87.94005135328973,
+                    "1": 88.15137603722506,
+                    "2": 88.1675939850607
+                },
+                "O18": {
+                    "0": 12.059948646710271,
+                    "1": 11.84862396277495,
+                    "2": 11.832406014939298
+                },
+                "c_16": {
+                    "0": 0.49689899358603334,
+                    "1": 0.3476976093259256,
+                    "2": 0.3260207193345822
+                },
+                "c_18": {
+                    "0": 0.03956205983869007,
+                    "1": 0.027132671697639874,
+                    "2": 0.02540161387785509
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 90.6782450806493,
+                    "1": 89.89609488797454,
+                    "2": 90.08266130047119
+                },
+                "O18": {
+                    "0": 9.321754919350694,
+                    "1": 10.103905112025444,
+                    "2": 9.917338699528806
+                },
+                "c_16": {
+                    "0": 0.8144990514730128,
+                    "1": 0.5250660377656057,
+                    "2": 0.4414487579728472
+                },
+                "c_18": {
+                    "0": 0.048611295103086434,
+                    "1": 0.03426213293010448,
+                    "2": 0.028215403906978118
+                }
+            },
+            "10": {
+                "O16": {
+                    "0": 88.87426892660642,
+                    "1": 89.79353668042435,
+                    "2": 88.54158320534566
+                },
+                "O18": {
+                    "0": 11.12573107339358,
+                    "1": 10.206463319575656,
+                    "2": 11.458416794654338
+                },
+                "c_16": {
+                    "0": 1.2678247989599982,
+                    "1": 0.8597167796831973,
+                    "2": 0.7600358984057602
+                },
+                "c_18": {
+                    "0": 0.09214330681418881,
+                    "1": 0.056733246947930104,
+                    "2": 0.057103597899868304
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

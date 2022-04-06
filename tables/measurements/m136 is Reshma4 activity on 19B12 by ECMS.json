@@ -1,0 +1,17 @@
+{
+    "id": 136,
+    "name": "m136 is Reshma4 activity on 19B12 by ECMS",
+    "sample": "Reshma4",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "19B12",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19B13_Reshma4_16O_03_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "172",
+    "EC_tag": null,
+    "category": "activity"
+}

@@ -1,0 +1,46 @@
+{
+    "setup": "ECMS",
+    "number": "273",
+    "date": "19L21",
+    "field_data": {
+        "ID": 273,
+        "Date": "Sat Dec 21 18:15:50 2019",
+        "Record date": "2019-12-21 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "John",
+        "Sample Name": "Trimi, John, Legend. Trimi is Pt, John is rutile Ru(18)O2, and Legend is rutile Ir(18)O2",
+        "Removed from vacuum": "Legend quickly moved from Sputter chamber to Thetaprobe today, then ",
+        "RE_vs_RHE": "0.660",
+        "Resistor": "100",
+        "Chip": "Danship-14-??",
+        "Electrolyte": "1.0 M HClO4",
+        "pH": "0",
+        "cleanliness": "everything freshly aqua regia'd today!"
+    },
+    "sample_measurements": {
+        "Trimi1": [
+            220,
+            221,
+            225
+        ],
+        "John4A": [
+            222
+        ],
+        "John4C": [
+            223
+        ],
+        "Legend4A": [
+            224
+        ]
+    },
+    "measurement_EC_tags": {
+        "220": "01...",
+        "221": "02...",
+        "222": "03...",
+        "223": "04...",
+        "224": "05...",
+        "225": "06..."
+    },
+    "notes": "Removed the chip that was present and put it in the sample box labeled \"...Antimonate...\" since I associate with\nit the contamination seen yesterday.\n\nEverything freshly aqua regia'd.\n\n01... fucking tilt.\nNo sign of electrolyte leakage. Where is the tilt coming from???\n\nremounted. Sample had been protruding. Used Al foil and pressed the Pt hard against it. S\n02... \nStill fucking tilt! Plus some extra peaks in CV, maybe due to Al???\n\nI can't trust the RE_vs_RHE calibration with this fucking tilt, but don't have time to solve this bullshit. What\nthe fuck is it?!\n\nThere was no tilt yesterday, just contamination. Is that better to trust?\n\nThe tilt might be worth as much as -50 uA at 0 V vs RHE. How much does that actually effect the OCP in H2\nsaturated electrolyte? I should be able to calculate the answer.\nThe OCP in inert electrolyte is about 0.2-0.4 V vs RHE, which is near the intercept of the tilt, but also near\nwhere OCP normally would be, about +0.95 V vs RHE. I wonder if OCP is never effected by tilt?\n\nRE_vs_RHE = 0.660\nOkay, I got 0.656 a number of times, 0.666 yesterday, 0.660 today. Can I just trust it iand move on?\n\nfuck this I want to Julebal. No sleeping in tomorrow. \n\n\n------ 19L22 ---------\n\nthe three John4 samples were dropped on the ground on 19L21. None landed face down, but all might be dirty.\n\n03... John4A.\nFirst mount, air doesn't come down. I don't have extra of these samples, so gotta get it right. Remounted,\nelectrolyte from first mount added to OCP electrolyte.\n\nSlow air response. 10 mV noise on OCP ;( . But going for it. I don't have all day. \n\n\n... John4B\nStub is too small to stay in the cell ;(\nI'm leaving this out with a drop of electrolyte on it for about 30 minutes as a type of control\n\n04... John4C\n\n30 uA.\n\nShit, there's a slight chance I mixed up John4B and John4C. Damnit. Probably got them sorted out though.\n\n05... Legend4A [previously Love4A]\n\nbeautiful 100 uA.\n\n06... Trimi1\nControl OER, collected at 2 and 10 min. \nLeft it cycling while I ate, but forgot to set repeats so instead got some repeat OER's. \nThen did cycles while setting up ISS.\n\nLooks like there's still a goddamn tilt...\nRE_vs_RHE has not moved since yesterday. I am confident on all the potentials measured today!!!\nRE_vs_RHE also does not move when I inject fresh electrolyte from the syringe (displacing electrolyte that had come\nfrom the bottle)...\n\n\n\nSince this is the last day doing experiments in 2019, and I just got my PhD diploma in the mail yesterday, I just\nwant to say for the record of this <a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/page-1?mode=full&amp;reverse=0&amp;reverse=1&amp;npp=20&amp;Author=%5EScott%24&amp;Project+Name=%5EOER%24&amp;select=1\">elog:</a> 2019 has been a turbulent year for this Dr. Scott. Let's make sure it was\nnot in vain!</pre></td></tr>\n"
+}

@@ -1,0 +1,34 @@
+{
+    "file": "Nancy3.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29_Goof1/19D29_ISS/Mono 400\u00b5m/Nancy3/He ISS.avg",
+            "pickle_name": "Nancy3__2019-04-29 08_24_17__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-29 08:24:17",
+            "timestamp": 1556519057.0,
+            "comment": "",
+            "note": "'19D29_Goof1'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 95.83176722411129
+                },
+                "O18": {
+                    "0": 4.168232775888724
+                },
+                "c_16": {
+                    "0": 0.7758142826725485
+                },
+                "c_18": {
+                    "0": 0.02504356939492056
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

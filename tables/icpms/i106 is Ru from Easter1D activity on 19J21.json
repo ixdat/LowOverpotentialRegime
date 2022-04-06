@@ -1,0 +1,12 @@
+{
+    "id": 106,
+    "ic_id": 8,
+    "m_id": 199,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 100383.154,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 10000.0,
+    "description": "activity"
+}

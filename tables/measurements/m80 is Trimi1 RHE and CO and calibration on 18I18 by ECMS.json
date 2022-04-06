@@ -1,0 +1,21 @@
+{
+    "id": 80,
+    "name": "m80 is Trimi1 RHE and CO and calibration on 18I18 by ECMS",
+    "sample": "Trimi1",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "18I18",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I19_Trimi1_16O\\01 Trimi1 18I19 18I18_IrO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "141",
+    "EC_tag": null,
+    "category": [
+        "RHE",
+        "CO",
+        "calibration"
+    ]
+}

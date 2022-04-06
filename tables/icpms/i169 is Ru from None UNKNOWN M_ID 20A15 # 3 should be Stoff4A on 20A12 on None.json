@@ -1,0 +1,12 @@
+{
+    "id": 169,
+    "ic_id": 11,
+    "m_id": null,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 6853.216766,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 20A15 # 3 should be Stoff4A on 20A12"
+}

@@ -1,0 +1,28 @@
+{
+    "setup": "ECMS",
+    "number": "280",
+    "date": "20A12",
+    "field_data": {
+        "ID": 280,
+        "Date": "Sun Jan 12 18:56:05 2020",
+        "Record date": "2020-01-12 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "",
+        "Sample Name": "",
+        "Removed from vacuum": "",
+        "RE_vs_RHE": "0.66",
+        "Resistor": "100",
+        "Chip": "Danchip-14-D6, Danchip-14-B4",
+        "Electrolyte": "1.0 M HClO4",
+        "pH": "0",
+        "cleanliness": "cell taken out of aqua regia today"
+    },
+    "sample_measurements": {
+        "Stoff4A": [],
+        "Reshma4I": [],
+        "Jazz6": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "Degenhart had put Danchip-14-C6 back on, without lower spacer and without tightening the screws. \nChanging for a fresh chip, Danchip-14-D6.\n\nAir signal does not come down enough during drop test. Switched o-ring, but same story - still too much air\nduring drop test.\n\nTried switching chip, but same story with new chip, B4.  Then tried installing B4 rotated 180 deg, such that\nthere's just pure pyrex at the interface block facing the mass spectrometer. Air signal about the same as during\nthe drop tests. There's a leak in the post-capillary volume!\nLeak-testing indicates that it is primarily from the o-ring (He signal goes up when I spray baloon He on the lower\nspacer at the corner of the chip facing the MS). There might be a tiny leak as well in the VCR connecting the\ninterface block to the post-capillary volume. \n\nTook off chip, wiped interface block thoroughly with water then ethanol. Put 4 new o-rings on. While putting the\no-rings on, I noticed and removed a hairy piece of dust from the hole facing the MS or that o-ring (not sure which).\nPut the chip on backwards again. Now it's beautiful, low air signal!\n\nTurned chip around. Now drop test looks much much better! (link 1, below)\n\nPut D6 back in the wafer, as it is probably functional. Using B4.\n\n\nThe most annoying red space on my excel sheet is the 10 uA for 400 C RuO2. Today's priority is filling that. Here's a first attempt:\n\nJust looked at Stoff4A ISS before and after the first (100 uA) test. They look approximately the same, so I'll give it a run.\n\n01... Stoff4A, 10 uA\nLooks good! WE crocodile falls off briefly when collecting the 2 min ICP-MS sample. \n\n02... Reshma4I (RT Ru(16)O2, with a bit of Ti visible in ISS)\nDidn't get any O2 at 10 uA, set it up to 30 uA. Looks like tilt..\nCan still use as isotopic standard\n03...\nAnd, inddeed, tilt it is! Infuriating...\n\n04... Jazz6. Metallic Ir sputtered today.\nwtf why is there m/z=46 on this one?\n\n[1]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=5000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=4.5e-\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=5000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=4.5e-</a>\n10&amp;left_plotlist%5B%5D=20470&amp;left_plotlist%5B%5D=20471&amp;left_plotlist%5B%5D=20472&amp;left_plotlist%5B%5D=20473&amp;left_plotlist%5B%5D=20474&amp;left_plotlist%5B%5D=20475&amp;left_plotlist%5B%5D=20476&amp;left_plotlist%5B%5D=20477&amp;left_plotlist%5B%5D=20478&amp;left_plotlist%5B%5D=20479&amp;chosen_group%5B%5D=2020-01-12+18%3A28%3A05</pre></td></tr>\n"
+}

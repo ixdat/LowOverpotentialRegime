@@ -1,0 +1,40 @@
+{
+    "setup": "ECMS",
+    "number": "183",
+    "date": "19B28",
+    "field_data": {
+        "ID": 183,
+        "Date": "Thu Feb 28 21:49:38 2019",
+        "Record date": "2019-02-28 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Bernie, exchange",
+        "Sample Name": "Bernie",
+        "Removed from vacuum": "in air since 19B24",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "14-C5",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Bernie4": [
+            148,
+            149
+        ],
+        "Bernie5": [
+            150,
+            151,
+            152
+        ]
+    },
+    "measurement_EC_tags": {
+        "148": "01...",
+        "149": "02...",
+        "150": "03...",
+        "151": "04...",
+        "152": "05..."
+    },
+    "notes": "01...\nbeautiful exchange, converges to the natural ratio over 20 minutes. link1, below. \n\n02...\nDamnit, chip seems to have a crack in it. Introducing CO at 100 uA rather than at a constant potential. Looks\nlike there was a bit of extraction! A bit worried the vacuum system contributed to the transient. CO2 does not\nconverge over 30 minutes. link2 below.\n\n---- Bernie5\n03...\nOne hour (!!!) of uninterupted exchange, link3, with 3 (!!!) independent electrolyte samples for ICP-MS. This\nwas made possible using the bubbler as the inlet and the syringe as the outlet. The first one should be\nidentical to Bernie4\n04...\nExtraction at 1.33 V vs RHE. Looks like there's something, but shape is a bit suspicious. Converges to 1.5%.\nThis CO oxidation stuff confuses me. link4.\nOkay, when extracting electrolyte, it becomes clear what is going on. The M44 signal responds, dropping and then\nincreasing to the same approximate level as before, wherease the M46 signal does not respond at all. M46 is\ncoming from exchange in the vacume chamber, not the sample. This shows that it is Essential to bake the setup\nunder a drop of water, and perhaps even with CO2 as carrier gas. Will do so tonight, and won't do any more\nexchange experiments until tomorrow.\nTook a second electrolyte sample after another 10 minutes of CO ox.\n05... I think there's some CO2 signal in the CO strip. HER much better though, even before stripping it off.\nMaybe the long time at ~+0.4 V vs RHE reduced it?\nCycling this thing, its capacitance looks very small compared to any Nancy or Reshma. \n\nOkay, on to something else!\n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=700&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.5e-12&amp;left_ymax=3e-12&amp;right_ymin=0&amp;right_ymax=6e-10&amp;left_plotlist%5B%5D=15921&amp;right_plotlist%5B%5D=15920&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=700&amp;xmax=2500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.5e-12&amp;left_ymax=3e-12&amp;right_ymin=0&amp;right_ymax=6e-10&amp;left_plotlist%5B%5D=15921&amp;right_plotlist%5B%5D=15920&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38</a>\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2300&amp;xmax=5000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=1.25e-12&amp;right_ymin=0&amp;right_ymax=1e-10&amp;left_plotlist%5B%5D=15924&amp;right_plotlist%5B%5D=15923&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2300&amp;xmax=5000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=1.25e-12&amp;right_ymin=0&amp;right_ymax=1e-10&amp;left_plotlist%5B%5D=15924&amp;right_plotlist%5B%5D=15923&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5300&amp;xmax=9500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.5e-12&amp;left_ymax=2.9e-12&amp;right_ymin=0&amp;right_ymax=6e-10&amp;left_plotlist%5B%5D=15921&amp;right_plotlist%5B%5D=15920&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5300&amp;xmax=9500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.5e-12&amp;left_ymax=2.9e-12&amp;right_ymin=0&amp;right_ymax=6e-10&amp;left_plotlist%5B%5D=15921&amp;right_plotlist%5B%5D=15920&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38</a>\n\n\nlink4:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=12000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=8.5e-13&amp;right_ymin=0&amp;right_ymax=4e-11&amp;left_plotlist%5B%5D=15924&amp;right_plotlist%5B%5D=15923&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=12000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=8.5e-13&amp;right_ymin=0&amp;right_ymax=4e-11&amp;left_plotlist%5B%5D=15924&amp;right_plotlist%5B%5D=15923&amp;chosen_group%5B%5D=2019-02-28+15%3A27%3A38</a></pre></td></tr>\n"
+}

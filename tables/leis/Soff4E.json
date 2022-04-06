@@ -1,0 +1,58 @@
+{
+    "file": "Soff4E.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008 - before crash/Mono 400\u00b5m/Soff4E/He ISS.avg",
+            "pickle_name": "Soff4E__2019-10-22 22_28_39__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 22:28:39",
+            "timestamp": 1571776119.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Soff4E/He ISS.avg",
+            "pickle_name": "Soff4E__2019-10-22 23_23_36__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 23:23:36",
+            "timestamp": 1571779416.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 28.06384532844759
+                },
+                "O18": {
+                    "0": 71.93615467155242
+                },
+                "c_16": {
+                    "0": 0.16695743708294983
+                },
+                "c_18": {
+                    "0": 0.31761558179377153
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 26.594611076747686
+                },
+                "O18": {
+                    "0": 73.40538892325232
+                },
+                "c_16": {
+                    "0": 0.4660487752352696
+                },
+                "c_18": {
+                    "0": 0.9546884346101677
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

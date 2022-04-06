@@ -1,0 +1,58 @@
+{
+    "file": "Decade1B.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1B/He ISS.avg",
+            "pickle_name": "Decade1B__2020-01-07 14_05_18__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:18",
+            "timestamp": 1578402318.0,
+            "comment": "",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1B/He ISS.avg",
+            "pickle_name": "Decade1B__2020-01-07 16_46_48__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 16:46:48",
+            "timestamp": 1578412008.0,
+            "comment": "",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 6.231951616653326
+                },
+                "O18": {
+                    "0": 93.76804838334668
+                },
+                "c_16": {
+                    "0": 0.055762447164273685
+                },
+                "c_18": {
+                    "0": 0.6226853078959516
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 8.59225571763683
+                },
+                "O18": {
+                    "0": 91.40774428236317
+                },
+                "c_16": {
+                    "0": 0.09012186194545622
+                },
+                "c_18": {
+                    "0": 0.711544299563907
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

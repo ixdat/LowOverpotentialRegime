@@ -1,0 +1,58 @@
+{
+    "file": "John4Si.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/John4Si/He ISS.avg",
+            "pickle_name": "John4Si__2019-12-18 01_23_16__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-18 01:23:16",
+            "timestamp": 1576628596.0,
+            "comment": "",
+            "note": "'19L17_John4_and_Taiwan1G'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/John4Si/He ISS.avg",
+            "pickle_name": "John4Si__2019-12-17 23_39_10__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-17 23:39:10",
+            "timestamp": 1576622350.0,
+            "comment": "",
+            "note": "'19L17_John4_and_Taiwan1G'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 20.89716043123069
+                },
+                "O18": {
+                    "0": 79.10283956876931
+                },
+                "c_16": {
+                    "0": 0.12012393716111391
+                },
+                "c_18": {
+                    "0": 0.33746624947854525
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 16.90802715527862
+                },
+                "O18": {
+                    "0": 83.09197284472138
+                },
+                "c_16": {
+                    "0": 0.28569646717984903
+                },
+                "c_18": {
+                    "0": 1.0419982602322442
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

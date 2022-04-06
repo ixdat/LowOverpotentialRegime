@@ -1,0 +1,28 @@
+{
+    "setup": "ECMS",
+    "number": "174",
+    "date": "19B16",
+    "field_data": {
+        "ID": 174,
+        "Date": "Sat Feb 16 17:34:34 2019",
+        "Record date": "2019-02-16 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans10",
+        "Sample Name": "Evans10",
+        "Removed from vacuum": "in air since yesterday",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "14-D5, 14-E1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans10": [
+            146
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "01...\nbeautiful start, no visible isotope effect on O2, but very clear that lattice O is being used to oxidize carbon.\n(link 1)\nClear excess m/z=44 at start when putting in CO (link2). Surprisingly, OER is suppressed. This may be an effect\nof the 100 Ohms, though, plus any internal ohmic drop. QMS restarts during that.\nWeird increase in OER, probably due to a bubble moving around, or flaky catalyst moving around.\n\nPossibly a bit extra M44 again second time putting in CO (link3)\n\nAlright, done with this, and done with Evans!\n\n\n\n\n\n\n\n\nlink1\n <a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2500&amp;xmax=5500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15316&amp;left_plotlist%5B%5D=15317&amp;left_plotlist%5B%5D=15318&amp;left_plotlist%5B%5D=15319&amp;left_plotlist%5B%5D=15320&amp;left_plotlist%5B%5D=15321&amp;left_plotlist%5B%5D=15322&amp;left_plotlist%5B%5D=15323&amp;left_plotlist%5B%5D=15324&amp;left_plotlist%5B%5D=15325&amp;left_plotlist%5B%5D=15326&amp;chosen_group%5B%5D=2019-02-16+14%3A29%3A29\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2500&amp;xmax=5500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15316&amp;left_plotlist%5B%5D=15317&amp;left_plotlist%5B%5D=15318&amp;left_plotlist%5B%5D=15319&amp;left_plotlist%5B%5D=15320&amp;left_plotlist%5B%5D=15321&amp;left_plotlist%5B%5D=15322&amp;left_plotlist%5B%5D=15323&amp;left_plotlist%5B%5D=15324&amp;left_plotlist%5B%5D=15325&amp;left_plotlist%5B%5D=15326&amp;chosen_group%5B%5D=2019-02-16+14%3A29%3A29</a>\nlink2\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5500&amp;xmax=6500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15324&amp;right_plotlist%5B%5D=15323&amp;chosen_group%5B%5D=2019-02-16+14%3A29%3A29\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5500&amp;xmax=6500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15324&amp;right_plotlist%5B%5D=15323&amp;chosen_group%5B%5D=2019-02-16+14%3A29%3A29</a>\nlink3\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3500&amp;xmax=4500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15343&amp;right_plotlist%5B%5D=15342&amp;chosen_group%5B%5D=2019-02-16+16%3A11%3A11\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3500&amp;xmax=4500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15343&amp;right_plotlist%5B%5D=15342&amp;chosen_group%5B%5D=2019-02-16+16%3A11%3A11</a></pre></td></tr>\n"
+}

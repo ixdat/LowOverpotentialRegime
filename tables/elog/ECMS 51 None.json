@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 51,
+    "date": null,
+    "field_data": {
+        "ID": 51,
+        "Date": "Tue Oct 10 17:18:49 2017",
+        "Record date": "2017-10-10 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Scott11",
+        "Sample Name": "Scott11, 7nm NiFe NP's on Au, 22% coverage",
+        "Removed from vacuum": "removed from vacuum 17J05 and left in air",
+        "RE_vs_RHE": "1.385, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-2-B4, SI-3iv1-2-F2",
+        "Electrolyte": "0.1 M KOH",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "Electrolyte is prepared with 500 ul milliQ and 4.0 ul solK\nsolK = 50% KOH by mass, concentration = 12.7 M\n\n\nQMS timestamp 15:00:48\n\nGood mount. Filled through syringe. Very high air signal. \nElectrical contact is fine though!\n1... too high an anodic potential limit\n2... nice NiFe CV's. air signal falling slowly. This is fine to work with.\nchip breaches!\n\nNew chip installed, SI-3iv1-2-F2, tested, looks good.\n\nWant to plasma u-cups and cell, but don't have access. It's also 17:00, and I've got other stuff to do. Leaving\npumped down through gate for quick start tomorrow.\nGoing home.</pre></td></tr>\n"
+}

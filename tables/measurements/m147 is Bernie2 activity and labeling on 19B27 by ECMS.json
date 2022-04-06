@@ -1,0 +1,20 @@
+{
+    "id": 147,
+    "name": "m147 is Bernie2 activity and labeling on 19B27 by ECMS",
+    "sample": "Bernie2",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "19B27",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19B24_Bernie_18O_01_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "180",
+    "EC_tag": "01...",
+    "category": [
+        "activity",
+        "labeling"
+    ]
+}

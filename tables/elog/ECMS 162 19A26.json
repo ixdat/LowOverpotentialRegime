@@ -1,0 +1,42 @@
+{
+    "setup": "ECMS",
+    "number": "162",
+    "date": "19A26",
+    "field_data": {
+        "ID": 162,
+        "Date": "Sat Jan 26 15:20:25 2019",
+        "Record date": "2019-01-26 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Trimi1, Evans4, Evans5, Evans6",
+        "Sample Name": "Evans are all hydrogen-bubble-template Ru",
+        "Removed from vacuum": "Evans were prepared by Choongman 19A11",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "",
+        "Chip": "14-C3",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Trimi1": [
+            116,
+            117,
+            118,
+            119,
+            120
+        ],
+        "Evans4": [
+            106
+        ]
+    },
+    "measurement_EC_tags": {
+        "116": "01...",
+        "117": "02...",
+        "118": "03...",
+        "119": "04...",
+        "120": "05...",
+        "106": "06..."
+    },
+    "notes": "Trimi1 looking good! \nNo sign of exchange, but none expected with this relatively low sensitivity [link 1, below].\n\nSweet, transient m/z=44 while reducing :D [2]\n\nAh, damnit, CV is tilty!\n\nNo transient m/z=44 during second (control) run[3]\n\nCan't calibrate RHE with tilt. Demounting and remounting cell.\n\n02... Second control by doing the same thing after remounting, looks same as first control[4]\nCV's ugly as hell, no features, it's as if there's a HUGE resistance. Applied resistance changed from 50 to 0 at ~14600 s in QMS file, no change. Strange, since CO oxidation was looking normal. How is this so bad??=\nWent to extremes in potential, seems to have \"fixed\" it! Now I get decent CV's, but still tilty...\n\nOCV in H not anywhere near where it should be. I can't calibrate when there's this kind of tilt. Why why why???\n\nJust noticed that \"ground\" lead is connected to We leads (WE/CA2 and REF1)... That could very conceivably give a problem.\n\n03....\nAfter rmoving \"ground\" thing from WE, it looks much better. Tilt is gone, that is. Instead, I hget rampant squiggles, especially at the front bend of the stilleto. Even at 200 Ohm. \n\nAfter flowing a bit of electrolyte (16400), OCP is -0.715. RE_vs_RHE=0.715. (Same as last time. This implies that I can prepare the electrolyte reproducibly).\n\n04...\nTrying the actual \"CE to ground\" configuration. Looks the same as befor, unstable at about +0.4 V vs RE. \nElectrochemistry is still unstable, god damnit. Current jumped to 1/10th of what it should be all of sudden while holding in double-layer (mass-transport-limited HOR).\n\n05... standard electrode configuration looks better.\n... But I'm not even completely sure. It switches suddenly back to the hughe-ohmic-drop state. WTF?! Could be RDE stick.\n\nCO2 calibration at 19200 s. \n\nTried a couple last things (but the shitty switching of EC states may have ruined it):\n- Tried a CO strip in O2. CO strip clear in MS, but CV's are fucked. No H2 even after, and what looks like a huge ohmic drop preventing mass-transport-limited ORR.\n- Tried to incorporate O2 by holding oxidative potential while O2 present, and then strip it out with CO2. Didn't see anything, cathodic scan looks like controls.\n\nI think it's the RDE stick that's making a poor contact. Switching to another one (the one I had in China)\n\n------- Evans4 --------\n\n06... good start, 100 uA reached and steady at +1.41 V vs RHE.\nBut Evans4 is not especially high-surface-area. It has about 3x the surface area of Nancy, but 1/8 the surface area of Evans1. The HER activity is similar to Evans1, which also was only cycled to 0 V vs RHE, unlike Nancy which was cycled to -0.1 V vs RHE.\nIt's not more active than Nancy, O2 only seen down to 100 mV overpotential. :( \nGiving it 20 cycles at 20 mV/s from +1.4 to 0 V vs RHE, and then calling it a day.\n\n[1]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8750&amp;xmax=9150&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14539&amp;right_plotlist%5B%5D=14538&amp;chosen_group%5B%5D=2019-01-26+15%3A15%3A46\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8750&amp;xmax=9150&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14539&amp;right_plotlist%5B%5D=14538&amp;chosen_group%5B%5D=2019-01-26+15%3A15%3A46</a>\n[2]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9450&amp;xmax=9700&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14541&amp;right_plotlist%5B%5D=14540&amp;right_plotlist%5B%5D=14542&amp;chosen_group%5B%5D=2019-01-26+15%3A15%3A46\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9450&amp;xmax=9700&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14541&amp;right_plotlist%5B%5D=14540&amp;right_plotlist%5B%5D=14542&amp;chosen_group%5B%5D=2019-01-26+15%3A15%3A46</a>\n[3]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=11100&amp;xmax=11350&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14541&amp;right_plotlist%5B%5D=14540&amp;right_plotlist%5B%5D=14542&amp;chosen_group%5B%5D=2019-01-\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=11100&amp;xmax=11350&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=14541&amp;right_plotlist%5B%5D=14540&amp;right_plotlist%5B%5D=14542&amp;chosen_group%5B%5D=2019-01-</a>\n26+15%3A15%3A46</pre></td></tr>\n"
+}

@@ -1,0 +1,58 @@
+{
+    "file": "Champ4C.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Champ4C/He ISS.avg",
+            "pickle_name": "Champ4C__2019-10-20 21_20_39__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 21:20:39",
+            "timestamp": 1571599239.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Champ4C/He ISS.avg",
+            "pickle_name": "Champ4C__2019-10-20 20_22_03__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 20:22:03",
+            "timestamp": 1571595723.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 31.19243194307437
+                },
+                "O18": {
+                    "0": 68.80756805692563
+                },
+                "c_16": {
+                    "0": 0.30557169748153606
+                },
+                "c_18": {
+                    "0": 0.5002603571523913
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 28.359316871149588
+                },
+                "O18": {
+                    "0": 71.64068312885041
+                },
+                "c_16": {
+                    "0": 0.6302996264335635
+                },
+                "c_18": {
+                    "0": 1.1816993396707816
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

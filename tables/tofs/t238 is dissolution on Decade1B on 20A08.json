@@ -1,0 +1,18 @@
+{
+    "tof_type": "dissolution",
+    "rate": 1.9980142988903753e-14,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 43,
+    "tspan": [
+        610.0,
+        2130.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "steady",
+    "t_id": 238,
+    "amount": null,
+    "sample_name": null
+}

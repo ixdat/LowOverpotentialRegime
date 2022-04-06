@@ -1,0 +1,82 @@
+{
+    "file": "Nancy5.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190219-014547_Post measurement-Nancy 5-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
+            "pickle_name": "Nancy5__2019-02-19 01_45_47__omicron__Post measurement.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2019-02-19 01:45:47",
+            "timestamp": 1550537147.0,
+            "comment": "Post measurement",
+            "note": [
+                "RuO2. After sputtering.\n"
+            ],
+            "num_of_datasets": 2
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190219-001502_Post measurement-Nancy 5-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
+            "pickle_name": "Nancy5__2019-02-19 00_15_02__omicron__Post measurement.pickle",
+            "recorded_on": "omicron",
+            "datetime": "2019-02-19 00:15:02",
+            "timestamp": 1550531702.0,
+            "comment": "Post measurement",
+            "note": [
+                "RuO2. After XPS.\n"
+            ],
+            "num_of_datasets": 5
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 100.0,
+                    "1": 91.03674397149496,
+                    "2": 87.75647862795343,
+                    "3": 88.46350595373076,
+                    "4": 92.96827248160257
+                },
+                "O18": {
+                    "0": 1.7668355614665245e-25,
+                    "1": 8.963256028505043,
+                    "2": 12.243521372046574,
+                    "3": 11.536494046269247,
+                    "4": 7.031727518397436
+                },
+                "c_16": {
+                    "0": 0.02854482125334483,
+                    "1": 0.061736931455616206,
+                    "2": 0.573585311228084,
+                    "3": 0.6095382432875095,
+                    "4": 0.7495345033751718
+                },
+                "c_18": {
+                    "0": 2.9280298130508024e-29,
+                    "1": 0.0035289553218351122,
+                    "2": 0.04645978667528222,
+                    "3": 0.04614904230797311,
+                    "4": 0.032913262733478735
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": null,
+                    "1": 97.76387437871303
+                },
+                "O18": {
+                    "0": null,
+                    "1": 2.236125621286979
+                },
+                "c_16": {
+                    "0": 0,
+                    "1": 1.2176501917532088
+                },
+                "c_18": {
+                    "0": 0,
+                    "1": 0.01616934284536193
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

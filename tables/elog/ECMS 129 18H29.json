@@ -1,0 +1,37 @@
+{
+    "setup": "ECMS",
+    "number": "129",
+    "date": "18H29",
+    "field_data": {
+        "ID": 129,
+        "Date": "Wed Aug 29 12:14:09 2018",
+        "Record date": "2018-08-29 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Reshma2B",
+        "Sample Name": "Reshma2B: RuO2 sputtered at 200C, Powd1A: RuO2 powder dropcast from THF, powdIr1A:IrO2 powder dropcast from THF",
+        "Removed from vacuum": "in air since test in O18 two days ago",
+        "RE_vs_RHE": "",
+        "Resistor": "",
+        "Chip": "",
+        "Electrolyte": "",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma2B": [
+            18,
+            19
+        ],
+        "Powd1A": [
+            16
+        ],
+        "Ir1A": [
+            17
+        ]
+    },
+    "measurement_EC_tags": {
+        "16": "01..."
+    },
+    "notes": "18H29_Reshma2B_O18/01...\n~ zero isotope exchange (link 1)\n\n\nLooks identical to 18H27/RuO2_200C_18O/01... but shifted by 30(!) mV\n\nActivity resembles exactly that on RHE scale of Reshma2A_O18 on the latter's way down (17 mV shift on RE scale)\n\nShit! Current starts running away at cycle 32. There must be a shunt.\nCan't use anything after that (O2 at 5300s and 5500s should have been the same).\n\nPowd1A:\n01...\ntonnes of CO2 on first cycles. \n\nResistor changed to 100 Ohm after  cycle 39 (0.757 vs RE, 1.47 vs RHE), is repeated at 500 Ohm and then at 100 Ohm. Makes a factor about 5/3 difference in current (30 uA to 50 uA). \nClear degradation of OER current after that.\nRamping up, repeating 0.717 vs RE (1.43 vs RHE) every now and then to see if it's actual degradation and not just something that only lasts a pulse.\n\nLooks in mass-time like there's something at m/z=72, but can't see it in mass spectra... hm...\n\nmore active for OER after doing a bit of HER (link 2)\nCO doesn't poison HER very much.\nCO stripping attempt doesn't give significantly more CO2 than background, but the long pause at 0V vs RHE helped OER (3500 s in 17:34:42)\n\nReducing it has made it much much much more active!\n\n\n\n\nlink 1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=1700&amp;xmax=2300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.95e-12&amp;left_ymax=2.05e-12&amp;right_ymin=0&amp;right_ymax=2.5e-10&amp;left_plotlist%5B%5D=12579&amp;right_plotlist%5B%5D=12578&amp;chosen_group%5B%5D=2018-08-29+11%3A32%3A31\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=1700&amp;xmax=2300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.95e-12&amp;left_ymax=2.05e-12&amp;right_ymin=0&amp;right_ymax=2.5e-10&amp;left_plotlist%5B%5D=12579&amp;right_plotlist%5B%5D=12578&amp;chosen_group%5B%5D=2018-08-29+11%3A32%3A31</a>\nlink 2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=3000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=12667&amp;left_plotlist%5B%5D=12668&amp;left_plotlist%5B%5D=12669&amp;left_plotlist%5B%5D=12670&amp;left_plotlist%5B%5D=12671&amp;left_plotlist%5B%5D=12672&amp;left_plotlist%5B%5D=12673&amp;chosen_group%5B%5D=2018-08-29+17%3A34%3A42\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=3000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=12667&amp;left_plotlist%5B%5D=12668&amp;left_plotlist%5B%5D=12669&amp;left_plotlist%5B%5D=12670&amp;left_plotlist%5B%5D=12671&amp;left_plotlist%5B%5D=12672&amp;left_plotlist%5B%5D=12673&amp;chosen_group%5B%5D=2018-08-29+17%3A34%3A42</a>\n\n\nIrO2: crocodile clip of working was initially contacting the electrolyte -- currents all higher than 0</pre></td></tr>\n"
+}

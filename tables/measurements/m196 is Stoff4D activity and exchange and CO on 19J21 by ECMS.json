@@ -1,0 +1,21 @@
+{
+    "id": 196,
+    "name": "m196 is Stoff4D activity and exchange and CO on 19J21 by ECMS",
+    "sample": "Stoff4D",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19J21",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19J21_Stoff\\pickles\\19J21_Stoff_and_friends_10.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "257",
+    "EC_tag": null,
+    "category": [
+        "activity",
+        "exchange",
+        "CO"
+    ]
+}

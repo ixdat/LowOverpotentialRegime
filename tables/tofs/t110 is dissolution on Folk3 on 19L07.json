@@ -1,0 +1,20 @@
+{
+    "tof_type": "dissolution",
+    "rate": 8.006060772902665e-15,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 30,
+    "tspan": [
+        365.0,
+        965.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {
+        "t_electrolysis": 600.0
+    },
+    "description": "composite",
+    "t_id": 110,
+    "amount": null,
+    "sample_name": null
+}

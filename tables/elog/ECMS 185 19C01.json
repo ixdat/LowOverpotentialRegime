@@ -1,0 +1,35 @@
+{
+    "setup": "ECMS",
+    "number": "185",
+    "date": "19C01",
+    "field_data": {
+        "ID": 185,
+        "Date": "Fri Mar  1 11:26:36 2019",
+        "Record date": "2019-03-01 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Melih2",
+        "Sample Name": "Jazz5 is Ir on Ti on Au. Melih2 is omicron-oxidized Ru(18)O2. ",
+        "Removed from vacuum": "Jazz5 sputtered last year. Melih2 most recently in omicron 19B27.",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "14-C5",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Jazz5": [
+            153,
+            152
+        ],
+        "Melih2": [
+            155,
+            156,
+            157,
+            158
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Jazz5 has, I think, never been tested. It will serve as a standard.\n\n01...\nO2 control looks good. M34/M32 ratio constant at natural ratio (link1)\n\n02...\nCO2 control shows way too much M46. I do not understand why there is always all this god damn M46. I have to\nreduce the electrode first and then go back up to get electrochemical CO2 (interestingly it doesn't start coming\nwhile reducing the sample, annoyingly for future extraction experiments on Ir.\n\n----- Melih2\n01...\nabsolutely no exchange (link3)\n02... \nabsolutely no extraction\nGave it 10 minutes at 1.33 V vs RHE with CO.\nDamnit, didn't finish it the way I should have. Went to OCV before removing CO.\n\n\n\n\nlink1: \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=400&amp;xmax=2000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15978&amp;right_plotlist%5B%5D=15977&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=400&amp;xmax=2000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15978&amp;right_plotlist%5B%5D=15977&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30</a>\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=3000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15981&amp;right_plotlist%5B%5D=15980&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=3000&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=15981&amp;right_plotlist%5B%5D=15980&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5200&amp;xmax=6500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.4e-12&amp;left_ymax=2.05e-12&amp;right_ymin=0&amp;right_ymax=4e-10&amp;left_plotlist%5B%5D=15978&amp;right_plotlist%5B%5D=15977&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=5200&amp;xmax=6500&amp;plot_options=checked&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.4e-12&amp;left_ymax=2.05e-12&amp;right_ymin=0&amp;right_ymax=4e-10&amp;left_plotlist%5B%5D=15978&amp;right_plotlist%5B%5D=15977&amp;chosen_group%5B%5D=2019-03-01+10%3A37%3A30</a></pre></td></tr>\n"
+}

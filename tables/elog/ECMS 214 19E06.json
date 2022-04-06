@@ -1,0 +1,40 @@
+{
+    "setup": "ECMS",
+    "number": "214",
+    "date": "19E06",
+    "field_data": {
+        "ID": 214,
+        "Date": "Mon May  6 20:00:25 2019",
+        "Record date": "2019-05-06 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Goof",
+        "Sample Name": "Goof1C, Goof1B, Goof1D",
+        "Removed from vacuum": "sputtered last week",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "Danchip-13-A2",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Goof1C": [
+            172,
+            173
+        ],
+        "Goof1B": [
+            171
+        ],
+        "Goof1D": [
+            174
+        ]
+    },
+    "measurement_EC_tags": {
+        "171": "01...",
+        "172": "02...",
+        "173": "03...",
+        "174": "04..."
+    },
+    "notes": "makes a difference in gas exchange.\n\nGoof1B. Plan is to get a repeat of exchange vs stability, and then do an extraction. I expect it will behave\nmore like Pt, with the (18)O2 coming out during the reduction.\n\n01...\nDamn, lots of air noise after taking the first electrolyte sample. Potential noise too :( But it looks like\nthat's the fault of the crocodile. Hope it didn't damage the sample, but I don't think it did since if it was\nthe crocodile resistance (I bumped it during the first eleectrolyte sampling) then the electrode wouldve kept\nthe same real potential. Bubbles remain even after second electrolyte extraction.\nI wonder if it's a good idea to use the non-aqueous chips for this, as they would have a greater pressure\ntolerance, and I can't exclude that the pressure goes up and down a bit during electrolyte samplings.\n\nno exchange. (link1)\n\nExtraction: \nLittle to no COox at 1.33 V (of course!). Got a bigger than expected current when trying to reduce the sample,\nmaxing out at ~+0.1 V vs RHE, and H2 indicating that we need those liquid through holes, coming soon! :D \nAfter that, went back up past the CO stripping peak, and then settled on +0.8 V vs RHE where there is clear\nextraction! After which the CO2 converges to the natural ratio :) link2.\nNot perfect, but definitely a major success. Perhaps even a breakthrough.\n\nRemoved the CO and put on 100 uA again.\nNice big extraction, link3.\nAlso, some exchange, link4. \nCollected electrolyte again at 2 and 10 mins.\n\n02...\nGoof1C was dropped on the ground before the experiment.\nIt is behaving very strange, giving a lot of CO2, but still significantly less than 100 uA, and running on a\npottential 100 mV lower than the other goofs. It's like I mixed it up with an RuO2 sample.\n03...\nSame after remounting cell (but not reassembling sample or adjusting alignment). Perhaps it's the voltage\nartifact, and the sample is aligned in an unfortunate way. \nBubbles come again even before the first extraction this time. Fuck this, only have one shot at overnight. Gonna\ndo Goof1D.\n\n04...\nWhoo-hoo! Ran overnight no problem. 15 hours of 100 uA OER, collected for ICP-MS\nRan another 10 minutes and switched to OCP before collecting. Should have waited longer at OCP in order to get a pretty 15-hour plot. Next time, if necessary...\n\n\nlink1:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=4000&amp;xmax=6000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3e-13&amp;left_ymax=1.95e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17582&amp;right_plotlist%5B%5D=17581&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=4000&amp;xmax=6000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=3e-13&amp;left_ymax=1.95e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17582&amp;right_plotlist%5B%5D=17581&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48</a>\n\n\nlink2:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=8500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17585&amp;right_plotlist%5B%5D=17584&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=8500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17585&amp;right_plotlist%5B%5D=17584&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48</a>\n\nlink3:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17585&amp;right_plotlist%5B%5D=17584&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17585&amp;right_plotlist%5B%5D=17584&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48</a>\n\nlink4:\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17582&amp;right_plotlist%5B%5D=17581&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=2e-13&amp;left_ymax=1.9e-12&amp;right_ymin=0&amp;right_ymax=4.15e-10&amp;left_plotlist%5B%5D=17582&amp;right_plotlist%5B%5D=17581&amp;chosen_group%5B%5D=2019-05-06+19%3A30%3A48</a></pre></td></tr>\n"
+}

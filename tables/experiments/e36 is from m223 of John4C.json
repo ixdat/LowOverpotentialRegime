@@ -1,0 +1,22 @@
+{
+    "m_id": 223,
+    "experiment_type": "y",
+    "tspan_plot": null,
+    "tspan_bg": [
+        350,
+        400
+    ],
+    "tspan_F": null,
+    "tspan_alpha": null,
+    "F": null,
+    "alpha": null,
+    "e_id": 36,
+    "plot_specs": {
+        "ylims": {
+            "0": [
+                -0.02,
+                0.2
+            ]
+        }
+    }
+}

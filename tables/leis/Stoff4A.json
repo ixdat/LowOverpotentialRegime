@@ -1,0 +1,154 @@
+{
+    "file": "Stoff4A.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008 - before crash/Mono 400\u00b5m/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2019-10-22 22_28_38__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 22:28:38",
+            "timestamp": 1571776118.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2019-10-22 23_23_33__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 23:23:33",
+            "timestamp": 1571779413.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_first_ISS/Mono 400\u00b5m/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2020-01-13 05_12_58__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-13 05:12:58",
+            "timestamp": 1578888778.0,
+            "comment": "",
+            "note": "'20A12_Sofie_and_Jazz_and_friends'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_XPS_and_ISS/Mono 400\u00b5m - ISS/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2020-01-13 06_15_39__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-13 06:15:39",
+            "timestamp": 1578892539.0,
+            "comment": "",
+            "note": "'20A12_Sofie_and_Jazz_and_friends'",
+            "num_of_datasets": 1
+        },
+        "4": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2019-10-20 21_20_33__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 21:20:33",
+            "timestamp": 1571599233.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        },
+        "5": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Stoff4A/He ISS.avg",
+            "pickle_name": "Stoff4A__2019-10-20 20_22_01__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 20:22:01",
+            "timestamp": 1571595721.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "5": {
+                "O16": {
+                    "0": 32.27824779560424
+                },
+                "O18": {
+                    "0": 67.72175220439577
+                },
+                "c_16": {
+                    "0": 0.398079934485753
+                },
+                "c_18": {
+                    "0": 0.6198470122246355
+                }
+            },
+            "4": {
+                "O16": {
+                    "0": 26.91692579241107
+                },
+                "O18": {
+                    "0": 73.08307420758892
+                },
+                "c_16": {
+                    "0": 0.5272821667015565
+                },
+                "c_18": {
+                    "0": 1.0625036323200894
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 30.564043767629475
+                },
+                "O18": {
+                    "0": 69.43595623237053
+                },
+                "c_16": {
+                    "0": 0.19471065640022386
+                },
+                "c_18": {
+                    "0": 0.32829125833243705
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 29.948237313917005
+                },
+                "O18": {
+                    "0": 70.051762686083
+                },
+                "c_16": {
+                    "0": 0.5098449209442922
+                },
+                "c_18": {
+                    "0": 0.8850786994472932
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 31.07491400394814
+                },
+                "O18": {
+                    "0": 68.92508599605186
+                },
+                "c_16": {
+                    "0": 0.17471552386498432
+                },
+                "c_18": {
+                    "0": 0.28760396285015427
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 30.151648400259962
+                },
+                "O18": {
+                    "0": 69.84835159974003
+                },
+                "c_16": {
+                    "0": 0.20319630797748145
+                },
+                "c_18": {
+                    "0": 0.34934690803220764
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

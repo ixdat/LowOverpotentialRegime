@@ -1,0 +1,12 @@
+{
+    "id": 40,
+    "ic_id": 5,
+    "m_id": null,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 263415.2164147773,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 19F07 # 18 should be Evans13 on 19E09"
+}

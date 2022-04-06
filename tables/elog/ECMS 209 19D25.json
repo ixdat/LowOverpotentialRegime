@@ -1,0 +1,26 @@
+{
+    "setup": "ECMS",
+    "number": "209",
+    "date": "19D25",
+    "field_data": {
+        "ID": 209,
+        "Date": "Thu Apr 25 18:06:01 2019",
+        "Record date": "2019-04-25 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Easter1",
+        "Sample Name": "",
+        "Removed from vacuum": "",
+        "RE_vs_RHE": "",
+        "Resistor": "",
+        "Chip": "14-D2, ?-C1, ?-C2",
+        "Electrolyte": "",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Easter1": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "?-C2 has a spot of membrane that looks delaminated, but it passes drop test!\n\nFlowed CO2 as carrier gas during CO2 meeting.\nHmmm.... isotope ratio not stable.\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=11000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17451&amp;right_plotlist%5B%5D=17450&amp;chosen_group%5B%5D=2019-04-25+15%3A34%3A31\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=0&amp;xmax=11000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=0&amp;left_plotlist%5B%5D=17451&amp;right_plotlist%5B%5D=17450&amp;chosen_group%5B%5D=2019-04-25+15%3A34%3A31</a></pre></td></tr>\n"
+}

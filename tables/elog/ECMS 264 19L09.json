@@ -1,0 +1,34 @@
+{
+    "setup": "ECMS",
+    "number": "264",
+    "date": "19L09",
+    "field_data": {
+        "ID": 264,
+        "Date": "Mon Dec  9 00:37:18 2019",
+        "Record date": "2019-12-09 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Trimi1, Taiwan1G",
+        "Sample Name": "Trimi1, Taiwan1G",
+        "Removed from vacuum": "Trimi1 tested earlier, Taiwan1G was in thetaprobe 19L03",
+        "RE_vs_RHE": "0.665",
+        "Resistor": "100, then 50",
+        "Chip": "Danchip-13-C6",
+        "Electrolyte": "1.0 M HClO4 in H2(18)O",
+        "pH": "0",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Trimi1": [],
+        "Taiwan1G": [
+            216,
+            217,
+            218
+        ],
+        "_MS_data": [
+            219
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "12... Trimi1 in old electrolyte - a little vial labeld 1.0 M HClO4 in H2(18)O. We'll see. \nBig air pocket, manage to get it out by lowering the pressure. I thought... but OCP has 50 mV of noise.\nIntroduced CO at OCP and... whoa! It looks like the CO takes out O from the Pt at OCP!... maybe. If it was that\nclean-cut, it would be mostly m/z=44, but it's mostly m/z=46. It's as if CO reduces Pt indirectly. \nPut on 100 uA accidentally. Get a big CO2 signal, mostly 46.\nCV at 50 mV/s looks very similar to that in H2(16)O electrolyte, as it should.\n\n13... 50 cycles at 50 mV/s at -0.1 to +1.45 V, so that I can see O2 and H2. Changed these limits a few times.\nAlso changed resistance from 100 Ohm to 50 Ohm at some point</pre></td></tr>\n"
+}

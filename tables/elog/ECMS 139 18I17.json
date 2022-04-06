@@ -1,0 +1,37 @@
+{
+    "setup": "ECMS",
+    "number": "139",
+    "date": "18I17",
+    "field_data": {
+        "ID": 139,
+        "Date": "Mon Sep 17 20:17:14 2018",
+        "Record date": "2018-09-17 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Yang1, Rao1F, Melih1",
+        "Sample Name": "Yang1 is 10 ug IrO2 powder on GC, Rao1F is 2 ug hydrous RuO2 powder on GC, Melih1 is 25nm Ru sputtered at 400C on 5nm Ti on GC",
+        "Removed from vacuum": "nanoparticles dropcast last night and dried since, Melih1 sputtered yesterday.",
+        "RE_vs_RHE": "0.720",
+        "Resistor": "500 Ohm",
+        "Chip": "SI-3iv1-5-A1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Yang1": [
+            73
+        ],
+        "Melih1": [
+            68,
+            69,
+            70,
+            71
+        ],
+        "Rao1H": [
+            72
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Air signal had been high, so took of chip and replaced center o-ring. Drop-test now looks good. Ezra mounted sample.\n------ Yang1 ------\nYang1 shows very little activity, went to higher overpotential, some OER but then electrode dies.\n------- Rao1H -------\nGood activity on first cycle, but less each subsequent cycle. Nanoparticles not stable.\n\nBrian Knudsen told me inks are hard. I don't have time for hard things.\n\n------ Melih1 -------\n\nI forgot how much I love metals. Great H region, Great CO stripping. CO adsorption transient is negative, even in H\nregion! Very broad CO strip. Did it four times at various dosing potentials.\nCapacitance looks similar to Rehma4B, perhaps not surprising since they were sputtered at the same temperature.\nGreat at ORR.\n01...\nOkay, I want to try an O strip as the first thing at OER potential with this guy.  \nORR onset as at 0.9 V vs RHE. \nOkay, first I'm going to try CO O exchange. Gonna hold at 0.9 V vs RHE. \nNo luck. The same m/z=44 transient as always which is equal to that in the second control. It's exchange, but in the\nvacuum chamber.\nNeither does the OER O stripping experiment show anything.\n02...\nFilm looks surprisingly stable. It actually looks exactly like one of the RuO2 films, just very low-capacity.\n\nSince I have a CO strip on this one, I have a calibration for the capacity :D ... Hard to overstate that success. If\nonly I can find a value for the CO coverage of Ru.\n\nLike Ir, though, it seems to have a \"bulk memory\" thing going. THe more oxidative the OER step, the more cathodic\ncurrent during the pause at 1.2 V vs RHE.\n\n03...\nSetting it to run overnight with one-hour pulses, since it looks completely beautifully stable over the 2-minute pulses.\n\nRan fine overnight! Looks stable. \nTried CO stripping after, got one, with 5 mV/s, at 72500 s, but didn't wait long enough after dosing CO. Messed up a\nbit in EC-lab after that.\n\n04...\nnew file. CO stripping at 20 mV/s. Interingly, about same CO stripping area despite much larger capacitance (comparing\nto 01...), no more CO adsorption transient. </pre></td></tr>\n"
+}

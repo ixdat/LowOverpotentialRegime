@@ -1,0 +1,27 @@
+{
+    "setup": "ECMS",
+    "number": "216",
+    "date": "19E07",
+    "field_data": {
+        "ID": 216,
+        "Date": "Tue May  7 22:18:11 2019",
+        "Record date": "2019-05-07 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Trimi1, Evans12",
+        "Removed from vacuum": "Evans12 deposited by Choongman on 19E04",
+        "RE_vs_RHE": "0.717, calibrated",
+        "Resistor": "100",
+        "Chip": "Danchip-13-A2",
+        "Electrolyte": "0.1 M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Trimi1": [],
+        "Evans12": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "01... a bit difficult to find one potential to park at for the extraction. It seems COox happens in a window\nthat's anodic of the reduciton of Pt that's been oxidized at 100 uA for 5 minutes... There is an overlap, but\nholy shit it's small.\nRE_vs_RHE is 0.717, close enough to the 0.715 V I've been assuming (and will continue to assume)\nwow, collected electrolyte a total of 10 times during that.\n\n02...\n\n10 min is not long enough at 100 uA to get stable OER on Evans!\nActivity testing accidentally repeated the most anodic point a lot of times first.\nCollected electrolyte thrice: OCP (before the 10 min at 100 uA), after 10 min at 100 uA, and at the end (after\nactivity testing)</pre></td></tr>\n"
+}

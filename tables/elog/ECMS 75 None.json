@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 75,
+    "date": null,
+    "field_data": {
+        "ID": 75,
+        "Date": "Wed Dec 20 09:43:29 2017",
+        "Record date": "2017-12-20 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Choong1",
+        "Sample Name": "Choong1, 20 nm Ir on Au",
+        "Removed from vacuum": "Left in air since activity measurement last week",
+        "RE_vs_RHE": "0.660, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-3-D6, SI-3iv1-3-F2",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "Filament is off! \nSpectro seems to have tried something on the 15th without any signal or any log file. Johannes measured on the\n14th, left setup with a breached chip. Filament turning off is not recorded anywhere. What happened?\n\nTurning off twice and on twice works :D We're in business. QMS timestamp 08:57:49\n\nJohannes explains that he left a breached chip on with valve 13 closed. So wasn't him... Maybe a power outage on\nthe night of 17L14? \n\nSwitched chip. D6 off, F2 on.\n\nLong drop test starting 8700s looks good.\n\n\nElectrolyte A is 8.6 ul 70% HClO4 plus 991 ul normal water\nElectrolyte B is 8.6 ul 70% HClO4 plus 991 ul O18-labeled water.\n\nBoth nominally 0.1 M HClO4, pH=1. RE and CE bongs filled with bulk 0.1 M HClO4.\n\n\nQMS timestamp 12:35:10\nStarting experiment in Electrolyte A (O16).\n\nForgot to run with three female luer adaptors. Filled cell with syringe, then took syringe out to put in both bong\npipes. Two male luer adaptors are open to air.\nSomething is getting burned by the HClO4. There is a lot of CO2, and what look like CO2 bubbles entering the\nworking volume at 1500s and 2100s.\n\n01... Squiggly and slanty CV :( ... OER onset at about .55 V vs RE. That puts RE_vs_RHE at something like 0.85 V,\nnot what it should be. On the other hand, HER onset at -0.69 V vs RE. wtf, that's a window of less than 1.23 V.\nSomething is weird! \n\nAhhh, that's not actually OER onset. It's a big oxidation peak and then some OER due to uneven potential\ndistribution. Extending potential range slowly, and going to eat something. The Irange=100uA is too much of a\nconstraint it looks like. It looks like OER onset is actually at about +0.7 V vs RE\n\nI guess RE_vs_RHE = 0.66\n\n02... higher scan rate, higher current limit. Holding at +1.45 V vs RHE shows drop, maybe due to pH change\n\n03... held at 1.45 vs RHE for 5 minutes \n\n(got distracted by emails (sniff2 is submitted! :D) and Johannes)\n\n04... and again, for good measure.\n\nCell with sample rinsed in milliQ. Keeping the sample in the cell to keep the same mount. Ar-drying the cell\nbecause I think the Ir is more likely to lose its O16 at 120C than at 25C. Oven-drying syringe, though. Putting 1M\nHClO4 in CE bong, and used O18 electrolyte in each bong tip.\n\nAlso, didn't switch luer adapter. I kind of like this way of electrolyte.\n\nBeautiful mount. Don't see CO2 this time, but that may just be because I'm not following 46 and 48.\nBut damnit, no contact to RE! Okay, I don't like this way of electrolyte filling any more.\n\nAfter a couple tries and 100 ul labeled electrolyte, managed to pipette away the bubble and get contact!\n\n05...\nDamnit, shitty electrical contact! It goes fucking crazy. There's some OER, no obvious isotope effect, but I\nalmost definitely reduced and re-oxidized the surface anyway :(\n\n06... 07... damn, still shit.\n\n08... CP works just fine. But only got a calibration point at 100 uA, because +20 uA apparently goes to something\ninvisible, for 10 minutes. WTF?\n50 uA gives something. So does 35 uA. I guess I'm making 20 uA of heavy CO2. Testing. \nnew QMS timestamp 16:28:10\nNo, it's not that. I'm done wasting time on this. Why should I trust current when I don't have potential control?\nMaking sure it's reduced, then oxidizing in this labeled electrolyte, then going back to normal electrolyte!\nsame thing cathodic, between 5 and 20 uA go to something invisible (1400s).\n\n\nOxidizing at 100 uA for 5 minutes.\n\nQMS data acquisition seems to have crashed, or did I press ctrl+c?\nnew timestamp 17:16:23</pre></td></tr>\n"
+}

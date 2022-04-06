@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 47,
+    "date": null,
+    "field_data": {
+        "ID": 47,
+        "Date": "Tue Oct  3 14:24:23 2017",
+        "Record date": "2017-10-03 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "OERx",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "left in air since last wednesday",
+        "RE_vs_RHE": "0.747, inferred",
+        "Resistor": "",
+        "Chip": "SI-3iv1-1-D2, SI-3iv1-2-C4, SI-3iv1-2-B4",
+        "Electrolyte": "0.1M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "cluster-source samples.\n\nOld (melted and recovered, shorter) cell. The new Teflon docking station, it turns out, is for the new cell.\nUsing the old (PCTFE) docking station.\n\nQMS timestamp 12:43:45. Mounted 5000s\n\nFilled cell from 250ul syringe! stable OCV = contact from WE to RE. Can't pull current in CV = no contact to CE :(\n\n01... through ...07, tried fixing contact without success. Usually contact between 2 electrodes Breached one chip\n(1-D2) and cracked another (2-C4).\n\nThird time's the charm! Reloaded the syringe, used a bit more than 250 ul. But got it working :)\n\n\n\nNow trying with the isotope! Beautiful mount starting 26500, but no contact to CE :(. I've got 50 ul left of the\nfirst &gt;250 filling the glass syringe. Flowing through CE at 27600s. Took a couple tries, but got stable OCV to both\nRE and CE bongs without needing more electrolyte\n\n11... beautiful! I've got a CV :) But M34/M36 not all that good. Factor five or so, means that the electrolyte is\n10% H2(16)O. I'm not so happy with that. But the one I do tomorrow will be in super-fresh product.\n\n12... 100 Ohm ohmic drop, but who cares? I guess it's likely that some of the electrode surface is dry, but this is\nnot an activity measurement. \n\n13... yeah, judging by the potential jump in the second (100uA) calibration point, there's definitely gas in there\nmoving around. But the signals look good. I'm going to let it loop for a long while and see if the isotope ratio\nchanges. Got a bit bored, three times was plenty. Calibration curve down in current shows nothing at 0.5 uA even now\nwith lower background (at M36). :(. \n\n\nBrilliant idea! Can I adsorb a ML of O from gasseous O2 with O-16, and then strip it off?\n(skipped 14...)\n15... \"froze\" an injection of O2 starting 32500s, missed the max by a lot. Locating ORR, onset at about 0.2 vs RE, 0.9\nvs RHE as expected.\n16... tried adsorbing while holding still at 0.253 vs RE, 0.95 vs RHE, didn't work, i.e. isotope ratio M34/M36 the\nsame as always.\n\n17... trying at different potentials, to see if I can find one that works. Contemplating in the meanwhile... do I\nexpect this can be done???\n\ncycles:\n\n1) injected O2 at anodic turn (-0.317 vs RE, 0.43 V vs RHE. that's stupid. Changing it to -0.337 for next cycle.)\nexpect everything to be reduced off, no change of isotope ratios... wait a second, it actually looks like something\nhappened there.\n\n2) repeat of 1, but with no injection, and with 20 mV more cathodic on cathodic potential limit. Ahh, no, the same. It's\njust that M18 has slowly been creeping up. Damnit! I've got back diffusion from the bong pipes. It took quite a few\nhours though.\n\n3) one more without injection, just to be sure. Less OER overall this time. Why?\n\n4) with injection, just after cathodic turn. Doesn't give anything.  Or actually, I can't tell because of the god damn\nwater signals changing. It's not because of ORR of the O2 I'm injecting, right, that's gotta be insignificant? It must be\ndiffusion from the bongs. Whatever, it's too much. I'm injecting a new syringe.\n\nFuck, lost contact to CE, could not get it back. Bubbles all over. Wasted 250 ul and an hour. New strategy:\nGo home and sleep 4.5 hours, be back here at 7 AM ready to go. Leave everything out for immediate startup. There's awesome\nthings I can do with Pt in O18 acid. I am confident I will see isotope exchange... in CO oxidation.</pre></td></tr>\n"
+}

@@ -1,0 +1,12 @@
+{
+    "id": 72,
+    "ic_id": 7,
+    "m_id": 166,
+    "element": "Ir",
+    "mass": "M193",
+    "signal": 267.33892076385337,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 900.0,
+    "description": "post-experiment OCP"
+}

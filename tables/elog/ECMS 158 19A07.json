@@ -1,0 +1,46 @@
+{
+    "setup": "ECMS",
+    "number": "158",
+    "date": "19A07",
+    "field_data": {
+        "ID": 158,
+        "Date": "Mon Jan  7 13:01:13 2019",
+        "Record date": "2019-01-07 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Nancy1, Nancy2, Nancy3, Trimi1",
+        "Sample Name": "Nancy are RuO2 samples sputter deposited at RT. Trimi1 is Pt.",
+        "Removed from vacuum": "19A05 (Nancy1-3) and 19A06 (Nancy 4-6)",
+        "RE_vs_RHE": "0.716",
+        "Resistor": "0 to begin with, see text.",
+        "Chip": "?-C4",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Nancy1": [
+            84
+        ],
+        "Nancy2": [
+            85,
+            86
+        ],
+        "Nancy3": [
+            87
+        ],
+        "Trimi1": [
+            93,
+            94
+        ]
+    },
+    "measurement_EC_tags": {
+        "84": "01...",
+        "85": "02...",
+        "86": "03...",
+        "87": "04...",
+        "93": "05...",
+        "94": "05..."
+    },
+    "notes": "All equipment rinsed in 70% HClO4 and then H2O. Bong pipes, cell, and syringe dried before use.\nSetup was left equilibrating overnight with a drop of (old) H2(18)O on the chip.\n\nElectrolyte is from October. (Need to do an Ir sample to calibrate RHE and O2 signal.)\n\n--- Nancy1\nFirst time filling with electrolyte goes terrible, leaks between clamping ring and interface block. Closed to\nQMS, dried, remounted chip, and remounted cell somewhat tighter before filling. This time it goes perfect.\n\n01...\n5 minutes at 100 uA starting 2500 s in QMS (file 12:03:12).  Potential very stable, at +0.70 vs RE, +1.42 vs RHE,\nafter initial 5 mV overshoot.\n\nThen 50 cycles between -0.82 and +0.68 v vs RE, intended -0.1 to +1.4 V vs RHE. Any real changes in CV much smaaller\nthan changing amounts of squiggle artifiacts.\n\n5 min at  100 uA again at the end. Requires significantly higher overpotential than the first time.\n\nUsed a couple drops of normal H2(16)O to rinse sample, added to eppendorff tube.\n\n\n--- Nancy2\n02... 5 minutes at 100 uA starting 7800 s. Looks the same as Nancy1.\nDamnit, forgetting to include CO2 isotopes. Big m/z=44 signal. I'll make sure to include the other isotopes for the\nfollowing times. New QMS timestamp 14:24:25\n\nCooling water leak detected (by wet foot sensor)! It's the cooling water to my aux turbo pump, same leak as last time.\nCooling water for aux turbo turned off for now.\n\nSquiggle artifiacts get out of control at cycle ~38. Paused for resistor attachment at cycle 42, 500 Ohm for 1 cycle,\n200 Ohm for 3 cycles, changed to 100 Ohm at cycle 47/50\nOnly a few seconds at 100 uA at end, since I realized that if it is dissolution of an amorphous layer rather than true\nexchange, The 5 minutes of OER will kill it. But now that I started, may as well do the full thing. Then Choongman and\nI can each have 1 sample that should have the amorphous layer pre-dissolved. \n03... resumed for 5 minutes of CP, starting 3350 s.\nNancy1 and Nancy2 each have 5 minutes of +100 uA in H2(18)O post-cycling. Subsequent samples will not.\n\nUsed a couple drops of normal H2(16)O to rinse sample, added to eppendorff tube. Also tried to pipette up what was left\non the chip into the eppendorf tube.\n\n--- Nancy3\nStarting with 100 Ohm behind WE.\n04... 5 minutes at 100 uA starting 7800 s. Expected 100 Ohm*100 uA = 10 mV extra potential. We get 5 mV extra\npotential (converges to 0.705 V vs RE)\nDo see the transient m/z=44 ! :) \nTime response somewhat worse for this sample - consistent with feeling that it was indented.\n\nElectrode has a moon-shaped discoloration on side facing CE.\nUsed electrolyte to collect remaining drop, but didn't rinse.\n\n\n--- Trimi1\n05... calibrated for RHE. Looks like RE_vs_RHE = 0.716. So 4 mV off of the 0.720 V vs RHE I had been using.\n\nTook a mass scan of the H2, but can't really use it for checking the contamination level since I had just been flowing\nHe. New QMS timestamp 17:47:38\n\nMeasurement of H2 removal ruined by stupid \"Do not start on E overload\" and transient when opening valve 8.\n\nCalibrated at +200 uA for 5 minutes as the last thing. Should be a nice big layer of Pt(18)O :D \n\nCollected electrolyte again, to get a sense of cross-contamination (seen as Ru in Trimi1 electrolyte) and of Pt dissolution.\n\nCell rinsed in normal H2O and left in oven to dry overnight.\n\nSetup left with drop of H2(18)O to continue tomorrow with Nancy4-6.</pre></td></tr>\n"
+}

@@ -1,0 +1,16 @@
+{
+    "c_id": 9,
+    "m_id": 98,
+    "tspan": [
+        100,
+        250
+    ],
+    "cal_tspans": null,
+    "t_bg": null,
+    "F": {
+        "O2": 1.2657298787942428
+    },
+    "alpha": 0.9970079973995164,
+    "category": "bad",
+    "isotope": 16
+}

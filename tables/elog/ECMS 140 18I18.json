@@ -1,0 +1,36 @@
+{
+    "setup": "ECMS",
+    "number": "140",
+    "date": "18I18",
+    "field_data": {
+        "ID": 140,
+        "Date": "Tue Sep 18 17:00:34 2018",
+        "Record date": "2018-09-18 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Jazz4, Reshma1B",
+        "Sample Name": "Jazz4 is 10nm Ir on 5 nm Ti on GC, Reshma1B was 25nm RuO2 sputtered at RT on 5nm Ti on GC",
+        "Removed from vacuum": "Jazz4 in air since last time, Reshma1B removed from omicron a couple days ago",
+        "RE_vs_RHE": "0.720",
+        "Resistor": "500 Ohm",
+        "Chip": "SI-3iv1-5-A1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Jazz4": [
+            76
+        ],
+        "Folk5": [
+            74,
+            75
+        ],
+        "Reshma1B": [
+            77,
+            78
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "less active than RuO2, but we knew this.\nActivity falls during potential hold, but we knew this. \nHeld for a bit longer (5 min and 10 min) for more accurate O2 calibration)\n\nThen calibrated RHE. It's not moved more than a couple mV. Looks maybe like 0.718, but gonna keep using 0.720.\n\n----- Reshma1B -------\nReason for doing this is that Reshma1F, which had a milder reduction and oxidation treatment than Reshma1B, only\nhad a little bit of 18O in I.S.S, so had to do it again.\nReshma1B happens to be the sample that we did get a 2:1 18O:16O ratio in with its previous treatment, but then\nJakob sputtered away the outer monolayer, so its reset.\n\n01...\nall looks good, and indeed, Reshma1B looks like it did before. Comparing to 18H31, it's got the same\ncapacitance, just shifted 10 mV (due to RHE potential) and steeper because it didn't have the resistor then.\n\nGiving it 20 cycles from -0.050 V vs RHE to 1.50 V vs RHE with 1 minute holds at each potential limit, scan rate\n20 mV/s.\n\nIn the mean while, using the hydrogen line and roughing pump to empty the reduction valve of the methane bottle\nso I can move the bottle outside.\n\nO2 and H2 signals get gradually noisier each cycle of 12, but CV stable. Capacitance seems unchanged at 5 mV/s\nafter the bigh cycles. Don't really recover the smooth MS signals when checking activity again at the end, and\nfinish a bit clumsily.\n\nDone with 18O electrolyte!!!</pre></td></tr>\n"
+}

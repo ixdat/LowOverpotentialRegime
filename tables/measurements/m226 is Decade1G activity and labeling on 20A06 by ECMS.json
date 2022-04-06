@@ -1,0 +1,20 @@
+{
+    "id": 226,
+    "name": "m226 is Decade1G activity and labeling on 20A06 by ECMS",
+    "sample": "Decade1G",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "20A06",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\20A08_Decade_and_friends\\pickles\\20A06_labeling_01.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "267",
+    "EC_tag": "01...",
+    "category": [
+        "activity",
+        "labeling"
+    ]
+}

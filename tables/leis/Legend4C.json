@@ -1,0 +1,226 @@
+{
+    "file": "Legend4C.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Legend4C/He ISS.avg",
+            "pickle_name": "Legend4C__2019-12-21 13_46_28__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-21 13:46:28",
+            "timestamp": 1576932388.0,
+            "comment": "",
+            "note": "'19J21_Love_fresh'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__center.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 19:35:03",
+            "timestamp": 1578508503.0,
+            "comment": "center",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__edge.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 19:35:03",
+            "timestamp": 1578508503.0,
+            "comment": "edge",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__center.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 21:39:03",
+            "timestamp": 1578515943.0,
+            "comment": "center",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "4": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__edge.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 21:39:03",
+            "timestamp": 1578515943.0,
+            "comment": "edge",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "5": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-07 14_05_19__thetaprobe__center.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:19",
+            "timestamp": 1578402319.0,
+            "comment": "center",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "6": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-07 14_05_20__thetaprobe__edge.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:20",
+            "timestamp": 1578402320.0,
+            "comment": "edge",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "7": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-07 16_46_49__thetaprobe__center.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 16:46:49",
+            "timestamp": 1578412009.0,
+            "comment": "center",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "8": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
+            "pickle_name": "Legend4C__2020-01-07 16_46_50__thetaprobe__edge.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 16:46:50",
+            "timestamp": 1578412010.0,
+            "comment": "edge",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 29.041920899612162
+                },
+                "O18": {
+                    "0": 70.95807910038783
+                },
+                "c_16": {
+                    "0": 0.16062805513313108
+                },
+                "c_18": {
+                    "0": 0.29126875733180646
+                }
+            },
+            "5": {
+                "O16": {
+                    "0": 30.976356223112727
+                },
+                "O18": {
+                    "0": 69.02364377688728
+                },
+                "c_16": {
+                    "0": 0.12685627694538917
+                },
+                "c_18": {
+                    "0": 0.2097855174404843
+                }
+            },
+            "6": {
+                "O16": {
+                    "0": 26.864004555644726
+                },
+                "O18": {
+                    "0": 73.13599544435527
+                },
+                "c_16": {
+                    "0": 0.16690233892165793
+                },
+                "c_18": {
+                    "0": 0.3372242808367616
+                }
+            },
+            "7": {
+                "O16": {
+                    "0": 34.485666268403634
+                },
+                "O18": {
+                    "0": 65.51433373159635
+                },
+                "c_16": {
+                    "0": 0.1126730602527014
+                },
+                "c_18": {
+                    "0": 0.1588597181471459
+                }
+            },
+            "8": {
+                "O16": {
+                    "0": 28.735665436402506
+                },
+                "O18": {
+                    "0": 71.2643345635975
+                },
+                "c_16": {
+                    "0": 0.1990497622784064
+                },
+                "c_18": {
+                    "0": 0.3663604879597446
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 67.0393763931771
+                },
+                "O18": {
+                    "0": 32.96062360682291
+                },
+                "c_16": {
+                    "0": 0.2542691277047722
+                },
+                "c_18": {
+                    "0": 0.0927801514546124
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 56.026115167291394
+                },
+                "O18": {
+                    "0": 43.97388483270861
+                },
+                "c_16": {
+                    "0": 0.2852518490669443
+                },
+                "c_18": {
+                    "0": 0.16616087985250783
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 41.433306024537764
+                },
+                "O18": {
+                    "0": 58.56669397546225
+                },
+                "c_16": {
+                    "0": 0.13797849572848436
+                },
+                "c_18": {
+                    "0": 0.1447466487101765
+                }
+            },
+            "4": {
+                "O16": {
+                    "0": 32.48603381125083
+                },
+                "O18": {
+                    "0": 67.51396618874918
+                },
+                "c_16": {
+                    "0": 0.18026021466779724
+                },
+                "c_18": {
+                    "0": 0.27803073240238596
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

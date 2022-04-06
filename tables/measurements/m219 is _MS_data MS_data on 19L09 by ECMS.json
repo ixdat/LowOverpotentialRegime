@@ -1,0 +1,17 @@
+{
+    "id": 219,
+    "name": "m219 is _MS_data MS_data on 19L09 by ECMS",
+    "sample": "_MS_data",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19L09",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19L08_Taiwan\\pickles\\19L17_Taiwan1G_MS_data.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "264",
+    "EC_tag": null,
+    "category": "MS_data"
+}

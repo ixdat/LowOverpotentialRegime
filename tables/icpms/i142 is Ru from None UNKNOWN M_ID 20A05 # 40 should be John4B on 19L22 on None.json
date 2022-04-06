@@ -1,0 +1,12 @@
+{
+    "id": 142,
+    "ic_id": 9,
+    "m_id": null,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 805.1928366,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 20A05 # 40 should be John4B on 19L22"
+}

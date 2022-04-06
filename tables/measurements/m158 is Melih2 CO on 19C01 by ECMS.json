@@ -1,0 +1,17 @@
+{
+    "id": 158,
+    "name": "m158 is Melih2 CO on 19C01 by ECMS",
+    "sample": "Melih2",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19C01",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19C01_Melih_16O_04_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "185",
+    "EC_tag": null,
+    "category": "CO"
+}

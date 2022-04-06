@@ -1,0 +1,106 @@
+{
+    "file": "Yarong.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS/Mono 400\u00b5m/Yarong_GC_point_2/He ISS.avg",
+            "pickle_name": "Yarong__2019-05-09 16_17_01__thetaprobe__GC-point-2.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-09 16:17:01",
+            "timestamp": 1557411421.0,
+            "comment": "GC-point-2",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS/Mono 400\u00b5m/Yarong_GC_point_1/He ISS.avg",
+            "pickle_name": "Yarong__2019-05-09 16_17_00__thetaprobe__GC-point-1.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-09 16:17:00",
+            "timestamp": 1557411420.0,
+            "comment": "GC-point-1",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E10_ISS_try3/Mono 400\u00b5m/Yarong_GC_point_2/He ISS.avg",
+            "pickle_name": "Yarong__2019-05-10 10_38_42__thetaprobe__GC-point-2.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-10 10:38:42",
+            "timestamp": 1557477522.0,
+            "comment": "GC-point-2",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E10_ISS_try3/Mono 400\u00b5m/Yarong_GC_point_1/He ISS.avg",
+            "pickle_name": "Yarong__2019-05-10 10_38_41__thetaprobe__GC-point-1.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-10 10:38:41",
+            "timestamp": 1557477521.0,
+            "comment": "GC-point-1",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 0.0030217594507951783
+                },
+                "O18": {
+                    "0": 99.99697824054921
+                },
+                "c_16": {
+                    "0": 5.883361608993238e-28
+                },
+                "c_18": {
+                    "0": 1.4449356941654295e-23
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 3.583115052134233e-13
+                },
+                "O18": {
+                    "0": 99.99999999999963
+                },
+                "c_16": {
+                    "0": 2.185591118925975e-19
+                },
+                "c_18": {
+                    "0": 4.526933906327697e-05
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 100.0
+                },
+                "O18": {
+                    "0": 2.4075085601771203e-24
+                },
+                "c_16": {
+                    "0": 0.009802812765198182
+                },
+                "c_18": {
+                    "0": 1.7515177286235278e-28
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 99.99999999999997
+                },
+                "O18": {
+                    "0": 1.3449433567646238e-14
+                },
+                "c_16": {
+                    "0": 0.01258065124985328
+                },
+                "c_18": {
+                    "0": 1.2557497703179417e-18
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

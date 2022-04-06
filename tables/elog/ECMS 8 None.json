@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 8,
+    "date": null,
+    "field_data": {
+        "ID": 8,
+        "Date": "Thu Jun 29 12:40:31 2017",
+        "Record date": "2017-06-29 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Scott09",
+        "Sample Name": "Scott09, NiFe NPs on Au, fresh from vacuum",
+        "Removed from vacuum": "15s",
+        "RE_vs_RHE": "1.396",
+        "Resistor": "",
+        "Chip": "SI 07",
+        "Electrolyte": "0.1 M KOH",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "01... 20 cycles in drop.\nSat under drop for a while while I removed bubble from electrolyte bubbler.\n\n\nElectrolyte for EC-MS He-saturated\n\nQMS timestamp 11:04:44\nLost time when Ifan came to talk. Finally mounted 2500s in. \nAir signal way to high (factor approx 3). Don't know why. I want it down. \n\n02... 5mv/s scan up to 0.184 vs RE, 1.570 vs RHE, then 2-minute hold. Looks good.\n\n03... Internal calibrations starting 4700s: 50uA, 20, 10, 5, 2, 1uA\n\nChip SI07 breached in the end (6400s) after many hours in pH 12 and pH 13. Awesome chip.\nSI07 looks broken, may be reason air signal was high</pre></td></tr>\n"
+}

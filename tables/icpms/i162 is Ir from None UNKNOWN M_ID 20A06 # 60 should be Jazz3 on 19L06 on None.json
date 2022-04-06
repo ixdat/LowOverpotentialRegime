@@ -1,0 +1,12 @@
+{
+    "id": 162,
+    "ic_id": 10,
+    "m_id": null,
+    "element": "Ir",
+    "mass": "M193",
+    "signal": 9136.730138,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 20A06 # 60 should be Jazz3 on 19L06"
+}

@@ -1,0 +1,12 @@
+{
+    "id": 19,
+    "ic_id": 5,
+    "m_id": 160,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 5410.507618317476,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 3300.0,
+    "description": "sticky electrolyte"
+}

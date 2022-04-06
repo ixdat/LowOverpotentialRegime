@@ -1,0 +1,67 @@
+{
+    "setup": "ECMS",
+    "number": "277",
+    "date": "20A08",
+    "field_data": {
+        "ID": 277,
+        "Date": "Wed Jan  8 10:35:09 2020",
+        "Record date": "2020-01-07 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Taiwan, Decade, Legend",
+        "Sample Name": "Taiwan1D is RT Ru(18)O2. Decade is RT Ir(18)O2, Legend is 400C Ir(18)O2",
+        "Removed from vacuum": "Decade1G and Legend4C labeled by electrochemical cycling yesterday. Taiwan1D in air since Thetaprobe ~19L22",
+        "RE_vs_RHE": "0.66",
+        "Resistor": "100 ",
+        "Chip": "Danchip-14-C6, Danchip-14-B1, Danchip-14-C5",
+        "Electrolyte": "1.0 M HClO4",
+        "pH": "0",
+        "cleanliness": "freshly prepared electrolyte. cell rrinsed with water"
+    },
+    "sample_measurements": {
+        "Taiwan1D": [
+            230
+        ],
+        "_MS_data": [
+            237
+        ],
+        "Trimi1": [
+            229
+        ],
+        "Decade1A": [
+            231
+        ],
+        "Legend4C": [
+            232
+        ],
+        "Decade1G": [
+            233
+        ],
+        "Reshma4I": [
+            234
+        ],
+        "Deade1B": [
+            235
+        ],
+        "Decade1C": [
+            236
+        ],
+        "John4A": [
+            237,
+            238,
+            239
+        ]
+    },
+    "measurement_EC_tags": {
+        "229": "01...",
+        "230": "02...",
+        "231": "03...",
+        "232": "04...",
+        "233": "05...",
+        "234": "06...",
+        "235": "07...",
+        "236": "08...",
+        "237": "09..."
+    },
+    "notes": "Issues with bubbles in CE\n20A08, Thetaprobe: WTF, little to no O in ISS. But some in XPS, hmmm... also Al and Cl contamination. Using Al foil to mount is a no go.\n\n02... Taiwan1D\nLooks good, clear exchange [2]. 40 mV more active than 19L08/Taiwan1C, 20 mV more active than 19L07/Taiwan1B, \nActivity quite irreproducible amoung Taiwan samples - TaiwanA, TaiwanB, TaiwanC, TaiwanD. screenshot to document.\n\n03... Decade1A\nLess active than Legend1A. Why? Ir deposited at higher temperature more active than Ir deposited at RT? Opposite trend of capacitance?\nA little bit of exchange! Expecially at start [3]... less than Taiwan, but I think much more than Goof, which should be identical samples...\n\nPotential measurement is completely fucked after electrolyte extraction at 20 minutes, even saying negative 5 V! Current and O2 production rates are completely unchanged.\n\n03a... PEIS fails due to I overload when set at Eoc.\n\nCOULD POOR WE CONTACT ACCOUNT FOR THE IRREPRODUCIBILITY IN MEASURED POTENTIAL???\nat 100 uA, each 10 Ohm resistance in the WE contact makes 1 mV difference. Hard to believe that there's often hundreds of ohms there...\nI'll start doing PEIS anyway just in case. Hopefully it doesn't do anything resulting in dissolution or so. \n\n\n04... Legend4C (accidentally named Love1C in EC-Lab)\nPEIS looks good, near-vertical real intercept at near 100 Ohm, as expected.\n\nBloody fucking tons of exchange! :D [4]\nMost intense at the beginning, consistent with Geiger2018.\nAccidentally did a PEIS at the end, holding OER potential (O2 signal stays constant!).\n\n05... Decade1G\nMeasured a bad PEIS (200 Ohm), adjusted WE crocodile, and strarted again, re-writing. Now 100 Ohm. Maybe there is a lot of variability from that\neven more exchange with Decade1G [5]\n\n... Decade1E (untested) rinsed in water before putting in the Theta Probe.\n\n06... Reshma4I. Freshly sputter-deposited 400C Ru(16)O2 sample! Less than 30 mins out of vacuum.\nMUCH LESS CO2 than usual. And... \nExcellent, no exchange [6]\n\n07... Decade1B\nAlso exchange at 30 uA\n\n08... Decade 1C\nAlso exchange at 10 uA\n\n\n09... John4A\nOnly missing pieces for the full Tafel plot! (plus deciding how to deal with the variability in electrochemical potential...)\n[John4B still doesn't fit on the sample holder. John4A's ISS did not change before and after the last OER (just checked at ThetaProbe because I still don't have my ISS data processing scripts ready).\nSo John4A is fine to use for the last data point, at 10 uA, to replace the weird one from Stoff4C which had a ton of dissolution. ]\n\nDamnit, breached the chip by putting on the bubbler without opening its valve. New chip installed, 14-C5\nDrop test looks good!\n\nCrazy fucking tilt on John4A. Can't work with this. 10 uA takes it right back to its OCP of -0.3 V vs RE. These small stubs &amp; weak u-cups &amp; fat cell are bloody fucking infuriating.\nAll the Johns have this problem! I think I know what my first synthesis will be on Sunday.\n\nThere's one unmeasured Stoff, Stoff4G! And, after trying almost all my u-cups, there's one that (barely) works!\nstarts okay, but then OCP changes fast at like 35 s, and I don't need to see any more to know electrolyte has seaped in through the u-cup, and that it will be tilty as fuck. \n\nYup! And I don't have any more time for this. I will order new u-cups and/or look for fat ones later.\n\n[1]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=4500&amp;xmax=7500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20377&amp;right_plotlist%5B%5D=20376&amp;chosen_group%5B%5D=2020-01-07+15%3A35%3A17\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=4500&amp;xmax=7500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20377&amp;right_plotlist%5B%5D=20376&amp;chosen_group%5B%5D=2020-01-07+15%3A35%3A17</a>\n\n[2]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=5000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=2000&amp;xmax=5000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25</a>\n\n[3]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6000&amp;xmax=9000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6000&amp;xmax=9000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25</a>\n\n[4]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=12500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=12500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25</a>\n\n[5]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=13000&amp;xmax=16000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=13000&amp;xmax=16000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20394&amp;right_plotlist%5B%5D=20393&amp;chosen_group%5B%5D=2020-01-08+10%3A31%3A25</a>\n\n[6]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3300&amp;xmax=6300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3300&amp;xmax=6300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31</a>\n\n[7]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3300&amp;xmax=6300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3300&amp;xmax=6300&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31</a>\n\n[8]\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=6500&amp;xmax=9500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=20411&amp;right_plotlist%5B%5D=20410&amp;chosen_group%5B%5D=2020-01-08+18%3A17%3A31</a></pre></td></tr>\n"
+}

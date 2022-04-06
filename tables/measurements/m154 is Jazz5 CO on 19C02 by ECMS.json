@@ -1,0 +1,17 @@
+{
+    "id": 154,
+    "name": "m154 is Jazz5 CO on 19C02 by ECMS",
+    "sample": "Jazz5",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "19C02",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19C02_catching_up\\pickles\\19C01_Jazz5_18O_02_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": null,
+    "EC_tag": null,
+    "category": "CO"
+}

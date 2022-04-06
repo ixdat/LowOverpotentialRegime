@@ -1,0 +1,20 @@
+{
+    "id": 63,
+    "name": "m63 is Rao1D CO and O2 on 18I15 by ECMS",
+    "sample": "Rao1D",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "18I15",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I16_Rao1D_18O\\01 Rao1D 18I16 18I13_IrO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "137",
+    "EC_tag": null,
+    "category": [
+        "CO",
+        "O2"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": 228,
+    "name": "m228 is _MS_data MS_data on 20A06 by ECMS",
+    "sample": "_MS_data",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "20A06",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\20A08_Decade_and_friends\\pickles\\20A06_labeling_MS_data.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "267",
+    "EC_tag": null,
+    "category": "MS_data"
+}

@@ -1,0 +1,27 @@
+{
+    "m_id": 43,
+    "experiment_type": "a18",
+    "tspan_plot": [
+        990.0,
+        3000.0
+    ],
+    "tspan_bg": [
+        3050.0,
+        3100.0
+    ],
+    "tspan_F": [
+        1050.0,
+        1100.0
+    ],
+    "tspan_cap": [
+        500.0,
+        1000.0
+    ],
+    "tspan_alpha": [
+        1050.0,
+        1100.0
+    ],
+    "F": null,
+    "alpha": null,
+    "e_id": 56
+}

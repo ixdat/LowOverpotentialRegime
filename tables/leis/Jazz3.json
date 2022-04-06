@@ -1,0 +1,82 @@
+{
+    "file": "Jazz3.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/XPS_and_ISS/Mono 400\u00b5m ISS/Jazz3/He ISS.avg",
+            "pickle_name": "Jazz3__2019-12-09 07_02_13__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-09 07:02:13",
+            "timestamp": 1575871333.0,
+            "comment": "",
+            "note": "'19L08_Taiwan_after_first_testing'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Jazz3_2/He ISS.avg",
+            "pickle_name": "Jazz3__2019-12-09 05_28_19__thetaprobe__2.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-09 05:28:19",
+            "timestamp": 1575865699.0,
+            "comment": "2",
+            "note": "'19L08_Taiwan_after_first_testing'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Jazz3/He ISS.avg",
+            "pickle_name": "Jazz3__2019-12-09 05_28_19__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-12-09 05:28:19",
+            "timestamp": 1575865699.0,
+            "comment": "",
+            "note": "'19L08_Taiwan_after_first_testing'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "1": {
+                "O16": {
+                    "0": 99.99999999999999
+                },
+                "O18": {
+                    "0": 1.595836570751686e-14
+                },
+                "c_16": {
+                    "0": 0.09294993205085278
+                },
+                "c_18": {
+                    "0": 1.1008635183871254e-17
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 95.69212661138121
+                },
+                "O18": {
+                    "0": 4.3078733886187806
+                },
+                "c_16": {
+                    "0": 0.11236092166966852
+                },
+                "c_18": {
+                    "0": 0.0037540323194038593
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 91.24423647953562
+                },
+                "O18": {
+                    "0": 8.755763520464384
+                },
+                "c_16": {
+                    "0": 0.08115743279323623
+                },
+                "c_18": {
+                    "0": 0.005779800825941751
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

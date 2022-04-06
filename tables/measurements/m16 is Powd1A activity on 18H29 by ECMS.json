@@ -1,0 +1,17 @@
+{
+    "id": 16,
+    "name": "m16 is Powd1A activity on 18H29 by ECMS",
+    "sample": "Powd1A",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "18H29",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18H29_Powd1A_16O\\01 YangRu1A 18H29 18H29_powders.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "129",
+    "EC_tag": "01...",
+    "category": "activity"
+}

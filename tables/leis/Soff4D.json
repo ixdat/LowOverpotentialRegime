@@ -1,0 +1,58 @@
+{
+    "file": "Soff4D.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008 - before crash/Mono 400\u00b5m/Soff4D/He ISS.avg",
+            "pickle_name": "Soff4D__2019-10-22 22_28_39__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 22:28:39",
+            "timestamp": 1571776119.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Soff4D/He ISS.avg",
+            "pickle_name": "Soff4D__2019-10-22 23_23_35__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-22 23:23:35",
+            "timestamp": 1571779415.0,
+            "comment": "",
+            "note": "'19J22_after_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 81.24017368197534
+                },
+                "O18": {
+                    "0": 18.75982631802467
+                },
+                "c_16": {
+                    "0": 0.5954675071023158
+                },
+                "c_18": {
+                    "0": 0.10204976954350639
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 75.18936851527216
+                },
+                "O18": {
+                    "0": 24.810631484727843
+                },
+                "c_16": {
+                    "0": 1.4099712402028037
+                },
+                "c_18": {
+                    "0": 0.3452928813769086
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

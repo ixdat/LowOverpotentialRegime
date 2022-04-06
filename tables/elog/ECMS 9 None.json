@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 9,
+    "date": null,
+    "field_data": {
+        "ID": 9,
+        "Date": "Thu Jun 29 15:38:07 2017",
+        "Record date": "2017-06-29 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Scott10",
+        "Sample Name": "Scott10, NiFe NPs on Au, fresh from vacuum",
+        "Removed from vacuum": "15s",
+        "RE_vs_RHE": "1.396",
+        "Resistor": "",
+        "Chip": "SI08-1",
+        "Electrolyte": "0.1 M KOH",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "New chip. SI07 looks broken, may be reason air signal was high earlier today.\nQMS timestamp 13:52:07\n\nLoadlock vented in N2, just like previous several samples in this project.\nO18 drop applied within about 15 seconds from opening of loadlock.\n\n04...\nDrop experiment goes fine, a bit less active than Scott09, may be isotope effect.\n\n05...\nECMS shows a lot of noise. Bubble observed in RE. Need more potential for good signal. Isotope effect can't\nexplain now that I'm in normal electrolyte.\n\n06...\nall internal calibrations at 5 uA/s\n\n07...\nremoved bubble from RE and tried CV's with hold at UPL again (same as 05..., but looking much better!)\n2 5 mV/s scans</pre></td></tr>\n"
+}

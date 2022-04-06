@@ -1,0 +1,17 @@
+{
+    "id": 223,
+    "name": "m223 is John4C exchange on 19L21 by ECMS",
+    "sample": "John4C",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19L21",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19L22_John_and_Legend\\pickles\\19L21_John_and_Legend_04.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "273",
+    "EC_tag": "04...",
+    "category": "exchange"
+}

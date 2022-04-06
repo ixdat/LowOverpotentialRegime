@@ -1,0 +1,67 @@
+{
+    "setup": "ECMS",
+    "number": "257",
+    "date": "19J21",
+    "field_data": {
+        "ID": 257,
+        "Date": "Mon Oct 21 15:17:54 2019",
+        "Record date": "2019-10-20 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Stoff",
+        "Sample Name": "Reshma4, Trimi1, Soff4A, Stoff4B, Stoff4C, Stoff4E, Stoff4F. Stoff are Ru(18)O2 sputtered today at 400 C",
+        "Removed from vacuum": "out of sputter chamber around 17:00",
+        "RE_vs_RHE": "0.656",
+        "Resistor": "100",
+        "Chip": "Danchip-13-B2",
+        "Electrolyte": "1.0 M HClO4, newly prepared",
+        "pH": "0",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma4": [],
+        "_MS_data": [
+            186,
+            200
+        ],
+        "Stoff4E": [
+            184
+        ],
+        "Stoff4F": [
+            185
+        ],
+        "Reshma4F": [
+            187
+        ],
+        "Trimi1": [
+            188,
+            189,
+            190,
+            191
+        ],
+        "Stoff4A": [
+            192
+        ],
+        "Stoff4B": [
+            193
+        ],
+        "Stoff4C": [
+            194
+        ],
+        "Easter1C": [
+            195
+        ],
+        "Stoff1D": [
+            196
+        ],
+        "Easter1B": [
+            197,
+            198
+        ],
+        "Easter1D": [
+            199
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "01... Stoff4E way too hairy. Want nicer-looking data for the overnight run.\n\n02... Stoff4F periodic air bubbles instead. I can work with this. \nLeft running overnight. Problems with data transfer prove to be due to U-drive connectivity failure! Perhaps\nthere is no problem with the potentiostat communications after all, and the issue just comes when trying to save\ndirectly on the Network drive?\n\nCan't really see any exchange... \n\nElectrolyte collected.\n\n-------- 19J21 --------\n\n01... Reshma4F looks fine, no exchange. Required Teflon tape around the sides of the electrode to get it to sit\nin the cell.\n\n02.. through 04... Fuck, tilty Pt CV's! Cleaned out the spilled electrolyte from the clamping ring between 02\nand 03. CHanged chip in the process, to B2. Dissassembled and saw it was completely wet inside u-cup behind electrode\nbetween 03 and 04. The latter\nhelps, but the CV's are still tiltly! The measured OCV makes sense for Pt but is also close to the intersection\nof the tilt. \nIf I can't get a decent Pt CV, I can't trust anything. \nChanging u-cup this time. Again, there was a bit of eectolyte in the u-cup. I think it's been deformed by the\nTeflon tape used with Reshma4F.\n\n05...\nMuch better! Cathodic region a bit below zero, but improves as air signal falls, indicating it is real ORR...\nCentered after I get a coffee.\nGot a few cycles at lower scan rate and a CO strip to check if capacitance is always fucked on this setup or just\nfor Cu or just when the u-cup isn't tight enough or what.\n\nmass-transport-limited HOR current is about half of what it should be!\nI should test this with the spacer at some point to prove the o-ring increases working distance. Not today, though.\n\nRE_vs_RHE = 0.656\n(This IS significantly different than the old electrolyte, for which I find a calibration of RE_vs_RHE=0.685)\n\n5 minutes at 100 uA. Doesn't stabilize. I think RuOx has higher FE for OER under this experiment than Pt. No sign of\nKoper's third H desorption peak.\n\n\n06... Stoff 4A\ndamn, seems there's no exchange on these 400C Ru(18)O2 films. The labeling is only evidenced by the m/z=46 in\nthe advantitious carbon.\n\nOtherwise experiment is going good!\nBumped alligator clip a bit while collecting the 2 min sample, potential jumped. 10 min extraction goes perfectly,\ncan't even see it in the potential. \n\n\n07... Stoff4B, 30 uA\n\nWaiting a bit longer with Stoff4C, for lower background.\n08... Stoff4C, 10 uA\n\nDamn, there seems to be almost 10 uA worth of CO2 the whole way through.\n\n09... Easter1C, 100 uA, overnight\nI'm not really hapy about how much that OCP is moving!\nBut the CV looks okay, with a sharp start. Low apacitance, though! As low as Stoff. Easter should be much higher. Oh,\nit looks like shit. \nYes! Clear lattice O evolution. A good way to end the day :D\nI am a bit in doubt about whether the whole electrode is wet because of the low cap and noise in the CV. It probably is,\nsince the potential is just below 0.8 V vs RE, whereas it was just above for Stoff at the same current density. In any\ncase, this will have to do. I have a date.\n\n10... Stoff1D.\nMultipoint goes smooth, don't see any exchange.\nCan not get clear extraction! CO oxidation activity increases after scanning into H region\nNo exchange in final OER either\n\n11... Easter1B\nCan't really see any exchange at 30 uA. Lost control, OCP goes crazy after withdrawing electrolyte, big air signals.\nStarting over.\n\n12... Easter1B\nClear exchange at 100 uA! Again no clear exchange at 30 uA. Integrating will tell.\n\n\n13... Easter1D\nWanted an activity and exchange vs potential measurement with the last Easter. Need Teflon tape between u-cup and cell to\nhold it in place. Fuck, absolutely terrible tilt. Tilt is changinging, too. Whatever, just gonna let it run while I set up\nthe theta probe.\n\n\n... Stoff4G: rinsed in milliQ like the others.</pre></td></tr>\n"
+}

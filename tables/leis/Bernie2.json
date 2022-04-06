@@ -1,0 +1,34 @@
+{
+    "file": "Bernie2.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS_cont/Mono 400\u00b5m/Bernie2/He ISS.avg",
+            "pickle_name": "Bernie2__2019-04-19 16_17_55__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 16:17:55",
+            "timestamp": 1555683475.0,
+            "comment": "",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 81.43868787269851
+                },
+                "O18": {
+                    "0": 18.5613121273015
+                },
+                "c_16": {
+                    "0": 0.339666861497935
+                },
+                "c_18": {
+                    "0": 0.0574549001791062
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

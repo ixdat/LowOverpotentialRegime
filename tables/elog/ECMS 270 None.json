@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 270,
+    "date": null,
+    "field_data": {
+        "ID": 270,
+        "Date": "Tue Dec 17 16:03:16 2019",
+        "Record date": "2019-12-17 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Calibration",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "in air since last time",
+        "RE_vs_RHE": "0.656",
+        "Resistor": "50",
+        "Chip": "Danchip-13-C6, bag-B2, bag-C1",
+        "Electrolyte": "1.0 M HClO4",
+        "pH": "0",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "Using a new chip from the plastic bag.\n\nbag-B2 seems to have a blocked capillary.\n\nbag-C1 not blocked. Drop test looks good.</pre></td></tr>\n"
+}

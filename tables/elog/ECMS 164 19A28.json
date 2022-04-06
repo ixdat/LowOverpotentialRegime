@@ -1,0 +1,31 @@
+{
+    "setup": "ECMS",
+    "number": "164",
+    "date": "19A28",
+    "field_data": {
+        "ID": 164,
+        "Date": "Mon Jan 28 12:56:28 2019",
+        "Record date": "2019-01-28 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Evans9, Evans5",
+        "Removed from vacuum": "Prepared by Choongman 19A11",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "100",
+        "Chip": "?-C4",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans9": [
+            115
+        ],
+        "Evans5": [
+            107
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Fuck, chipped Evans9, whcih otherwise looked fantastic, with the metal tweasers while trying to remove it from \nthe carbon tape Choongman used in the petri dish. Carbon tape doesn't come off, rips off, then I remove it from \nthe bottom of the sample (upside down on mounting block) with ethanol and kimwipe.\n\n01...\nWow, it's tricky to get a steady O2 signal. This definitely does not do it (though, coincidentially, it gives me \nan approximately constant m/z=48 signal). Maybe constant potential would be better. At least everything is \nbehaving as makes sense for a high-surface-area catalyst with lots of carbon junk on it and 100 Ohm behind the \nWE.\n\nCapacitance at 1 mV/s about 3/4 that of Evans6.\n\nLooks a bit less active than Evans6! Seeing clear OER at 80 mV overpotential, 7500s, but not really at 60 mV or 70 \nmV (8600 s).\n\nCycled 10 times, pausing at endpoints (0 and +1.4 v vs RHE)\n\n02...\nDamn, looks like crazy ohmic drop. Whatever, cycling at 20 mV/s, pausing at endpoints. This is the last in this round \nof 18O.\n\nLeft with heating power source at 100 and a big drop of normal water on top.</pre></td></tr>\n"
+}

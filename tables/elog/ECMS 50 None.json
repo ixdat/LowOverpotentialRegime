@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 50,
+    "date": null,
+    "field_data": {
+        "ID": 50,
+        "Date": "Fri Oct  6 13:55:26 2017",
+        "Record date": "2017-10-06 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "OERx",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "left in air overnight",
+        "RE_vs_RHE": "1.25 is just a guess",
+        "Resistor": "",
+        "Chip": "SI-3iv1-2-B4",
+        "Electrolyte": "0.1 M KOH in H2(18)O but ill-defined",
+        "pH": "13 is just a guess",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "in CO2, in 500ul O18-labeled water from the new order. Will need to make fresh KOH stock solution.\n\n\n01... whoa, I don't know where RHE is.\n\n02... Damn, squigglies, like mad. But nice signals. Beautiful M36/M34 ratio, 12:1 or so. Ate pizza while it cycled. \n\nThen changed CE electrolyte to 1.0M KOH.\n03... doesn't seem to have made much difference. That's crazy, it makes nice circles if paused at the cathodic\nlimit. Okay, this is not something I should spend time studying in expensive water.\n\n04... pH changes like mad at high currents judging by the fact that the electrolyte releases CO2. unnessicarily\nmany repeats of calibration points because Stefano and then Ib and then Victor came to talk to me. Still can't\nreally detect below 1uA. \n\n\n05... sign error on one of the potential limits.\n\n06... cycles still look shitty in anodic sweep after cathodic turn.\n\n07... through 09... figuring out how to get a smooth CO strip\n\n10... in base, CO seems to be oxidized rather than adsorbed, almost no stripping observed. It also seems like a\ntiny bit of CO comes off during anodic scan, whether or not it's dosed.\nCA and CV in hydrogen desorption region unstable, but I can get a smooth program by \"drifting\" out of it at OCV.\nI can stabilize a CA there by poisoning the electrode first, 12th loop, 17100s, 31000s in EC.\n\nI don't see any CO2 at any isotope, just a background at 44 and 46 that rises with CO, I guess due to reaction\nwith water in the vacuum system.  I guess I was hoping to see just the \"fast\" isotope of CO2, which would have\nbeen the case if water + CO2 --&gt; carbonic rate constant was pH independent (i.e. if OH- + CO2 --&gt; HCO3- didn't\nhappen). \n\nTried just cycling in CO, but changed Nr instead of Nc :(, lost a cycle. That cycle seems to have included a\nhuge pH change, since now I'm seeing the CO2.\n\nIsotope ratio has started worsening. Gotta move on. I'll just get a cycle or two first.\n\nSweet! I can scan through what would be thethe H desorption region when the electrode is poisoned with CO!\n\nI think the data I'm picking up around 19000s, 5000s can tell me a lot about carbonic kintecis, pH model, etc.\n\nYup, current comes right away, CO2 comes later. I think the  combined CO2 signal normalized to current can tell\nme the pH. But does the isotope ratio change with pH? That's the most exciting thing. It'll take a lot of\nelectrolysis to go through the buffer point at pH=6.3, but I'll give it a try.\nNeed more CO... Ahh, you know what, whatever, I have this data in acid and at some other pH (probably\nnear-neutral). And I have input for the pH model from the O2 calibration. \n\n\n11...\nNo isotope exchange on Pt surface in alkaline either.\n\nquick cal of H2 and pH change before getting out of here.\n12... fuck, forgot acquisition rate, swamped buffer\n13...\n\n\nDone with this shit.</pre></td></tr>\n"
+}

@@ -1,0 +1,17 @@
+{
+    "id": 232,
+    "name": "m232 is Legend4C exchange on 20A08 by ECMS",
+    "sample": "Legend4C",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "20A08",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\20A08_Decade_and_friends\\pickles\\20A07_testing_04.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "277",
+    "EC_tag": "04...",
+    "category": "exchange"
+}

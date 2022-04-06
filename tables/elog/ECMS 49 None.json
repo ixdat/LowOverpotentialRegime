@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 49,
+    "date": null,
+    "field_data": {
+        "ID": 49,
+        "Date": "Thu Oct  5 13:23:07 2017",
+        "Record date": "2017-10-05 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "OERx",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "left overnight in cell in 120C oven",
+        "RE_vs_RHE": "0.747 (inferred). Probably more like 0.710",
+        "Resistor": "",
+        "Chip": "SI-3iv1-2-B4",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "stood in HClO4 overnight to be rinsed and dried in the oven today.\nInjected used H2(18)O from yesterday in bongs to minimize diffusion dilution effect.\n\nYes!yes!yes! Beautiful mount after 9000s, much less M48, great M20/M18 ratio\n\n01... beautiful Pt CV, stabilized over lunch.\nM36/M34 ratio is like 12:1! That means 4% H2(16)O in electrolyte. Beautiful beautiful. \n\n02...\nnice 10mV/s scans\n\nO2 dosing at 0.053 V vs RE, CO introduced at sampe potential\n\nIsotope exchange in CO oxidation at 14200s, 1588s in EC-lab file. Spike in M44 when CO is let in!\nCurrent dips to -0.1uA before going up to 2uA and then stabilizing at 0.8 uA\n\ncontrol without O2 dosing at 17700s, 5050s in EC-lab file. No spike in M44 when CO is let in! \nCurrent dips to -0.1uA before going up to 1uA and then stabilizing at 0.4 uA\n\n\"control\" holding at -0.397 instead of during O2 and CO dosing. At 21300s, 8700s in EC\n Unexpectedly: still get CO ox at all isotopes, including spike at M44.\n\nIsotope ratio has clearly started deteriorating at 24000s. (15000s of good experiment time)\n\n\nControl holding at -0.647 vs RE during O2 dose and CO dose at 25400, 12800. \nStill get spike! Maybe O still gets on and iss still reactive?\n\nControl dosing O2 at +0.353, then (in He) scanning down through reduction peak, to -0.647, there's no way I've put\nO16 on the surface now, CO dosing at -0.647 V vs RE at 29400s, 16800s. Still spike in M44 and M46. It's on the\nvacuum side of the membrane :( ... I have showed no lattice exchange today.\n\nCO stripping at 31300s,  went had a discreet jump in EC program :(, but MS signals show what ML sensitivity is.\nIt's not all that much more than the transient :(\n\nTrying the experiment one more time, to see if it gives more than the controls.\nDamnit, another discrete bet at 20000s in EC, where it should have just waited while I talked to Daniel. I'm getting\ntired... Probably lost the O2 that I had dosed on the surface.\n\nMore or less a repeat of the last control again at 33500s, 20850s\n\nManaged to \"trigger\" CO oxidation with an O2 injection at 0.203 V vs RE, \n\nMaking CO at -0.647 V vs RE, 36100s, 23400s\n\nIt looks like O2 ignites CO oxidation near 0 V vs RHE but not at +0.7 V vs RHE. wtf?\n\n\nWasn't able to elegantly prove lattice exchange, despite excessive trying under worsening conditions (more O16 than O18)\n\n\n\n\ndecent CO strip at 42000s\n\nPut in CO2 at 42300s. More interatction with electrolyte than I expected. This is really really cool.\n\n03...\nlazy but adequate internal calibrations for O2 and CO2. Actually, quite shitty for CO2, sorry. It's kindof stable at 10uA,\nhope that's enough.\n\nPushing the syringe a tiny bit at 45400s shows there was a much nicer isotope ratio available right next to the working\nvolume all along, though with some air and CO2 dissolved in it.\n\n\nSOOOO MUCH DATA TO ANALYZE!!! This day has been insane.</pre></td></tr>\n"
+}

@@ -1,0 +1,34 @@
+{
+    "file": "Maundy4Si.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS_cont/Mono 400\u00b5m/Maundy4Si/He ISS.avg",
+            "pickle_name": "Maundy4Si__2019-04-19 16_17_56__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-04-19 16:17:56",
+            "timestamp": 1555683476.0,
+            "comment": "",
+            "note": "'19D19_labeled_RuO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 73.59990820995225
+                },
+                "O18": {
+                    "0": 26.400091790047746
+                },
+                "c_16": {
+                    "0": 0.355838933973578
+                },
+                "c_18": {
+                    "0": 0.09472783651296542
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

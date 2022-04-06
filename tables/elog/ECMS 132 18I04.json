@@ -1,0 +1,30 @@
+{
+    "setup": "ECMS",
+    "number": "132",
+    "date": "18I04",
+    "field_data": {
+        "ID": 132,
+        "Date": "Tue Sep  4 12:24:30 2018",
+        "Record date": "2018-09-04 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Reshma1B",
+        "Sample Name": "Reshma1B, RuO2 sputtered at RT",
+        "Removed from vacuum": "In air since last time",
+        "RE_vs_RHE": "0.730",
+        "Resistor": "",
+        "Chip": "",
+        "Electrolyte": "0.1 HClO4 in H2(18)O",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma1B": [
+            33,
+            34,
+            35
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Really shitty CV's. 10 mV noise on RE.\n100 Ohm at first, then 500 Ohm. \n02...\nno resistor. Still shit. Worse actually. Hope I didn't reduce surface.\n03...\nResistor on again at 500 Ohm. Gonna live with it. Dosed O2 while cycling, removed while at 1.2 V vs RHE, idea is\nto catch *(16)O(16)OH. \nTwo first cycles after have identical isotope ratios, still haven't seen O stripping!\nEnding and giving sample to Ejler.</pre></td></tr>\n"
+}

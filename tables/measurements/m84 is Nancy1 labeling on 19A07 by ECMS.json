@@ -1,0 +1,17 @@
+{
+    "id": 84,
+    "name": "m84 is Nancy1 labeling on 19A07 by ECMS",
+    "sample": "Nancy1",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "19A07",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19A08_Nancy_prep\\pickles\\Nancy1_01_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "158",
+    "EC_tag": "01...",
+    "category": "labeling"
+}

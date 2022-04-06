@@ -1,0 +1,106 @@
+{
+    "file": "Goof1D.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS/Mono 400\u00b5m/Goof1D/He ISS.avg",
+            "pickle_name": "Goof1D__2019-05-09 16_17_00__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-09 16:17:00",
+            "timestamp": 1557411420.0,
+            "comment": "",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E10_ISS_try3/Mono 400\u00b5m/Goof1D/He ISS.avg",
+            "pickle_name": "Goof1D__2019-05-10 10_38_41__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-10 10:38:41",
+            "timestamp": 1557477521.0,
+            "comment": "",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Goof1D/He ISS.avg",
+            "pickle_name": "Goof1D__2019-10-20 21_20_40__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 21:20:40",
+            "timestamp": 1571599240.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Goof1D/He ISS.avg",
+            "pickle_name": "Goof1D__2019-10-20 20_22_03__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-10-20 20:22:03",
+            "timestamp": 1571595723.0,
+            "comment": "",
+            "note": "'19J20_before_new_tests'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 30.98888553045061
+                },
+                "O18": {
+                    "0": 69.0111144695494
+                },
+                "c_16": {
+                    "0": 0.0001235068373312738
+                },
+                "c_18": {
+                    "0": 0.00020412682184887317
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 51.22274110867643
+                },
+                "O18": {
+                    "0": 48.77725889132358
+                },
+                "c_16": {
+                    "0": 0.032218406497106805
+                },
+                "c_18": {
+                    "0": 0.022769559145330784
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 17.434384820794634
+                },
+                "O18": {
+                    "0": 82.56561517920538
+                },
+                "c_16": {
+                    "0": 0.16161106194181252
+                },
+                "c_18": {
+                    "0": 0.5680148204009648
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 17.588210444103527
+                },
+                "O18": {
+                    "0": 82.41178955589648
+                },
+                "c_16": {
+                    "0": 0.28259711436265866
+                },
+                "c_18": {
+                    "0": 0.9827236421373937
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

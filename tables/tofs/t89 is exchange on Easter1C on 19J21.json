@@ -1,0 +1,18 @@
+{
+    "tof_type": "exchange",
+    "rate": 8.866429229749306e-14,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 26,
+    "tspan": [
+        900.0,
+        9000.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "steady then catostrophic failure overnight",
+    "t_id": 89,
+    "amount": null,
+    "sample_name": null
+}

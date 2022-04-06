@@ -1,0 +1,18 @@
+{
+    "tof_type": "activity",
+    "rate": 2.7129748741737346e-10,
+    "tof": 0.012122820553739552,
+    "potential": null,
+    "current": 0.00010002616486701221,
+    "e_id": 32,
+    "tspan": [
+        2000.0,
+        43000.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "steady overnight",
+    "t_id": 134,
+    "amount": null,
+    "sample_name": null
+}

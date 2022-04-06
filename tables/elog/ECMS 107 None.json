@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 107,
+    "date": null,
+    "field_data": {
+        "ID": 107,
+        "Date": "Sun Apr 22 11:17:21 2018",
+        "Record date": "2018-04-22 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Roy2",
+        "Sample Name": "Roy2, electrodeposited NiFe",
+        "Removed from vacuum": "In air since a few days ago.",
+        "RE_vs_RHE": "1.350",
+        "Resistor": "",
+        "Chip": "SI-3iv1-4-E1",
+        "Electrolyte": "0.1 KOH in H2(18)O",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "the Pt coil at the bottom of the CE bong block it off.\n\n01... whoa! sample seems way to active, or the RE_vs_RHE has shifted. But how???\nMaybe I needed the 10 Ohm.\nFuck, there's a big m/z=32 O2 spike in the first (Irange maxing) cycle, 4350s which I don't know whether or not\nis air since I made the stupid decision of not including m/z=40 or m/z=28. \n\n\nReally ugly O2 peak shapes, unusable data.\nI'm quite confident that M/Z=32 was air, since it has the exact same shape and height as a later m/z=32 spike at\n4770 sm\n\nThe m/z=34 signal perfectly follows the m/z=36 except for during the air spike, where it overshoots an amount\nthat I'm sure corresponds to the air signal. So despite small flaws in the data, I'm confident this supports our\nconsistent observation of no lattice exchange on this material.\n\n02...\nFirst cal point, at 50 uA, starts in control amplifier overload. Fixed by tugging a bit on CE. NOt sure if the\nbubbles are coming from the CE or this little solid chunk of something at the bottom of the bong bowl. \nAh shit, it's not the CE, or maybe it is... it's tough to tell because of the curved glass lensing...\n\nDamnit, forgot triggers in the EC-Lab program.\n\nAnd god damn, I can't get a square wave for calibration.\nI just pulled max current, 250 uA, for 2 mins at 7100s. Noisy, but this will work for calibration.\n\nNow, just trying to get a decent CV\n03...\ntoo much current, need Irange=1mA\n04...\nwhoa holy shit this sample is active. Comparing with Roy1, the onset is 100 mV earlier (but the Au peak is also\nshifted 50 mV, so probably only 50 mV earlier, and the tafel slope is HUGE. The Au shift, I don't know whether is\ndue to shift in RE or to the Au being less accessible under the film. Shift in pH would make it more acidic, nove\nthings the opposite direction, to more anodic potential on RE scale. \n\n07... - 08... RE_vs_RHE=1.350 in the electrolyte. But Pt is showing OER starting just above 1.5 V vs RHE. Perhaps\nit got contaminated by the Ni? Haha, definitely is. You can see the NiFe oxidation peak in the second cycle.</pre></td></tr>\n"
+}

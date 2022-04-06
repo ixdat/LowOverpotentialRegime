@@ -1,0 +1,20 @@
+{
+    "id": 225,
+    "name": "m225 is Trimi1 calibration and RHE on 19L21 by ECMS",
+    "sample": "Trimi1",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19L21",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19L22_John_and_Legend\\pickles\\19L21_John_and_Legend_06.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "273",
+    "EC_tag": "06...",
+    "category": [
+        "calibration",
+        "RHE"
+    ]
+}

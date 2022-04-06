@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 48,
+    "date": null,
+    "field_data": {
+        "ID": 48,
+        "Date": "Wed Oct  4 11:33:51 2017",
+        "Record date": "2017-10-04 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "OERx",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "left in air since yesterday",
+        "RE_vs_RHE": "0.747, inferred",
+        "Resistor": "",
+        "Chip": "SI-3iv1-2-B4",
+        "Electrolyte": "0.1M HClO4",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "a1) Pt + H2(18)O -&gt; Pt(18)OH + H+ + e-     at ~1V vs RHE coming from below \nb1) Pt(18)OH + C(16)O -&gt; Pt + C(16)O(18)O  + H+ + e-     at ~1V vs RHE, with CO in carrier gas, \n    signal at m/z=46\n\nOR:\na2) Pt + (16)O2 + 3H+ + 3e- -&gt; Pt(16)OH + H2O     at ~1V vs RHE coming from below, with O2 in carrier gas\nb2) Pt(16)OH + C(16)O -&gt; Pt + C(16)O2 + H+ + e-      at ~1V vs RHE, with CO in carrier gas,\n    signal ant m/z = 44\n\n\nTried mounting with 1ul syringe. QMS timestamp 08:33:37\n\nWhat on earth is all the signal at m/z = 46???\n\n01... contact, then no contact.\n\nRemounted, again this time back to glass syringe. Used ever last drop of the 250 ul, but seems good.\n\nthere's m/z = 46 again! Taking a full scan, timestamp 11:20:28 (comment says something with Novozymes)\nThere's a whole lot of m/z = 48, 46, and 44, in that order. The perchlorate electrolyte is burning something.\n\nNew QMS timestamp 11:34:25\n02... beautiful. cycling till it's stable. The ratio looks like M34/M36 is only 1:3 now, but it's stable.\n\n\n03... still no lattice exchange in OER on Pt, no matter when you give it the (16)O2.\n\n04... The CO oxidation isotope exchange experiment. Ooohhh, this is a tricky one. Difficult to completely remove\nO2 from CO, especially if I want to hold it in O2 for a significant time (9000s). \n\nBut... if rxn a1) takes place, there should be a potential at which I dose oxygen and get a transient\ncurrent.... POSITIVE of the 1.41.\n\nThat may actually be what I'm looking for, 3960s in the EC-lab file (04...), 10700s in the QMS file. Holding it\nfor a while to get O2 commpletely removed from the loop.\nI'm loosing my water ratio (following M18 and M20) to back diffusion. Need a transient. Going to give a long CO\ndose. I need a different ratio at start compared to finish.\n\nIs this it, is this what I'm looking for???? \nAt 11350s, M46 and M44 have different shapes. But it's so subtle... It's so subtle I'd have trouble convincing\nanyone it's not an effect in the vacuum system.\nI will have to do a control where the O2 is dosed a lower potential, where I don't expect it to stick.\n\nM48 signal during COox really unexpected. Fascinating. Points to steps or contamination.\nM48/M46/M44 ratio doesn't match M32/M34/M36 ratio, but deviation doesn't seem potential (or, convoluted, partial\npressure) dependent.\n\nCouldn't get it decisively. Isotope ratio getting worse and worse. Left with Matthias 17:30. More tomorrow.</pre></td></tr>\n"
+}

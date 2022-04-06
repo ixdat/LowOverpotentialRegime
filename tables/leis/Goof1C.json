@@ -1,0 +1,58 @@
+{
+    "file": "Goof1C.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS/Mono 400\u00b5m/Goof1C/He ISS.avg",
+            "pickle_name": "Goof1C__2019-05-09 16_17_00__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-09 16:17:00",
+            "timestamp": 1557411420.0,
+            "comment": "",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E10_ISS_try3/Mono 400\u00b5m/Goof1C/He ISS.avg",
+            "pickle_name": "Goof1C__2019-05-10 10_38_41__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2019-05-10 10:38:41",
+            "timestamp": 1557477521.0,
+            "comment": "",
+            "note": "'19E09_tested_IrO2'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "0": {
+                "O16": {
+                    "0": 19.04131765667742
+                },
+                "O18": {
+                    "0": 80.95868234332258
+                },
+                "c_16": {
+                    "0": 0.05405613628209976
+                },
+                "c_18": {
+                    "0": 0.1705718750860203
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 33.538615514042874
+                },
+                "O18": {
+                    "0": 66.46138448595713
+                },
+                "c_16": {
+                    "0": 0.065822076697939
+                },
+                "c_18": {
+                    "0": 0.09680367019209
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

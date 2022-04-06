@@ -1,0 +1,34 @@
+{
+    "setup": "ECMS",
+    "number": "180",
+    "date": "19B27",
+    "field_data": {
+        "ID": 180,
+        "Date": "Wed Feb 27 08:59:17 2019",
+        "Record date": "2019-02-24 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Bernie, labeling",
+        "Sample Name": "Bernie are nominally 25 nm Ru deposited at 200 C. Some look bad.",
+        "Removed from vacuum": "Sputter deposited last weekend",
+        "RE_vs_RHE": "0.715",
+        "Resistor": "400, then 100, see text.",
+        "Chip": "14-C5",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Bernie2": [
+            147
+        ],
+        "Bernie3": [],
+        "Bernie4": [],
+        "Bernie5": [],
+        "Bernie6": []
+    },
+    "measurement_EC_tags": {
+        "147": "01..."
+    },
+    "notes": "Melih samples in existence.) Bernies 1-6 were labeled that day.]\n\n\nStill got noise on OCV. Think we showed it wasn't RDE stick. RE, maybe? Switched out Scott's RE for Anna's.\nLooks better. \n\n\nGave Bernie1 (best-looking 200 C Ru) to Jakob for thermally oxidizing in O18, along with Melih2 (deposited half\na year ago at 400 C).\n\n01... [Bernie2]\nEC looks beautiful. MS only slightly hairy. Giving it 15 minutes total. 100 uA at ~210 mV overpotential, but\nwith 400 Ohm resistance (forgot to change). All looks good.\n\n\nChoongman came and labeled Oscar1 and Oscar2 (RuNiOx) by 2x(2 nim at -0.05 V vs RHE, 2 min at +1.45 V vs RHE)\n(Oscar1) or 3x(2 min at -0.05 V vs RHE, 2 min at +1.43 V vs RHE) (Oscar2).\n\nData in RuNiO/19B14_Ru4NiO-400C_18O\n\n02... Melih3 [Bernie3], starting 13500 s. Resistor is at 100 Ohm. I want to leave soon.\n\n03... Melih4 [Bernie4], looks good.\n\n04... Melih5 [Bernie5]. OCP significantly different (~180 mV vs RE, instead of ~90 mV vs RE for previous \nsamples).\nPotentiostat complains, I don't know why, \"Don't start on E overload\" exits it.\n05.. Melih5 [Benie6], looks good. Needs LESS potential than others to reach 100 uA!!! Is this an effect of the \nTi???</pre></td></tr>\n"
+}

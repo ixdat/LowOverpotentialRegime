@@ -1,0 +1,20 @@
+{
+    "id": 120,
+    "name": "m120 is Trimi1 CO and calibration on 19A26 by ECMS",
+    "sample": "Trimi1",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19A26",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19A28_Evans_prep\\pickles\\Trimi1_05_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "162",
+    "EC_tag": "05...",
+    "category": [
+        "CO",
+        "calibration"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": 163,
+    "name": "m163 is Jazz5 exchange on 19D29 by ECMS",
+    "sample": "Jazz5",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19D29",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19D30_Easter_and_Goof\\pickles\\19D29_Goof_and_Champ_16O_01.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "211",
+    "EC_tag": "01...",
+    "category": "exchange"
+}

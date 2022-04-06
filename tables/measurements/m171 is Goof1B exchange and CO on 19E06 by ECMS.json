@@ -1,0 +1,20 @@
+{
+    "id": 171,
+    "name": "m171 is Goof1B exchange and CO on 19E06 by ECMS",
+    "sample": "Goof1B",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19E06",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19F10_Goof_and_Evans\\pickles\\19E06_Goof_01_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "214",
+    "EC_tag": "01...",
+    "category": [
+        "exchange",
+        "CO"
+    ]
+}

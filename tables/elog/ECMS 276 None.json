@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 276,
+    "date": null,
+    "field_data": {
+        "ID": 276,
+        "Date": "Mon Jan  6 22:43:21 2020",
+        "Record date": "2020-01-06 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "labeling",
+        "Sample Name": "Legend4C , Decade1G",
+        "Removed from vacuum": "Decade sputtered yesterday, Legend1C in Thetaprobe 19L22",
+        "RE_vs_RHE": "0.66, uncalibrated",
+        "Resistor": "100",
+        "Chip": "Danchip-14-C6",
+        "Electrolyte": "1.0 M HClO4 in H2(18)O",
+        "pH": "0",
+        "cleanliness": "Used yesterday by Degenhart for Cu, he saw Ni, most likely from CO. Electrolyte visibly dirty."
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "if I compensate for ohmic drop in future experiments...)\n\n01... Decade1G\nA ton of CO2 at the start, m/z=44 at first but labeled as electolyte fills. Degenhart probably didn't rinse fully.\nVery high air signal. Also a lot of noise. But CV's look great!\n\n02... Legend4C\nLooks good! Air signal still high, but CV's are awesome.\nI regret having the 100 Ohm, though. It prevents the OER activity change with roughening from coming through.\nPerhaps I should compensate for most of it, or something... no time now to play around though.\nSurface area starts smaller and remains smaller than Decade1G, ,but keeps expanding slowly the whole 100 cycles\n\nLegend4C and Decade1G seem to be about equally active. While Decade might get just a bit more active during the 100\ncycles, Decade seems to get a tiny bit less active. \n\nGod Damnit, most of Decade1G falls off when rinsing. 100 cycles may be too much.\n\n\nI'm trying to decide what to do with the setup overnight, and what to do with Trimi. I want a good CO extraction to\nshow on Friday, with both isotopes and ISS both times. Last time I tried to reproduce the result in my Thesis, ISS\nshowed no O on the Pt. Also the stub looks like shit, so I need to clean it.\nPlan now: leave the setup un-labeling (100 C with a drop of water and CO2 as carrier gas) in order to have clean\nexperiments tomorrow. Rinse the cell and leave it soaking in (un-labeled) aqua regia to get all the Ir from today\noff of it.\nFirst thing tomorrow: get thetaprobe pumping with Legend and Decade. In the meanwhile, polish and anneal Trimi1, and\ndo stuff in the RDE for practice (I need to use RDE to figure out my god damn activity irreproducibility issue). Do\na control with Reshma4. Then another with Trimi1, including labeling it. Then do exchange&amp; extraction measurements\nwith Decade and the hydrous IrO2 samples prepared today (and tested in Thetaprobe tomorrow morning). Then load up\nthe Thetaprobe with Trimi1 (labeled in 16O) and the samples I test tomorrow. Also, some time in all of this, get new\nsubstrates from Niklas and deposit some metallic Ir. \nI'm also going to need two theta-probe rounds on Wednesday, I think... </pre></td></tr>\n"
+}

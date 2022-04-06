@@ -1,0 +1,17 @@
+{
+    "id": 74,
+    "name": "m74 is Folk5 failed on 18I18 by ECMS",
+    "sample": "Folk5",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "18I18",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18I18_Folk5_16O\\01 Folk5 18I18 18I18_IrO2_RuO2_18O.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "140",
+    "EC_tag": null,
+    "category": "failed"
+}

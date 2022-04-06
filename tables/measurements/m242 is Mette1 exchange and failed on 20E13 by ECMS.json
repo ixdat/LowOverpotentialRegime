@@ -1,0 +1,20 @@
+{
+    "id": 242,
+    "name": "m242 is Mette1 exchange and failed on 20E13 by ECMS",
+    "sample": "Mette1",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "20E13",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Choongman\\20E13 Mette\\pickles\\01_Mette1.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": 330,
+    "EC_tag": null,
+    "category": [
+        "exchange",
+        "failed"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "setup": "ECMS",
+    "number": "330",
+    "date": "20E13",
+    "field_data": null,
+    "sample_measurements": {
+        "Mette1": [],
+        "Mette2": []
+    },
+    "measurement_EC_tags": {},
+    "notes": null
+}

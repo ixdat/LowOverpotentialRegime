@@ -1,0 +1,18 @@
+{
+    "tof_type": "dissolution",
+    "rate": Infinity,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 26,
+    "tspan": [
+        160.0,
+        280.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "first 2 min",
+    "t_id": 87,
+    "amount": null,
+    "sample_name": null
+}

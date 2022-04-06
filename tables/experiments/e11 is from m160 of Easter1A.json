@@ -1,0 +1,18 @@
+{
+    "m_id": 160,
+    "experiment_type": "s",
+    "tspan_plot": [
+        -30,
+        1600
+    ],
+    "tspan_bg": [
+        0,
+        10
+    ],
+    "tspan_F": null,
+    "tspan_alpha": null,
+    "F": null,
+    "alpha": null,
+    "e_id": 11,
+    "plot_specs": {}
+}

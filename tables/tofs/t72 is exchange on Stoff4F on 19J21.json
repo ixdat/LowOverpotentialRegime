@@ -1,0 +1,18 @@
+{
+    "tof_type": "exchange",
+    "rate": -7.146453231306135e-15,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 22,
+    "tspan": [
+        500.0,
+        44444.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "overnight",
+    "t_id": 72,
+    "amount": null,
+    "sample_name": null
+}

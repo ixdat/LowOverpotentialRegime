@@ -1,0 +1,20 @@
+{
+    "id": 98,
+    "name": "m98 is Jazz2 calibration and failed on 19A09 by ECMS",
+    "sample": "Jazz2",
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "19A09",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19A10_Nancy_exchange\\pickles\\Jazz2_11_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "160",
+    "EC_tag": null,
+    "category": [
+        "calibration",
+        "failed"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "setup": "ECMS",
+    "number": "134",
+    "date": "18I12",
+    "field_data": {
+        "ID": 134,
+        "Date": "Wed Sep 12 14:01:34 2018",
+        "Record date": "2018-09-12 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Folk1",
+        "Sample Name": "Folk1, 10 nm IrO2 on 5 nm Ti on glassy carbon",
+        "Removed from vacuum": "removed from sputter chamber ~ 2 hours ago",
+        "RE_vs_RHE": "0.720",
+        "Resistor": "500 Ohm",
+        "Chip": "",
+        "Electrolyte": "0.1M KOH in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Folk1": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+        ],
+        "Reshma3B": [
+            50
+        ],
+        "Reshma4B": [
+            51,
+            52,
+            53
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "500 Ohm!\n01... very active. \n02... Is the cathodic current on the (only one!) sweep down to ~0 V vs RHE H adsorption or IrO2 reduction? Nice\nRHE calibration, RE_vs_RHE=0.720.\n03... everything going well. Activity seems a bit decreased after RHE calibration\n05... 1 uA repeated\n06... if anything OCV went down 5 mV when introducing O2.\nOER activity looks identical in He and in O2.\nRecalibrating HER: Does not look even a little bit similar... OCV in H2 looks the same (or maybe shifted 2 to 3\nmV, to 0.717... no, still 0.720), but surface is MUCH less active for HOR. What's up with that?\n\nResistance changed to 0 V at cycle 6, 1:37:31 into EC file 06...\nSquiggles quickly grow out of control. Put resistor back to 500 Ohm when I realized it might be roughening the\nelectrode surface. Potentiostate IMMEDIATELY regains control. Electrode looks more active afterwards, but the\nactivity is transient.\n\n----- Reshma3B -------\n500 Ohm\nNo contact to RE, fixed by flowing a bit through RE hole, then looks good!\n01... CV's look great. Doing a few extra to 0.730 V vs RE (1.45 V vs RHE) to let it stabilize, as activity is\nincreasing from one cycle to the next. As usual, no sign of lattice exchange.\nLooks stable enough after 8 cycles. Three cycles at 1.425 V vs RHE. \nCurrent oscilates a bit after switching to O2 (1:00 in EC, 27500 in MS)\n\n----- Reshma4B -------\n500 Ohm\n01... some electrochemical noise on first anodic sweep. And all the anodic sweeps. It's pretty gross. But...\nActivity matches Reshma4A from 18H28! :) \nOkay, noise not getting better. Taking a radical step. Pulled sample back by rotating RDE stick hat with pliers.\n02... - 03... No success. I'm stuck with this.\nBest cycle is cycle 2 of 03... This can maybe be plotted nicely (enough) bu just smoothing the current.\n\nNoise continues during potential holds, but O2 signal looks nice and square. Activity is no problem, but I don't\nknow if I can get faradaic efficiency out of this data. Will probably have to do it again.</pre></td></tr>\n"
+}

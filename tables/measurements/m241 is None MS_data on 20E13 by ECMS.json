@@ -1,0 +1,17 @@
+{
+    "id": 241,
+    "name": "m241 is None MS_data on 20E13 by ECMS",
+    "sample": null,
+    "technique": "ECMS",
+    "isotope": null,
+    "date": "20E13",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Choongman\\20E13 Mette\\20E13 Mette_MS_data.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": 330,
+    "EC_tag": null,
+    "category": "MS_data"
+}

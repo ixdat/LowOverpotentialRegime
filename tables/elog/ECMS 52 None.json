@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 52,
+    "date": null,
+    "field_data": {
+        "ID": 52,
+        "Date": "Wed Oct 11 13:59:32 2017",
+        "Record date": "2017-10-11 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Scott11",
+        "Sample Name": "Scott11, 7nm NiFe NP's on Au, 22% coverage",
+        "Removed from vacuum": "left in air since yesterday",
+        "RE_vs_RHE": "1.385, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-2-F2, SI-3iv1-1-D4",
+        "Electrolyte": "0.1 M KOH, 0.1 M KOH in H2(18)O",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "01... weird behavior of M2 during mount. Beautiful CV's, Stable after 20 cycles. But... Position of Ni ox peak\nshifts anodic for lower cathodic potential limit, and OER activity seems to increase. Maybe just more time\nbetween cycles? No change of reduction peak position or area. \n\nM32 falling. Chip breaches! \nNew chip installed, left to pump during lunch. \n\n\n02... and again in O18! Electrolyte is 4.0 ul solK in 0.5 ml H2(18)O. 16000s in QMS. Much less active than\nearlier. Need to go to 0.2 V vs RE instead of 0.15, and still get less current. M34/M36 ratio is identical in\nfirst two cycles!!!! :D\n\nRedox peaks also shifted anodic vs RE relative to O16 electrolyte. Why???\nNeed H2 on system so we can calibrate RE in small volumes.\nNone of the same effects of changing cathodic potential limit.\n\n03... nice calibration down to 1 uA. No signal at 0.5 uA.\n\n04... cycles look almost the same, a bit less area, OER as 02...\n\n19800s, removed syringe from inlet.\nWhoa! Huge air signal at 20400s. Electrode shows no change, nor does OER at M36. Bubble over membrane but not\nover chip? Doesn't look like it, inlet and outlet holes still full of electrolyte. Chip cracked?\n\nKept cycling. Increased anodic potential limit to 0.25 vs RE. Dumb, perhaps, as maybe isotope exchange is\npotential-dependent and we now have a bad background at M34 due to air signal.\n\nStopped, rinsed 5x in drops of O18 water, and gave to Jakob. In air about 10 minutes between then and pumping of\nloadlock. In vacuum at 16:06.\n\n23000s: The chip passes breath and drop test flying colors. No crack apparently. </pre></td></tr>\n"
+}

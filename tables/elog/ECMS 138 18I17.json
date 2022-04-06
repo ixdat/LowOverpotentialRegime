@@ -1,0 +1,28 @@
+{
+    "setup": "ECMS",
+    "number": "138",
+    "date": "18I17",
+    "field_data": {
+        "ID": 138,
+        "Date": "Mon Sep 17 20:06:41 2018",
+        "Record date": "2018-09-17 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Reshma 1F, ",
+        "Sample Name": "Reshma 1F is 25 nm RuO2 sputtered at RT.",
+        "Removed from vacuum": "Reshma1F was sputtered with Reshma1D last week",
+        "RE_vs_RHE": "0.720",
+        "Resistor": "500",
+        "Chip": "SI-3iv1-5-A1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma1F": [
+            67
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "Once again, as seems to be the case with RuO2 films, the dominant CO2 on the first scan is m/z=44. Very interesting.\nHuge air signal in both drop test and measurement. I suspect crack or o-ring leak. However, CV looks good and I\nshould be able to get the faradaic efficiency measurement without it. If percent accuracy is needed, I can\ncalculate how much M32 there should be based on M36 and M34.\nActivity a bit less than the previous sample, which I suspect to have been a mis-labeled Reshma1D.\n\nNP's drying in the fume hood. I'm going to head home.\n\n\n--- 18I17 -----\nActivity test looking beautiful. Allowed to run until 12 hours completed. ~15% in O2 over entire run. However, the\ncurrent jumped at two locations, indicating shunt tilt. Indeed, the post-stability activity measurments show shunt. \n\nExhcnaged O in sample for 18O from electrolyte in three reps of 2 min at -0.05 V vs RHE and +1.45 V vs RHE. Then\nrepeated activity test. Same but for shunt tilt...\nThis sample, Reshma1F, will be given OER, without any reduction, in O16 tomorrow, and then given to Ejler for I.S.S.</pre></td></tr>\n"
+}

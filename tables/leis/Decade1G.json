@@ -1,0 +1,202 @@
+{
+    "file": "Decade1G.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-08 19_35_03__thetaprobe__spot.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 19:35:03",
+            "timestamp": 1578508503.0,
+            "comment": "spot",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-08 19_35_02__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 19:35:02",
+            "timestamp": 1578508502.0,
+            "comment": "",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-08 21_39_03__thetaprobe__spot.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 21:39:03",
+            "timestamp": 1578515943.0,
+            "comment": "spot",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "3": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Decade1G/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-08 21_39_02__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 21:39:02",
+            "timestamp": 1578515942.0,
+            "comment": "",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "4": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-07 14_05_19__thetaprobe__spot.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:19",
+            "timestamp": 1578402319.0,
+            "comment": "spot",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "5": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-07 14_05_18__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:18",
+            "timestamp": 1578402318.0,
+            "comment": "",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "6": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__spot.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 16:46:49",
+            "timestamp": 1578412009.0,
+            "comment": "spot",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        },
+        "7": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
+            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 16:46:49",
+            "timestamp": 1578412009.0,
+            "comment": "",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "5": {
+                "O16": {
+                    "0": 21.959470770309487
+                },
+                "O18": {
+                    "0": 78.04052922969052
+                },
+                "c_16": {
+                    "0": 0.061445570452624186
+                },
+                "c_18": {
+                    "0": 0.1620633854893971
+                }
+            },
+            "4": {
+                "O16": {
+                    "0": 17.5628706851042
+                },
+                "O18": {
+                    "0": 82.43712931489578
+                },
+                "c_16": {
+                    "0": 0.07350119456779894
+                },
+                "c_18": {
+                    "0": 0.2560458515402756
+                }
+            },
+            "6": {
+                "O16": {
+                    "0": 20.442145274191724
+                },
+                "O18": {
+                    "0": 79.55785472580828
+                },
+                "c_16": {
+                    "0": 0.07949295830352646
+                },
+                "c_18": {
+                    "0": 0.2296049479907494
+                }
+            },
+            "7": {
+                "O16": {
+                    "0": 25.09707458540309
+                },
+                "O18": {
+                    "0": 74.9029254145969
+                },
+                "c_16": {
+                    "0": 0.06621628944663284
+                },
+                "c_18": {
+                    "0": 0.14666838471247984
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 58.22547864855656
+                },
+                "O18": {
+                    "0": 41.77452135144343
+                },
+                "c_16": {
+                    "0": 0.26322131055122555
+                },
+                "c_18": {
+                    "0": 0.14015721270194265
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 66.53685261231537
+                },
+                "O18": {
+                    "0": 33.46314738768462
+                },
+                "c_16": {
+                    "0": 0.29710859183598787
+                },
+                "c_18": {
+                    "0": 0.11089596221931938
+                }
+            },
+            "3": {
+                "O16": {
+                    "0": 33.84368158139766
+                },
+                "O18": {
+                    "0": 66.15631841860234
+                },
+                "c_16": {
+                    "0": 0.15280162116247956
+                },
+                "c_18": {
+                    "0": 0.22167549166377545
+                }
+            },
+            "2": {
+                "O16": {
+                    "0": 55.13844232227305
+                },
+                "O18": {
+                    "0": 44.861557677726935
+                },
+                "c_16": {
+                    "0": 0.31347652865866626
+                },
+                "c_18": {
+                    "0": 0.18928703777189942
+                }
+            }
+        },
+        "measurements": {}
+    }
+}

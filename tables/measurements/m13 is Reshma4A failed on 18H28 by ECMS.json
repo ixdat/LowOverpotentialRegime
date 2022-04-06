@@ -1,0 +1,17 @@
+{
+    "id": 13,
+    "name": "m13 is Reshma4A failed on 18H28 by ECMS",
+    "sample": "Reshma4A",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "18H28",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Data\\ECMS\\18H28_Reshma4A_16O\\01 Reshma4A 18H28 18H28_RuO2.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "128",
+    "EC_tag": null,
+    "category": "failed"
+}

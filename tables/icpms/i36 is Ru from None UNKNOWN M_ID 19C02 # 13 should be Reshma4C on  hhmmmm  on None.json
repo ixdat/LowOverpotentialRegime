@@ -1,0 +1,12 @@
+{
+    "id": 36,
+    "ic_id": 2,
+    "m_id": null,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 11200.68833,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": null,
+    "description": "UNKNOWN M_ID 19C02 # 13 should be Reshma4C on ?"
+}

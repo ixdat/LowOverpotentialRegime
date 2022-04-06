@@ -1,0 +1,39 @@
+{
+    "setup": "ECMS",
+    "number": "137",
+    "date": "18I15",
+    "field_data": {
+        "ID": 137,
+        "Date": "Sat Sep 15 18:28:41 2018",
+        "Record date": "2018-09-15 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Folk5, Roa1D, Rao1F",
+        "Sample Name": "Fok5 is nominally 10 nm IrO2 on 5 nm Ti on Au, Rao1D is 20 ug RuO2 on GC, Rao1F is 1 ug RuO2 on GC",
+        "Removed from vacuum": "Folk5 was sputtered on 18I11",
+        "RE_vs_RHE": "0.720",
+        "Resistor": "500",
+        "Chip": "SI-3iv1-B2, E1, A1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Folk5": [
+            59,
+            60,
+            61,
+            62
+        ],
+        "Rao1D": [
+            63
+        ],
+        "Rao1F": [
+            64,
+            65,
+            66
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "deposition), looks off - it looks like this sample made less O2 per current than do the RuO2 samples. Also, the\nsample was visibly different after removing - some lines in the deposited layers. So I'm trying again. Folk5 was\nsputtered in the same batch, but on an Au stub in the middle of the sample stage.\n\nI'm not reusing electrolyte for this one, since the electrolyte from the long-term experiments with Ru films and\npowders might contain some Ru, which I don't want to deposit on the IrO2. This may also be a factor that messed\nup with Folk1. If it's very bad, I'll need to clean things. The old electrolyte is saved for Rao1D.\n\n01...\nlooks good, but not very active compared to the RuO2 films.\n\nCouldn't make more samples since there was something in the sputter chamber (2ant to do metallic Ru) and because\n</a>\n</td>\n\n<td class=\"list1\" nowrap=\"\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">Thu Sep 13 18:24:27 2018</a></td>\n\n<td class=\"list1\" nowrap=\"\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">2018-09-13 13:00</a></td>\n<td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\"><b style=\"color:black;background-color:#ffff66\">Scott</b></a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\"><b style=\"color:black;background-color:#ffff66\">OER</b></a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">Reshma1C</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">Reshma1C, RuO2, sputtered at 100 C</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">in air since removed from sputter chamber Sunday</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">0.720</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">500 Ohm</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\"></a>&nbsp;</td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">0.1 M HClO4 in H2(18)O</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\">1</a></td><td class=\"list1\"><a href=\"https://cinfelog.fysik.dtu.dk/EC-MS/135\"></a>&nbsp;</td></tr><tr><td class=\"messagelist\" colspan=\"15\"><pre>\n01... Very interesting CO2 on first cycle! It's mainly m/z=44. Is lattice oxygen involved in oxidation of\nadvantitions carbon?! Still the same noise as last night on Reshma4B.\nIt could be the Cu wire connecting the alligator clip to the Pt counter electrode that's corroded. Replacing.\n02... Works! Beautiful noise-free CV.\nAbsolutely fascinating long-pulse test. Current continues to decrease over 10 minutes, but O2 production is\nsteady as a rock!\nLeaving it overnight with one-hour potential holds to see if that result repeats itself.\nStill 500 Ohm to correct for!\n\nActivity looks good overnight, though QMS crashed. Started a new QMS file to get last two hour-long potential\nholds (at +270 and +300 mV overpotential before correcting for the 500 Ohms.)\n\nWhen de-mounting sample, there's what looks like black powder on the chip and on the U-cup. I guess this is a\nsign of instability.</pre></td></tr>\n"
+}

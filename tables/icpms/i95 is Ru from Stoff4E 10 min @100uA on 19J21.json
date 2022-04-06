@@ -1,0 +1,12 @@
+{
+    "id": 95,
+    "ic_id": 8,
+    "m_id": 184,
+    "element": "Ru",
+    "mass": "M102",
+    "signal": 222482.43,
+    "dilution": 50000.0,
+    "initial_volume": 2e-09,
+    "sampling_time": 2000.0,
+    "description": "10 min @100uA"
+}

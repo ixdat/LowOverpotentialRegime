@@ -1,0 +1,17 @@
+{
+    "id": 129,
+    "name": "m129 is Evans6 CO on 19B05 by ECMS",
+    "sample": "Evans6",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19B05",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19B05_Evans_exchange\\pickles\\19B05_Evans_16O_09_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "169",
+    "EC_tag": "09...",
+    "category": "CO"
+}

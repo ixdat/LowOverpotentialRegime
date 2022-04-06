@@ -1,0 +1,26 @@
+{
+    "setup": "ECMS",
+    "number": "272",
+    "date": "19L21",
+    "field_data": {
+        "ID": 272,
+        "Date": "Sat Dec 21 14:58:18 2019",
+        "Record date": "2019-12-20 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "RE_cal",
+        "Sample Name": "Trimi1",
+        "Removed from vacuum": "",
+        "RE_vs_RHE": "0.667",
+        "Resistor": "50",
+        "Chip": "no change",
+        "Electrolyte": "1.0 M HClO4",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Trimi1": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "RE_vs_RHE is usually 0.656 recently in this electrolyte, but today 0.667 I wonder what's up...\n\nAlso, Pt is contaminated. red/ox peaks at  0.8/1.2 V vs RHE. \n\nI'm going to look at what this is in XPS, clean the cell, and wait until Sunday to do this again.\n\nA question is whether I should do one of the three Johns at one potential so as to free it up for a\nmulti-potential measurement on sunday.\nSunday would involve a new RHE calibration with Trimi, the other two Johns at one potential, all four Loves, and\nsome additional bullshit.\nAlternately, I could come in tomorrow. No one else has booked anything. I should really clean the cell too...\n\nOkay, I unload Trimi now and hang with my friends. I'm in the mood for that. I come tomorrow and on Sunday so\nthat I don't have to stay late either day. (Julebal tomorrow and hanging with Suzanne on Sunday) But what about\nmy band?\n\nYes, that's a plan!</pre></td></tr>\n"
+}

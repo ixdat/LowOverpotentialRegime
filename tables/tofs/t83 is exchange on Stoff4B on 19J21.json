@@ -1,0 +1,18 @@
+{
+    "tof_type": "exchange",
+    "rate": -1.7327503386843216e-15,
+    "tof": null,
+    "potential": null,
+    "current": null,
+    "e_id": 25,
+    "tspan": [
+        360.0,
+        1930.0
+    ],
+    "r_id": null,
+    "rate_calc_kwargs": {},
+    "description": "steady",
+    "t_id": 83,
+    "amount": null,
+    "sample_name": null
+}

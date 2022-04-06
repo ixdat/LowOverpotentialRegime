@@ -1,0 +1,39 @@
+{
+    "setup": "ECMS",
+    "number": "131",
+    "date": "18H31",
+    "field_data": {
+        "ID": 131,
+        "Date": "Fri Aug 31 11:25:56 2018",
+        "Record date": "2018-08-31 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Poweder IrO2, Reshma1B, Reshma1A",
+        "Sample Name": "",
+        "Removed from vacuum": "powder is ink dropcast last night, air-dried since. Reshmas were deposited monday",
+        "RE_vs_RHE": "0.730",
+        "Resistor": "",
+        "Chip": "",
+        "Electrolyte": "",
+        "pH": "",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Reshma1B": [
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "Ir2B": [
+            25,
+            26
+        ],
+        "Reshma1A": [
+            27
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": "01... 100 Ohm not enough, 500 looks promising, but then gets bad again. Set to 1000 Ohm after cycle 6, in time\nfor 0.77 V vs RE, 1.5 V vs RHE.\nRatio is shit. Exchange, or electrolyte sucks in H2O from air through Teflon tape?\n\n-------\nresistance for 01 and 02 and 03 of Reshma 1B = 300 ohm. CHanged to 100 Ohm for 04. Noisey potential drifts --\nchanged &lt;resistance to 500 in cycle 2 to see if any difference -- no difference so changed back to 100\n\n1.45 V gave high enough currents to cause amplifier overload! reduce the potential -- seems to work fine\n\nWE crocodile clip fell off. restarted scans in +5 file\n\nresistance for 1A maintained at 100 ohm\n\n\nResistor changed from 100 to 500 Ohm in cycle 48 of 18H31_Reshma1A/01...\ndidn't help with bump, but kept it for a bit anyway.\nAnd back to 100 during cycle 58.</pre></td></tr>\n"
+}

@@ -1,0 +1,17 @@
+{
+    "setup": "ECMS",
+    "number": "130",
+    "date": "18H30",
+    "field_data": null,
+    "sample_measurements": {
+        "Emil3": [
+            20,
+            21,
+            22,
+            23,
+            24
+        ]
+    },
+    "measurement_EC_tags": {},
+    "notes": null
+}

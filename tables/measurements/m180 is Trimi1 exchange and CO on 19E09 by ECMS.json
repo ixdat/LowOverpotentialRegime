@@ -1,0 +1,20 @@
+{
+    "id": 180,
+    "name": "m180 is Trimi1 exchange and CO on 19E09 by ECMS",
+    "sample": "Trimi1",
+    "technique": "ECMS",
+    "isotope": "16",
+    "date": "19E09",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19F10_Goof_and_Evans\\pickles\\19E08_Trimi1_16O_01_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "220",
+    "EC_tag": "01...",
+    "category": [
+        "exchange",
+        "CO"
+    ]
+}

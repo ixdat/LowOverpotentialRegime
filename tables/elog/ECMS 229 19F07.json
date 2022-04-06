@@ -1,0 +1,26 @@
+{
+    "setup": "ECMS",
+    "number": "229",
+    "date": "19F07",
+    "field_data": {
+        "ID": 229,
+        "Date": "Fri Jun  7 16:33:18 2019",
+        "Record date": "2019-05-09 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Evans",
+        "Sample Name": "Evans13",
+        "Removed from vacuum": "Evans13 is of the most recently prepared by Choongman",
+        "RE_vs_RHE": "0.717",
+        "Resistor": "100",
+        "Chip": "Danchip-13-A1",
+        "Electrolyte": "0.1 M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "Evans13": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "03...\nmessed up just a bit (current maxed out) during initial oxidation. Also, cut it short before 10 minutes at 100\nuA over. Sample looks crazy active :D CV's look okay.\n\nKink at 14830 is probably due to OER at OCP\n\ntest</pre></td></tr>\n"
+}

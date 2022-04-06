@@ -1,0 +1,65 @@
+{
+    "setup": "ECMS",
+    "number": "263",
+    "date": "19L07",
+    "field_data": {
+        "ID": 263,
+        "Date": "Sat Dec  7 17:34:00 2019",
+        "Record date": "2019-12-07 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Taiwan, Jazz",
+        "Sample Name": "Jazz3, Reshma4, Folk3, Taiwan1A, B, C, D",
+        "Removed from vacuum": "Taiwan sputtered 19K28, in theta probe 19L02",
+        "RE_vs_RHE": "0.656 (calibrated with Trimi1)",
+        "Resistor": "",
+        "Chip": "Danchip-13-B2, Danchip-13-C6",
+        "Electrolyte": "",
+        "pH": "0",
+        "cleanliness": ""
+    },
+    "sample_measurements": {
+        "_MS_data": [
+            206,
+            215
+        ],
+        "Jazz1": [
+            201
+        ],
+        "Reshma4": [
+            202
+        ],
+        "Folk3": [
+            203
+        ],
+        "Taiwan1A": [
+            204
+        ],
+        "Taiwan1B": [],
+        "Taiwan1C": [
+            207,
+            208,
+            209
+        ],
+        "Trimi1": [
+            210,
+            211,
+            205,
+            212,
+            213,
+            214
+        ]
+    },
+    "measurement_EC_tags": {
+        "201": "01...",
+        "202": "03...",
+        "203": "04...",
+        "204": "05...",
+        "207": "07...",
+        "208": "08...",
+        "209": "09...",
+        "210": "10...",
+        "211": "11..."
+    },
+    "notes": "no tilt, but fuck what a wierd CV, and doesn't go to 0 V vs RHE for OCP in H2... it goes to about +0.35. Maybe\nit's crazy oxidized, or maybe it's contaminated like mad with something? The Au being exposed shoulden't do\nthis. A lot of O2 in the sniffer could, but it doesn't look like that much.\n\nTrying to reduce. \nStart getting problems saving to the network drive. New file, saved to tesktop:\n\n02... Jazz1\nNot really getting what I want... H region doesn't expand when scanning to nominally -0.15 V vs RHE.\nWhat does seem to make a difference, in H2-saturated OCP, at least, is scanning anodic and flowing electrolyte\nnear the anodic limit. Perhaps something was adsorbed? Should do a full scan in ICP-MS for that electrolyte.\n\nRE_vs_RHE = 0.682. This is very different from 0.656 measured with Trimi1 on 19J21. I MUST find and bring Trimi1\ntomorrow so that I can check if it's this fucked up Jazz3 electrode, or if it's the RE that's actually drifted.\nHOR current stabilizes at only -32 uA, smaller than 0.2 mA/cm^2, way too small to be mass-transport-limited, I\nthink!\n\nFuck, tilt sets in during the scan towards OER potentials for the 100 uA control! Fucking hell, how does the\nelectrolyte get behind the u-cup?\n\n\n03... Reshma4\n\nFucking hell, only getting about a tenth of the O2 I should be getting at 100 uA. Tilt again?! What is up with\nthis shit??\n\n\n04... Folk3\nFolk3 is IrO2, seems to only have been used on 19D29 in un-labeled electrolyte.\n\nThis one is good [1]\nExcellent! We have a control :D\n\n05... Taiwan1A\n\nFucking beautiful exchange [2]\nAlso lots of C(18)O2 and C(18)O(16)O. Also, the potential is 0.71 V vs RE, about 1.38 V vs RHE, which is more active than last round! :D\nIndeed, it looks like the right place on the TOF plot :D\n\nToday is a good day. It was dumb to miss Sebastian's defense, but the Taiwan samples I made that day are beautiful! !E muito formosa!   \n\nAir background is quite high, though. Results are beautiful, but the data aren't.\n\nComparing CVs for Taiwan1A, it looks like it gets much more active after the first electrolysis period. Perhaps it's burning the carbon. Indeed, it seems there is a consistent overshoot in potential on the first burn.\n\n06... Taiwan1B\n\nRunning 12 hours, overnight, at 100 uA. Collected electrolyte at 2 min and 10 min. Looking beautiful!\n3 hours of OCP after the 12 hours finished because I spent the morning doing... other things.\nWill have to do another one tonight to see if the OCP makes a difference, i.e. whether the Ru redeposits.\n\nCollected several electrolytes between Taiwan1B and Taiwan1C:\n(1) the electrolyte in the cell after Taiwan1B, plus the drop on the sample and on the chip\n(2) electrolyte pushed through the holes of the cell\n(3) electrolyte pushed through the holes of the cell a second time, after rinsing the cell thoroughly in H2O\n\nChanged the chip from Danchip-13-B2 to C6 (which was in lens paper)\n\n\n---- Taiwan1C ----\n\n07... and 08...\n\nterrible bubbles. Might be the hydrophobicity of the new chip. Didn't remount sample in between. Each time, o-ring seems loose from cell when unmounting the cell.\n\nRemounted sample.\n\n09...\n30 mins at 100uA. No pjat!\n\nTaiwan1C seems to be a bit less active than 1B and 1A. Yeah, it's moved 40 mV, with U_100uA Taiwan 1A&lt;1B&lt;1C. Could it be drift in the RE? \nI'm going to have to check what the RHE potential is with Trimi1. This is not great.\nMaybe I'm using the wrong RE for these experiments? I should change to AgCl? But Anna used this RE in acid for her whole PhD...\nAlso, much less CO2. But maybe that has to do with rinsing it with so much electrolyte during the false starts.\n\n... Taiwan1D\nRinsed in H2O at OCP like the others, no EC\n\n10...\nTrimi1! \n100uA and 10uA controls. Looks good [5]\nDoesn't seem to be very contaminated afterwards! So the ICPMS is where I have a chance of finding what gave the funky peaks in China.\nCV looks decent, but can't tell if it's tilt or ORR. Possibly a bit of both. Improves as O2 signal falls, but not enough.\n\nOkay, 13 cycles in it still looks like it could be converging on centered.\nI don't think it's tilt, because if it were, there's no way I'd have gotten OER at 10 uA. But alright then, it's OER. What does 30 uA of OER do to my RHE calibration? It puts the potential where there's actually 30 uA of net HOR in 1 bar H2, which is not far off from 0 V vs RHE.\n\nGood CO strip, as ref for tomorrow. Maybe a bit much CO left.\n\ntransport-limited HOR current is only 40 uA, or 0.2 mA/cm^2. It should be 0.7 mA/cm^2 !!! This is fucking bullshit with the damn o-ring. Okay, it's more like 60 uA after stripping off the CO that was poisoning a bit. Interesting - that CO must have been adsorbed on one part of the electrode.\n\nRE_vs_RHE = 0.656 as before. Not a doubt in the world. Why it looked different with Jazz3, I don't know. If it is RE drift, RE_vs_RHE has decreased, and thus, since U_RHE = U_RE + RE_vs_RHE, U_RE should increase for a constant U_RHE. This is in the right direction to explain the apparent activity difference\nbetween Taiwan 1A, 1B, and 1C. But why would RE_vs_RHE change??? Was the RE fucked up before?\n\nFinished with the Pt in a reduced state.\n\nAh, shit, forgot that this is an opportunity to get some data for another upcoming paper!\n\n11...\nPut electrolyte back in (without demounting cell, seems to have worked okay...) to oxidize Trimi1 in 16O so that I can do an extraction experiment in (18)O electrolyte, which I need to take a look at with Trimi1 anyway to calibrate its RHE.\n\n\n\n[1] 100 uA control: \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=11500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=9500&amp;xmax=11500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist</a>[]=19620&amp;right_plotlist[]=19619&amp;chosen_group[]=2019-12-07+15%3A50%3A23\n\n[2] 100 uA on Taiwan1A :D \n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=21200&amp;xmax=23200&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19620&amp;right_plotlist%5B%5D=19619&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=21200&amp;xmax=23200&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.25e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19620&amp;right_plotlist%5B%5D=19619&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23</a>\n[2a] 100 uA on Taiwan1A, with CO2\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=21200&amp;xmax=22800&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19616&amp;left_plotlist%5B%5D=19617&amp;left_plotlist%5B%5D=19618&amp;left_plotlist%5B%5D=19619&amp;left_plotlist%5B%5D=19620&amp;left_plotlist%5B%5D=19621&amp;left_plotlist%5B%5D=19622&amp;left_plotlist%5B%5D=19623&amp;left_plotlist%5B%5D=19624&amp;left_plotlist%5B%5D=19625&amp;left_plotlist%5B%5D=19626&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=21200&amp;xmax=22800&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_logscale=checked&amp;left_ymin=0&amp;left_ymax=0&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19616&amp;left_plotlist%5B%5D=19617&amp;left_plotlist%5B%5D=19618&amp;left_plotlist%5B%5D=19619&amp;left_plotlist%5B%5D=19620&amp;left_plotlist%5B%5D=19621&amp;left_plotlist%5B%5D=19622&amp;left_plotlist%5B%5D=19623&amp;left_plotlist%5B%5D=19624&amp;left_plotlist%5B%5D=19625&amp;left_plotlist%5B%5D=19626&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23</a>\n\n[3] overnight on Taiwan1B :D\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=27000&amp;xmax=75000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19620&amp;right_plotlist%5B%5D=19619&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=27000&amp;xmax=75000&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19620&amp;right_plotlist%5B%5D=19619&amp;chosen_group%5B%5D=2019-12-07+15%3A50%3A23</a>\n\n[4] Taiwan1C\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3800&amp;xmax=6500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19638&amp;right_plotlist%5B%5D=19637&amp;chosen_group%5B%5D=2019-12-08+14%3A39%3A37\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=3800&amp;xmax=6500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19638&amp;right_plotlist%5B%5D=19637&amp;chosen_group%5B%5D=2019-12-08+14%3A39%3A37</a>\n\n[5] Trimi1\n<a href=\"https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=10500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19638&amp;right_plotlist%5B%5D=19637&amp;chosen_group%5B%5D=2019-12-08+14%3A39%3A37\">https://cinfdata.fysik.dtu.dk/sniffer/xyplot.php?type=masstime&amp;xmin=8500&amp;xmax=10500&amp;matplotlib=checked&amp;title=&amp;xlabel=&amp;left_ylabel=&amp;right_ylabel=&amp;left_ymin=0.23e-12&amp;left_ymax=2e-12&amp;right_ymin=0&amp;right_ymax=4.5e-10&amp;left_plotlist%5B%5D=19638&amp;right_plotlist%5B%5D=19637&amp;chosen_group%5B%5D=2019-12-08+14%3A39%3A37</a></pre></td></tr>\n"
+}

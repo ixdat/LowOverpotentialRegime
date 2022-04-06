@@ -1,0 +1,24 @@
+{
+    "setup": "ECMS",
+    "number": 53,
+    "date": null,
+    "field_data": {
+        "ID": 53,
+        "Date": "Thu Oct 19 11:12:17 2017",
+        "Record date": "2017-10-19 13:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "Scott12",
+        "Sample Name": "Scot12, NiFe NPs, 7 nm 15% cov, oxidized in (18)O2",
+        "Removed from vacuum": "11:07",
+        "RE_vs_RHE": "1.385, uncalibrated",
+        "Resistor": "",
+        "Chip": "SI-3iv1-1-D4, SI-3iv1-1-C3, SI-3iv1-2-C3",
+        "Electrolyte": "0.1 M KOH",
+        "pH": "13",
+        "cleanliness": ""
+    },
+    "sample_measurements": null,
+    "measurement_EC_tags": null,
+    "notes": "A backup experiment for the isotope studies.\n\n\nD4 is cracked :( I knew this. It is cracked in such a way that there's only a leak to the capillary when\npressure is put on the chip by the cell. Just as seen last wednesday. I should have changed it. Instead I showed\nKoper that we sometimes can't do experiments because we crack chips...\nC3 has a clear problem at the carrier gas outlet. Trying anyway. MISTAKE. Floods the buffer volume.\nNew chip. </pre></td></tr>\n"
+}

@@ -1,0 +1,17 @@
+{
+    "id": 179,
+    "name": "m179 is Evans12 activity on 19F10 by ECMS",
+    "sample": "Evans12",
+    "technique": "ECMS",
+    "isotope": "18",
+    "date": "19F10",
+    "analysis_date": null,
+    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
+    "copied_at": null,
+    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19F10_Goof_and_Evans\\pickles\\19E07_Trimi_and_Evans_05_raw.pkl",
+    "new_data_path": "None",
+    "linked_measurements": null,
+    "elog_number": "217",
+    "EC_tag": "02...",
+    "category": "activity"
+}

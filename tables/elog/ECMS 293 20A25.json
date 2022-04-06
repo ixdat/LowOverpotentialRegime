@@ -1,0 +1,26 @@
+{
+    "setup": "ECMS",
+    "number": "293",
+    "date": "20A25",
+    "field_data": {
+        "ID": 293,
+        "Date": "Sat Jan 25 22:50:24 2020",
+        "Record date": "2020-01-25 12:00",
+        "Author": "Scott",
+        "Project Name": "OER",
+        "Tag": "COox",
+        "Sample Name": "Trimi1, Jazz6, Jazz7",
+        "Removed from vacuum": "Trimi1 in theta probe yesterday, Jazz6 and Jazz7 today",
+        "RE_vs_RHE": "0.713",
+        "Resistor": "100",
+        "Chip": "same as yesterdaz",
+        "Electrolyte": "0.1M HClO4 in H2(18)O",
+        "pH": "1",
+        "cleanliness": "not really, probably Ru contaminated ;( "
+    },
+    "sample_measurements": {
+        "Trimi1": []
+    },
+    "measurement_EC_tags": {},
+    "notes": "01...\nnice OER\nDamnit, current too noisy, positive in He at constant potential. Irange is 1 mA, no reason for that. Changing to\n100 uA\n\n02...\nBeautiful! Reproduces the figure from my Thesis.\nCycling in CO at different scan rates.\nCO calibration at 30 uA. Made sure to get background level\n\nCO strip - holy fuck there's a lot of contamination. Those are some properly funky \"Pt\" CV's. Probably a whole\nNi layer on top.\nFlushing out CO line to wall, decontaminating electrode by flushing electrolyte anodic of deposition/desorption\nredox peaks. Hydrogen region revived!\nLooks okay. \n\nTrying another CO strip with just a quick dose and purge.\n\nGot an acceptable Pt CO strip :D \n\nnow, to oxidize for 30 min, and put in thetaprobe and get home to Agnes!\n\nGod damnit, the contaminimants and/or tilt are fucking up the oxidation. I get the same amount of O2 for less the\npotential at 100 uA as I did at 50 uA at the begining. This is fucked. Holy fuck I've wasted a lot of time today.\nI'll put it in the Theta-probe anyway, but I'm not waiting 30 minutes for the oxidation. I'm going to have to put\nPt in 18O electrolyte again tomorrow. \n\nLeaving the setup delabeling (heating to 100, CO2 flowing under a drop of H2(16)O</pre></td></tr>\n"
+}

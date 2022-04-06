@@ -1,0 +1,82 @@
+{
+    "file": "Decade1A.json",
+    "data": {
+        "0": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Decade1A/He ISS.avg",
+            "pickle_name": "Decade1A__2020-01-08 19_35_01__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 19:35:01",
+            "timestamp": 1578508501.0,
+            "comment": "",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "1": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Decade1A/He ISS.avg",
+            "pickle_name": "Decade1A__2020-01-08 21_39_01__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-08 21:39:01",
+            "timestamp": 1578515941.0,
+            "comment": "",
+            "note": "'20A08_for_mostly_post_test'",
+            "num_of_datasets": 1
+        },
+        "2": {
+            "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1A/He ISS.avg",
+            "pickle_name": "Decade1A__2020-01-07 14_05_17__thetaprobe__.pickle",
+            "recorded_on": "thetaprobe",
+            "datetime": "2020-01-07 14:05:17",
+            "timestamp": 1578402317.0,
+            "comment": "",
+            "note": "'20A07_Decade_and_Legend_before_testing'",
+            "num_of_datasets": 1
+        }
+    },
+    "custom": {
+        "results": {
+            "2": {
+                "O16": {
+                    "0": 5.708523430338659
+                },
+                "O18": {
+                    "0": 94.29147656966134
+                },
+                "c_16": {
+                    "0": 0.055462577239736334
+                },
+                "c_18": {
+                    "0": 0.6798994427259706
+                }
+            },
+            "0": {
+                "O16": {
+                    "0": 14.551893464422399
+                },
+                "O18": {
+                    "0": 85.44810653557761
+                },
+                "c_16": {
+                    "0": 0.1311273554895997
+                },
+                "c_18": {
+                    "0": 0.5714420953119885
+                }
+            },
+            "1": {
+                "O16": {
+                    "0": 9.601119722510038
+                },
+                "O18": {
+                    "0": 90.39888027748995
+                },
+                "c_16": {
+                    "0": 0.09879280507776789
+                },
+                "c_18": {
+                    "0": 0.6903391009207178
+                }
+            }
+        },
+        "measurements": {}
+    }
+}
