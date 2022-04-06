@@ -1,0 +1,820 @@
+{
+    "tof_collection": {
+        "RT-RuO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        105,
+                        129
+                    ],
+                    "dissolution": [
+                        107,
+                        131
+                    ],
+                    "exchange": [
+                        106,
+                        130
+                    ]
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        28,
+                        136,
+                        178
+                    ],
+                    "dissolution": [
+                        30,
+                        138,
+                        180
+                    ],
+                    "exchange": [
+                        29,
+                        137,
+                        179
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        31,
+                        88,
+                        96,
+                        120,
+                        139,
+                        181
+                    ],
+                    "dissolution": [
+                        33,
+                        90,
+                        98,
+                        122,
+                        141,
+                        183
+                    ],
+                    "exchange": [
+                        32,
+                        89,
+                        97,
+                        121,
+                        140,
+                        182
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [
+                        85
+                    ],
+                    "dissolution": [
+                        87
+                    ],
+                    "exchange": [
+                        86
+                    ]
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        99,
+                        123
+                    ],
+                    "dissolution": [
+                        101,
+                        125
+                    ],
+                    "exchange": [
+                        100,
+                        124
+                    ]
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        102,
+                        126
+                    ],
+                    "dissolution": [
+                        104,
+                        128
+                    ],
+                    "exchange": [
+                        103,
+                        127
+                    ]
+                }
+            }
+        },
+        "400C-RuO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        68,
+                        76
+                    ],
+                    "dissolution": [
+                        70,
+                        78
+                    ],
+                    "exchange": [
+                        69,
+                        77
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        211,
+                        214,
+                        160
+                    ],
+                    "dissolution": [
+                        213,
+                        162
+                    ],
+                    "exchange": [
+                        212,
+                        215,
+                        161
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [
+                        157
+                    ],
+                    "dissolution": [
+                        159
+                    ],
+                    "exchange": [
+                        158
+                    ]
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [
+                        79
+                    ],
+                    "dissolution": [
+                        81
+                    ],
+                    "exchange": [
+                        80
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        82,
+                        91
+                    ],
+                    "dissolution": [
+                        84
+                    ],
+                    "exchange": [
+                        83,
+                        92
+                    ]
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [
+                        163
+                    ],
+                    "dissolution": [
+                        165
+                    ],
+                    "exchange": [
+                        164
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        216,
+                        169
+                    ],
+                    "dissolution": [
+                        171
+                    ],
+                    "exchange": [
+                        217,
+                        170
+                    ]
+                }
+            }
+        },
+        "cycled RuO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        154
+                    ],
+                    "dissolution": [
+                        156
+                    ],
+                    "exchange": [
+                        155
+                    ]
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        142
+                    ],
+                    "dissolution": [
+                        144
+                    ],
+                    "exchange": [
+                        143
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        145
+                    ],
+                    "dissolution": [
+                        147
+                    ],
+                    "exchange": [
+                        146
+                    ]
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        148
+                    ],
+                    "dissolution": [
+                        150
+                    ],
+                    "exchange": [
+                        149
+                    ]
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [
+                        151
+                    ],
+                    "dissolution": [
+                        153
+                    ],
+                    "exchange": [
+                        152
+                    ]
+                }
+            }
+        },
+        "RuOx/Ru": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        16
+                    ],
+                    "dissolution": [
+                        18
+                    ],
+                    "exchange": [
+                        17
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        19
+                    ],
+                    "dissolution": [
+                        21
+                    ],
+                    "exchange": [
+                        20
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        },
+        "Ru foam": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        59
+                    ],
+                    "dissolution": [
+                        61
+                    ],
+                    "exchange": [
+                        60
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        62
+                    ],
+                    "dissolution": [
+                        64
+                    ],
+                    "exchange": [
+                        63
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        },
+        "RT-IrO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        40,
+                        46,
+                        184
+                    ],
+                    "dissolution": [
+                        42,
+                        48,
+                        186
+                    ],
+                    "exchange": [
+                        41,
+                        47,
+                        185
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        43,
+                        49,
+                        187
+                    ],
+                    "dissolution": [
+                        45,
+                        51,
+                        189
+                    ],
+                    "exchange": [
+                        44,
+                        50,
+                        188
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [
+                        233
+                    ],
+                    "dissolution": [
+                        235
+                    ],
+                    "exchange": [
+                        234
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        236
+                    ],
+                    "dissolution": [
+                        238
+                    ],
+                    "exchange": [
+                        237
+                    ]
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        },
+        "400C-IrO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        172
+                    ],
+                    "dissolution": [
+                        174
+                    ],
+                    "exchange": [
+                        173
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        175
+                    ],
+                    "dissolution": [
+                        177
+                    ],
+                    "exchange": [
+                        176
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        },
+        "cycled IrO2": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        190,
+                        218
+                    ],
+                    "dissolution": [
+                        192,
+                        220
+                    ],
+                    "exchange": [
+                        191,
+                        219
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        196,
+                        224
+                    ],
+                    "dissolution": [
+                        198,
+                        226
+                    ],
+                    "exchange": [
+                        197,
+                        225
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        },
+        "IrOx/Ir": {
+            "1.0": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.5": {
+                "start": {
+                    "activity": [
+                        34
+                    ],
+                    "dissolution": [
+                        36
+                    ],
+                    "exchange": [
+                        35
+                    ]
+                },
+                "steady": {
+                    "activity": [
+                        208
+                    ],
+                    "dissolution": [
+                        210
+                    ],
+                    "exchange": [
+                        209
+                    ]
+                }
+            },
+            "0.25": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.15": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            },
+            "0.05": {
+                "start": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                },
+                "steady": {
+                    "activity": [],
+                    "dissolution": [],
+                    "exchange": []
+                }
+            }
+        }
+    },
+    "layers": [
+        "sample_type",
+        "current_point",
+        "result_time",
+        "result_type"
+    ]
+}
