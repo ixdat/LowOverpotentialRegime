@@ -6,16 +6,15 @@
     "isotope": "16",
     "date": "19D29",
     "analysis_date": null,
-    "measurement_dir": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\pyOER20\\measurements",
     "copied_at": null,
-    "old_data_path": "C:\\Users\\scott\\Dropbox (Spectro Inlets)\\Soren_DTU\\DTU-MIT RuO2\\Analysis\\19F05_ICPMS\\pickles\\19D29_Goof_and_Champ_16O_03.pkl",
-    "new_data_path": "None",
+    "raw_data_path": "~/Dropbox/DATA/LowOverpotentialRegime/EC_MS/Analysis/19F05_ICPMS/pickles/19D29_Goof_and_Champ_16O_03.pkl",
+    "exported_data_path": "None",
     "linked_measurements": null,
     "elog_number": "211",
     "EC_tag": "03...",
     "category": [
         "exchange",
         "calibration",
-	"duplicate"
+        "duplicate"
     ]
 }

@@ -7,7 +7,6 @@ import re
 import time
 import datetime
 
-# from EC_MS import Dataset
 from ixdat import Measurement as Meas
 from .constants import MEASUREMENT_DIR, MEASUREMENT_ID_FILE, STANDARD_ELECTRODE_AREA
 from .tools import singleton_decorator, CounterWithFile, FLOAT_MATCH
@@ -35,8 +34,7 @@ def all_measurements(measurement_dir=MEASUREMENT_DIR):
 
 
 class Measurement:
-    """class containing metadata and pointers to raw data.
-    Used mainly for saving and loading links."""
+    """Wrapper around ixdat measurement w metadata for its context in this project."""
 
     def __init__(
         self,
@@ -49,8 +47,8 @@ class Measurement:
         isotope=None,
         date=None,
         analysis_date=None,
-        old_data_path=None,
-        new_data_path=None,
+        raw_data_path=None,
+        exported_data_path=None,
         meas=None,
         linked_measurements=None,
         elog_number=None,
@@ -61,15 +59,16 @@ class Measurement:
     ):
         """Initiate Measurement object
 
-        Intended use is to load the meas separately using Measurement.load_data()
+        Intended use is to load the ixdat measurement (meas) separately using
+        Measurement.load_data()
 
         Args:
             m_id (int): the unique id of the measurement
             name (str): the name of the measurement
             measurement_dir (Path-like): where to SAVE the measurement metadata
             copied_at (float): the time at which the meas was read
-            old_data_path (Path-like): path to file to load the raw data from pkl
-            new_data_path (Path-like): path to file to SAVE the raw data as pkl
+            raw_data_path (Path-like): path to file to load the raw data from pkl
+            exported_data_path (Path-like): path to file to SAVE the raw data as pkl
             meas (ixdat.techniques.ECMSMeasurement): the ixdat object with the data
             linked_measurements (dict): measurements to link to this one
             kwargs (dict): gets added, not used. Here so that I can add extra stuff when
@@ -86,8 +85,8 @@ class Measurement:
         self.analysis_date = analysis_date
         self.measurement_dir = measurement_dir
         self.copied_at = copied_at  # will be replaced by time.time()
-        self.old_data_path = old_data_path
-        self.new_data_path = new_data_path
+        self.raw_data_path = raw_data_path
+        self.exported_data_path = exported_data_path
         self._meas = meas  # meas is a managed property
         self.linked_measurements = linked_measurements
         self.extra_stuff = kwargs
@@ -105,10 +104,9 @@ class Measurement:
             isotope=self.isotope,
             date=self.date,
             analysis_date=self.analysis_date,
-            measurement_dir=str(self.measurement_dir),
             copied_at=self.copied_at,
-            old_data_path=str(self.old_data_path),
-            new_data_path=str(self.new_data_path),
+            raw_data_path=str(self.raw_data_path),
+            exported_data_path=str(self.exported_data_path),
             linked_measurements=self.linked_measurements,
             elog_number=self.elog_number,
             EC_tag=self.EC_tag,
@@ -153,11 +151,15 @@ class Measurement:
         # Should work both Windows -> Linux/Mac and Linux/Mac -> Windows
         # as long as the path specified in measurement file is absolute
         # Only tested Windows -> Linux and Windows -> Windows
-        for key in ["old_data_path", "new_data_path"]:
+        for key in ["raw_data_path", "exported_data_path"]:
+            try:
+                self_as_dict[key]
+            except KeyError:
+                continue
             if self_as_dict[key] != "None":
-                if ":" in self_as_dict[key]:
+                if "\\" in self_as_dict[key]:
                     path_type = PureWindowsPath
-                elif "/" == self_as_dict[key][0]:
+                elif "/" in self_as_dict[key]:
                     path_type = PurePosixPath
                 else:
                     print(type(self_as_dict[key]), repr(self_as_dict[key]))
@@ -246,16 +248,16 @@ class Measurement:
 
     def load_data(self):
         """load the ixdat meas from the EC_MS pkl file"""
-        data_path = self.old_data_path  # Until fix_data_path is available.
+        data_path = str(Path(self.raw_data_path).expanduser())
         self._meas = Meas.read(data_path, reader="EC_MS")
         if not self._meas.series_list:
-            raise IOError(f"Dataset in {self.old_data_path} loaded empty.")
+            raise IOError(f"Dataset in {self.raw_data_path} loaded empty.")
         return self._meas
 
     def export_data(self):
         """SAVE the meas in the new data directory"""
         name = self.name if self.name else self.make_name()
-        path_to_pkl = self.new_data_path / (name + ".csv")
+        path_to_pkl = self.exported_data_path / (name + ".csv")
         self.meas.export(file_name=path_to_pkl)
         self.copied_at = time.time()
 
