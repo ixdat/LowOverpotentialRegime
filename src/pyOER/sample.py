@@ -156,6 +156,6 @@ class Sample:
 
     @classmethod
     def all_samples(self):
-        all_samples = [sample.stem for sample in SAMPLE_DIR.rglob('*.json')]
+        all_samples = [sample.stem for sample in SAMPLE_DIR.rglob("*.json")]
         all_samples.sort()
         return all_samples

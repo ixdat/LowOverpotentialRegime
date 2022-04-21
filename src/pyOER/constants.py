@@ -61,7 +61,7 @@ FARADAY_CONSTANT = 96485  # [C/mol]
 GAS_CONSTANT = 8.31446  # [J/(mol*K)]
 STANDARD_TEMPERATURE = 298.15  # [K]
 
-STANDARD_SITE_DENSITY = 5 / (1e-7 ** 2) / AVOGADROS_CONSTANT
+STANDARD_SITE_DENSITY = 5 / (1e-7**2) / AVOGADROS_CONSTANT
 # ^ 5 sites per nm^2 in [mol/cm^2]
 # five sites per sq nm is based on Ru(110) cus site density, from Rao2017.
 

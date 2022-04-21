@@ -288,7 +288,7 @@ class Measurement:
             notes = self.elog.notes
             if self.EC_tag:
                 try:
-                    EC_tag_match = re.search(fr"\n\s+{self.EC_tag}", notes)
+                    EC_tag_match = re.search(rf"\n\s+{self.EC_tag}", notes)
                 except TypeError:
                     print(f"[problem searching for '{self.EC_tag}' in:\n{notes}]\n")
                     return
