@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Champ4C/He ISS.avg",
-            "pickle_name": "Champ4C__2019-10-20 21_20_39__thetaprobe__.pickle",
+            "pickle_name": "Champ4C__2019-10-20 21_20_39__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 21:20:39",
             "timestamp": 1571599239.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Champ4C/He ISS.avg",
-            "pickle_name": "Champ4C__2019-10-20 20_22_03__thetaprobe__.pickle",
+            "pickle_name": "Champ4C__2019-10-20 20_22_03__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 20:22:03",
             "timestamp": 1571595723.0,

@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1A/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-28 14_44_50__thetaprobe__.pickle",
+            "pickle_name": "Easter1A__2019-04-28 14_44_50__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 14:44:50",
             "timestamp": 1556455490.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1A_point_2/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-28 15_35_27__thetaprobe__point-2.pickle",
+            "pickle_name": "Easter1A__2019-04-28 15_35_27__thetaprobe__point-2.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 15:35:27",
             "timestamp": 1556458527.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1A_30s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-28 15_14_39__thetaprobe__30s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-28 15_14_39__thetaprobe__30s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 15:14:39",
             "timestamp": 1556457279.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1A_60s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-28 15_27_57__thetaprobe__60s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-28 15_27_57__thetaprobe__60s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 15:27:57",
             "timestamp": 1556458077.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D27_ISS/Mono 400\u00b5m/Easter1A/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-27 14_03_18__thetaprobe__.pickle",
+            "pickle_name": "Easter1A__2019-04-27 14_03_18__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-27 14:03:18",
             "timestamp": 1556366598.0,
@@ -53,7 +53,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_XPS_and_ISS/Mono 400\u00b5m/Easter1A/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 18_10_39__thetaprobe__.pickle",
+            "pickle_name": "Easter1A__2019-04-23 18_10_39__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 18:10:39",
             "timestamp": 1556035839.0,
@@ -63,7 +63,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_600s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 21_03_24__thetaprobe__new-spot-600s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 21_03_24__thetaprobe__new-spot-600s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 21:03:24",
             "timestamp": 1556046204.0,
@@ -73,7 +73,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 19_29_10__thetaprobe__new-spot.pickle",
+            "pickle_name": "Easter1A__2019-04-23 19_29_10__thetaprobe__new-spot.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 19:29:10",
             "timestamp": 1556040550.0,
@@ -83,7 +83,7 @@
         },
         "8": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 19_21_59__thetaprobe__.pickle",
+            "pickle_name": "Easter1A__2019-04-23 19_21_59__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 19:21:59",
             "timestamp": 1556040119.0,
@@ -93,7 +93,7 @@
         },
         "9": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_180s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 20_36_31__thetaprobe__new-spot-180s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 20_36_31__thetaprobe__new-spot-180s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 20:36:31",
             "timestamp": 1556044591.0,
@@ -103,7 +103,7 @@
         },
         "10": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_300s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 20_48_48__thetaprobe__new-spot-300s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 20_48_48__thetaprobe__new-spot-300s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 20:48:48",
             "timestamp": 1556045328.0,
@@ -113,7 +113,7 @@
         },
         "11": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_90s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 20_11_36__thetaprobe__new-spot-90s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 20_11_36__thetaprobe__new-spot-90s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 20:11:36",
             "timestamp": 1556043096.0,
@@ -123,7 +123,7 @@
         },
         "12": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_30s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 19_49_23__thetaprobe__new-spot-30s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 19_49_23__thetaprobe__new-spot-30s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 19:49:23",
             "timestamp": 1556041763.0,
@@ -133,7 +133,7 @@
         },
         "13": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_60s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 20_00_57__thetaprobe__new-spot-60s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 20_00_57__thetaprobe__new-spot-60s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 20:00:57",
             "timestamp": 1556042457.0,
@@ -143,7 +143,7 @@
         },
         "14": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_120s_Ar/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 20_23_14__thetaprobe__new-spot-120s-Ar.pickle",
+            "pickle_name": "Easter1A__2019-04-23 20_23_14__thetaprobe__new-spot-120s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 20:23:14",
             "timestamp": 1556043794.0,
@@ -153,7 +153,7 @@
         },
         "15": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_ISS_depth_profile/Mono 400\u00b5m/Easter1A_new_spot_5min_He/He ISS.avg",
-            "pickle_name": "Easter1A__2019-04-23 19_37_27__thetaprobe__new-spot-5min-He.pickle",
+            "pickle_name": "Easter1A__2019-04-23 19_37_27__thetaprobe__new-spot-5min-He.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 19:37:27",
             "timestamp": 1556041047.0,

@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180918-210928_Prepared for measurement-Reshma 1B-ESpHybrid_NanoSAM_ISS--4_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-18 21_09_28__omicron__Prepared for measurement.pickle",
+            "pickle_name": "Reshma1B__2018-09-18 21_09_28__omicron__Prepared for measurement.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-18 21:09:28",
             "timestamp": 1537297768.0,
@@ -15,7 +15,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180910-120712_Depth profile-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-10 12_07_12__omicron__Depth profile.pickle",
+            "pickle_name": "Reshma1B__2018-09-10 12_07_12__omicron__Depth profile.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-10 12:07:12",
             "timestamp": 1536574032.0,
@@ -27,7 +27,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-114855_Last experiment 03-Reshma 1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-26 11_48_55__omicron__Last experiment 03.pickle",
+            "pickle_name": "Reshma1B__2018-09-26 11_48_55__omicron__Last experiment 03.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-26 11:48:55",
             "timestamp": 1537955335.0,
@@ -40,7 +40,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180910-234652_Reduced 2-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-10 23_46_52__omicron__Reduced 2.pickle",
+            "pickle_name": "Reshma1B__2018-09-10 23_46_52__omicron__Reduced 2.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-10 23:46:52",
             "timestamp": 1536616012.0,
@@ -52,7 +52,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180907-104757_Isotope-Reshma1B-ESpHybrid_NanoSAM_ISS--7_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-07 10_47_57__omicron__Isotope.pickle",
+            "pickle_name": "Reshma1B__2018-09-07 10_47_57__omicron__Isotope.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-07 10:47:57",
             "timestamp": 1536310077.0,
@@ -64,7 +64,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180905-144211_After EC-Reshma1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-05 14_42_11__omicron__After EC.pickle",
+            "pickle_name": "Reshma1B__2018-09-05 14_42_11__omicron__After EC.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-05 14:42:11",
             "timestamp": 1536151331.0,
@@ -76,7 +76,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-101427_Last experiment 02-Reshma 1B-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-26 10_14_27__omicron__Last experiment 02.pickle",
+            "pickle_name": "Reshma1B__2018-09-26 10_14_27__omicron__Last experiment 02.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-26 10:14:27",
             "timestamp": 1537949667.0,
@@ -89,7 +89,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180911-005446_Depth 2-Reshma 1B-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-11 00_54_46__omicron__Depth 2.pickle",
+            "pickle_name": "Reshma1B__2018-09-11 00_54_46__omicron__Depth 2.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-11 00:54:46",
             "timestamp": 1536620086.0,
@@ -101,7 +101,7 @@
         },
         "8": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180926-063421_Last experiment 01-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-26 06_34_21__omicron__Last experiment 01.pickle",
+            "pickle_name": "Reshma1B__2018-09-26 06_34_21__omicron__Last experiment 01.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-26 06:34:21",
             "timestamp": 1537936461.0,
@@ -113,7 +113,7 @@
         },
         "9": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180914-124318_Sputter depth 02-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-14 12_43_18__omicron__Sputter depth 02.pickle",
+            "pickle_name": "Reshma1B__2018-09-14 12_43_18__omicron__Sputter depth 02.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-14 12:43:18",
             "timestamp": 1536921798.0,
@@ -125,7 +125,7 @@
         },
         "10": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180927-063508_Last experiment 04-Reshma 1B-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-27 06_35_08__omicron__Last experiment 04.pickle",
+            "pickle_name": "Reshma1B__2018-09-27 06_35_08__omicron__Last experiment 04.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-27 06:35:08",
             "timestamp": 1538022908.0,
@@ -137,7 +137,7 @@
         },
         "11": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Reshma1/20180925-151319_Last experiment 01-Reshma 1B-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Reshma1B__2018-09-25 15_13_19__omicron__Last experiment 01.pickle",
+            "pickle_name": "Reshma1B__2018-09-25 15_13_19__omicron__Last experiment 01.pkl",
             "recorded_on": "omicron",
             "datetime": "2018-09-25 15:13:19",
             "timestamp": 1537881199.0,

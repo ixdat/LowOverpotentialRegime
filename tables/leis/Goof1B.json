@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS/Mono 400\u00b5m/Goof1B/He ISS.avg",
-            "pickle_name": "Goof1B__2019-05-09 16_16_59__thetaprobe__.pickle",
+            "pickle_name": "Goof1B__2019-05-09 16_16_59__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-05-09 16:16:59",
             "timestamp": 1557411419.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E10_ISS_try3/Mono 400\u00b5m/Goof1B/He ISS.avg",
-            "pickle_name": "Goof1B__2019-05-10 10_38_40__thetaprobe__.pickle",
+            "pickle_name": "Goof1B__2019-05-10 10_38_40__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-05-10 10:38:40",
             "timestamp": 1557477520.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19E09_tested_IrO2/19E09_ISS_try2/Mono 400\u00b5m/Goof1B/He ISS.avg",
-            "pickle_name": "Goof1B__2019-05-09 16_46_27__thetaprobe__.pickle",
+            "pickle_name": "Goof1B__2019-05-09 16_46_27__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-05-09 16:46:27",
             "timestamp": 1557413187.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29a_tested_IrO2/19D29a_ISS/Mono 400\u00b5m/Goof1B/He ISS.avg",
-            "pickle_name": "Goof1B__2019-04-29 19_42_10__thetaprobe__.pickle",
+            "pickle_name": "Goof1B__2019-04-29 19_42_10__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-29 19:42:10",
             "timestamp": 1556559730.0,

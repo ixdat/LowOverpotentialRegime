@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D23_labeled_RuO2_and_Ir/19D23_XPS_and_ISS/Mono 400\u00b5m/Easter1Si/He ISS.avg",
-            "pickle_name": "Easter1Si__2019-04-23 18_10_41__thetaprobe__.pickle",
+            "pickle_name": "Easter1Si__2019-04-23 18_10_41__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-23 18:10:41",
             "timestamp": 1556035841.0,

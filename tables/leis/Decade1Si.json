@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_Trimi1_and_Folk5/20A08_first_ISS/Mono 400\u00b5m/Decade1Si/He ISS.avg",
-            "pickle_name": "Decade1Si__2020-01-08 09_09_20__thetaprobe__.pickle",
+            "pickle_name": "Decade1Si__2020-01-08 09_09_20__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 09:09:20",
             "timestamp": 1578470960.0,

@@ -26,11 +26,12 @@ experiment_chain.plot_fit(7)
 ---- Code end ----
 """
 import json
-# import pickle5 as pickle
+import pickle5 as pickle
 import pathlib
 import datetime
 
 import numpy as np
+from scipy.integrate import simps
 from scipy.optimize import curve_fit
 from scipy.interpolate import interp1d
 import matplotlib.pyplot as plt
@@ -88,7 +89,8 @@ class ISS:
         self.sample = sample
         self._meta = None
         # All reference data
-        self._ref = pickle.load(open(self.data_path / 'iss_reference.pickle', 'rb'))
+        with open(self.data_path / 'iss_reference.pickle', 'rb') as f:
+            self._ref = pickle.load(f)
         self._init_extras() # _background, _shifted
         self.fit_ratios = {}
         self.fit_coeffs = {}
