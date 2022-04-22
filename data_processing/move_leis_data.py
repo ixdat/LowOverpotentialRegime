@@ -13,6 +13,14 @@ new_data_dir = Path(new_data_dir_str).expanduser()
 
 old_data_dir = Path("~/Dropbox/WORKSPACES/DTU-MIT RuO2/Data/ISS").expanduser()
 
+for ref_name in ["iss_reference", "iss_reference_h"]:
+    old_path_to_reference = old_data_dir / f"organized_pickles/{ref_name}.pickle"
+    new_path_to_reference = new_data_dir / f"spectra/{ref_name}.pkl"
+    with open(old_path_to_reference, "rb") as old:
+        data = pickle5.load(old)
+    with open(new_path_to_reference, "wb") as new:
+        pickle.dump(data, new)
+
 main_iss = ISS()
 
 for sample_name in main_iss.all_leis():

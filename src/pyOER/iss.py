@@ -26,7 +26,7 @@ experiment_chain.plot_fit(7)
 ---- Code end ----
 """
 import json
-import pickle5 as pickle
+import pickle
 import pathlib
 import datetime
 
@@ -85,8 +85,8 @@ class ISS:
         self.json_path = (
             pathlib.Path(__file__).absolute().parent.parent.parent / "tables" / "leis"
         )
-        self.data_path = DATA_DIR / "Data" / "ISS" / "organized_pickles"
-        self.extras_path = DATA_DIR / "Data" / "ISS" / "pickled_pickles"
+        self.data_path = DATA_DIR / "LEIS" / "spectra"
+        self.extras_path = DATA_DIR / "LEIS" / "extras"
         self._active = None
         self._relative = None
         self._set_active = None
@@ -95,7 +95,7 @@ class ISS:
         self.sample = sample
         self._meta = None
         # All reference data
-        with open(self.data_path / "iss_reference.pickle", "rb") as f:
+        with open(self.data_path / "iss_reference.pkl", "rb") as f:
             self._ref = pickle.load(f)
         self._init_extras()  # _background, _shifted
         self.fit_ratios = {}
@@ -380,7 +380,7 @@ class ISS:
 
     def _load_extras(self):
         """Load the extra information which is calculated from the raw data."""
-        path_to_file = self.extras_path / (self.sample + ".pickle")
+        path_to_file = self.extras_path / (self.sample + ".pkl")
         try:
             with open(path_to_file, "rb") as f:
                 data = pickle.load(f)

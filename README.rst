@@ -13,9 +13,27 @@ Soren B. Scott, Jakob Ejler Sørensen,  Reshma R. Rao, Choongman Moon, Jakob Kib
 Setup
 -----
 
-We have just started moving things over to this repository from an old repository, where we developed the scripts before the articles were submitted. 
+1. Clone or download the repository
 
-Please have patience!
+2. Install ``ixdat`` version 0.2.2 or above using::
+
+     pip install --upgrade ixdat
+
+3. To enable full analysis, download the raw data using this dropbox link:
+   https://www.dropbox.com/sh/u0ttselmhd08ntq/AAA43jVl42MB--sV5pyf_6CPa?dl=0
+
+   The size is 3 GB.
+
+   a. By default, the code will look for raw data in ``~/Dropbox/DATA/LowOverpotentialRegime``.
+      If you download the data to another location, you must create the file ``src/pyOER/settings.py``
+      and in it, define the ``DATA_DIR`` variable. An example ``settings.py``::
+
+          from pathlib import Path
+
+          # Change below path to match the path to the shared folder of your project.
+          DATA_DIR = Path(r"C:\DATA\other_peoples_data\LowOverpotentialRegime")
+
+
 
 For now you can can see the old repository at https://github.com/ScottSoren/pyOER20
 See its README for instructions. 
