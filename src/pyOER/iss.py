@@ -40,7 +40,10 @@ from .tools import weighted_smooth as smooth
 
 # from .tools import smooth
 from .tools import get_range, dict_from_json
-from .settings import DATA_DIR
+try:
+    from .settings import DATA_DIR
+except ImportError:
+    from .constants import DEFAULT_DATA_DIR as DATA_DIR
 
 from collections.abc import Mapping
 

@@ -36,6 +36,10 @@ STANDARD_EXPERIMENT_TAGS = ["y", "k", "s", "c"]
 # -------------- table stuff (directories and counter files) -------------- #
 PROJECT_DIR = Path(__file__).absolute().parent.parent.parent
 
+DEFAULT_DATA_DIR = Path("~/Dropbox/DATA/LowOverpotentialRegime").expanduser()
+# Default location to store raw data. If you store the raw data somewhere else,
+#   please create a settings.py file and define `DATA_DIR` in that file.
+
 ELOG_DIR = PROJECT_DIR / "tables/elog"
 
 SAMPLE_DIR = PROJECT_DIR / "tables/samples"
