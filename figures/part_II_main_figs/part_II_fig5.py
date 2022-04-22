@@ -63,8 +63,8 @@ if True:  # fig 5b, with norm. activity, exchange, and diss. plotted against pot
 
     paper_I_figs_path = Path("../paper_I_v5_figs").absolute().resolve()
     sys.path.append(str(paper_I_figs_path))
-    from paper_I_v6_fig3 import plot_all_activity_results
-    from paper_I_v6_fig5 import get_model_j_norm
+    from part_I_fig3 import plot_all_activity_results
+    from part_I_fig5 import get_model_j_norm
 
     if False:  # calculate mean capacitance of Reshma1 samples.
         from pyOER import all_activity_experiments
@@ -78,7 +78,7 @@ if True:  # fig 5b, with norm. activity, exchange, and diss. plotted against pot
     else:
         cap = 0.0017  # mean capacitance of Reshma1 samples in [F]
 
-    with open("../extras/paper_I_v5_figs/fit_results.json") as f:
+    with open("fit_results.json") as f:
         fit_results = json.load(f)
     u_model = np.linspace(1.28, 1.5, 100)
     j_model = get_model_j_norm(u=u_model, **fit_results)  # [A/F]

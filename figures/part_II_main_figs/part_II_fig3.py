@@ -23,7 +23,7 @@ for panel, e_id in {"a": 33, "b": 41}.items():  # 5, 39
     axes = e.plot_EC_MS_ICPMS()
     ylim_left = np.array([-1, 10])
     axes[0].set_ylim(ylim_left)
-    axes[3].set_ylim(ylim_left / e.beta)
+    axes[2].set_ylim(ylim_left / e.beta)
 
     if e_id in [33, 5]:
         axes[-1].set_ylim([0, 25])
@@ -34,8 +34,8 @@ for panel, e_id in {"a": 33, "b": 41}.items():  # 5, 39
         "$^{16}$O$^{18}$O and $^{18}$O$_2$ / \n" "(pmol s$^{-1}$cm$^{-2}_{geo})$"
     )
     axes[1].set_ylabel("E vs RHE / (V)")
-    axes[2].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
-    axes[3].set_ylabel("$^{16}$O$_2$ / \n" "(pmol s$^{-1}$cm$^{-2}_{geo})$")
+    axes[3].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
+    axes[2].set_ylabel("$^{16}$O$_2$ / \n" "(pmol s$^{-1}$cm$^{-2}_{geo})$")
     axes[4].set_ylabel(
         f"{e.sample.element} dissolution / \n" "(pmol s$^{-1}$cm$^{-2}_{geo})$"
     )

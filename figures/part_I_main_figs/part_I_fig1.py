@@ -41,7 +41,7 @@ axes = cv.plot_measurement(
 )
 axes[0].set_ylabel("O$_2$ / (pmol s$^{-1}$cm$^{-2}_{geo})$")
 axes[1].set_ylabel("E vs RHE / (V)")
-axes[2].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
+axes[3].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
 axes[0].set_xlabel("time / (s)")
 axes[1].set_xlabel("time / (s)")
 

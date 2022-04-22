@@ -72,11 +72,11 @@ def calc_potential(experiment, tspan):
 
 def calc_current(experiment, tspan):
     """Return the average current in [A] during the experiment over tspan"""
-    t, I = experiment.meas.grab(experiment.meas.I_str, tspan=tspan)
+    t, I = experiment.meas.grab(experiment.meas.I_name, tspan=tspan)
     I *= 1e-3  # [mA] -> [A]
     tspan_bg = experiment.tspan_bg_current
     if tspan_bg:
-        t_bg, I_bg = experiment.meas.grab(experiment.meas.I_str, tspan=tspan_bg)
+        t_bg, I_bg = experiment.meas.grab(experiment.meas.I_name, tspan=tspan_bg)
         I_bg *= 1e-3  # [mA] -> [A]
         I_bg = np.mean(I_bg)
     elif experiment.tspan_cap:

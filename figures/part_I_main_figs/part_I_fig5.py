@@ -1,5 +1,3 @@
-"""This module plots stuff from 21F10 in Spectro Inlets notebook."""
-
 import json
 import numpy as np
 from matplotlib import pyplot as plt
@@ -15,7 +13,7 @@ from pyOER.constants import (
     STANDARD_SITE_DENSITY,
     STANDARD_SPECIFIC_CAPACITANCE,
 )
-from paper_I_v6_fig3 import plot_all_activity_results
+from part_I_fig3 import plot_all_activity_results
 from pyOER.modelling import get_states
 
 

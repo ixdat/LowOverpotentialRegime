@@ -10,10 +10,12 @@ import datetime
 from ixdat import Measurement as Meas
 from .constants import MEASUREMENT_DIR, MEASUREMENT_ID_FILE, STANDARD_ELECTRODE_AREA
 from .tools import singleton_decorator, CounterWithFile, FLOAT_MATCH
+
 try:
     from .settings import DATA_DIR
 except ImportError:
     from .constants import DEFAULT_DATA_DIR as DATA_DIR
+
 
 @singleton_decorator
 class MeasurementCounter(CounterWithFile):

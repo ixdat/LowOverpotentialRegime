@@ -40,6 +40,7 @@ from .tools import weighted_smooth as smooth
 
 # from .tools import smooth
 from .tools import get_range, dict_from_json
+
 try:
     from .settings import DATA_DIR
 except ImportError:
