@@ -34,14 +34,8 @@ Setup
           DATA_DIR = Path(r"C:\DATA\other_peoples_data\LowOverpotentialRegime")
 
 
-
-For now you can can see the old repository at https://github.com/ScottSoren/pyOER20
-See its README for instructions. 
-
-
 Figures
 -------
-Links for now point towards the old repository. We will update these when we move everything here. 
 
 `Part I: The importance of O2 detection. <https://doi.org/10.1039/D1EE03914H>`_
 ...............................................................................
@@ -52,7 +46,7 @@ Figure 1
 
 (d) and (e):
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/paper_I_v6_fig1.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig1.py
 
 Requires downloading the raw data files.
 
@@ -65,7 +59,7 @@ Figure 2
 
 (a), (b), (c), and (d):
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/paper_I_v6_fig2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig2.py
 
 (a), (b), and (d) show plots of activity measurements. (c) shows an analysis of the Faradaic Efficiency during the activity measurement in (b).
 
@@ -74,7 +68,7 @@ Requires downloading the raw data files.
 Figure 3
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/paper_I_v6_fig3.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig3.py
 
 This script defines a function ``plot_all_activity_results`` which is imported by fig5.py amoung others. 
 This function is used to make a figure in the lower part (under ``if __name__ == "__main__"``
@@ -84,12 +78,12 @@ Does not require downloading the raw data, as it uses the results stored in the 
 Figure 4
 ^^^^^^^^
 
-This was made in Origin.
+This was made in Origin. Contact R. R. R.
 
 Figure 5
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/paper_I_v6_fig5.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig5.py
 
 In addition to making the figure (using an import from fig3.py, this script also solves the model described in `the ESI <https://www.rsc.org/suppdata/d1/ee/d1ee03914h/d1ee03914h1.pdf>`_ for j0, dG1 and dG2.
 
@@ -103,7 +97,7 @@ On its way.
 Figure S2
 ^^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/SI_paper_I_v6_S2_O2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_SI_figs/part_I_figS2.py
 
 Requires downloading the raw data files.
 
@@ -135,7 +129,7 @@ Made in Origin
 Figure S8
 ^^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_I_v6_figs/SI_paper_I_v6_fig_S8_equilibrium.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_SI_figs/part_I_figS8.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
@@ -154,28 +148,28 @@ Figure 2
 
 (b):
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_II_v4_figs/paper_II_v4_fig2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig2.py
 
 Requires downloading the raw data files.
 
 Figure 3
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_II_v4_figs/paper_II_v4_fig3.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig3.py
 
 Requires downloading the raw data files.
 
 Figure 4
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_II_v4_figs/paper_II_v4_fig4.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig4.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
 Figure 5
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/figures/paper_II_v4_figs/paper_II_v4_fig5.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig5.py
 
 This uses the plotting function from Figures 3 and 5 of Paper 1.
 
@@ -184,7 +178,7 @@ Does not require downloading the raw data, as it uses the results stored in the 
 Figure 6
 ^^^^^^^^
 
-https://github.com/ScottSoren/pyOER20/blob/master/src/plot_ruo2_leis_figures.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig6.py
 
 Figure 7
 ^^^^^^^^
@@ -214,4 +208,4 @@ On its way.
 Figure S5
 ^^^^^^^^^
 
-On its way.
+https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_SI_figs/part_II_figS5.py
