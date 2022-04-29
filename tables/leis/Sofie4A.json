@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_first_ISS/Mono 400\u00b5m/Sofie4A/He ISS.avg",
-            "pickle_name": "Sofie4A__2020-01-13 05_12_58__thetaprobe__.pickle",
+            "pickle_name": "Sofie4A__2020-01-13 05_12_58__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-13 05:12:58",
             "timestamp": 1578888778.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_XPS_and_ISS/Mono 400\u00b5m - ISS/Sofie4A/He ISS.avg",
-            "pickle_name": "Sofie4A__2020-01-13 06_15_39__thetaprobe__.pickle",
+            "pickle_name": "Sofie4A__2020-01-13 06_15_39__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-13 06:15:39",
             "timestamp": 1578892539.0,

@@ -46,15 +46,31 @@ for V, tspan_pair in tspans.items():
     tspan_He = tspan_pair["He"]
     tspan_O2 = tspan_pair["O2"]
 
-    n_dot_M34_He = np.mean(m.meas.grab("M34", tspan=tspan_He, tspan_bg=tspan_bgs["He"])[1]) / sensitivity_factor  # average 16O18O flux in [mol/s]
-    n_dot_M36_He = np.mean(m.meas.grab("M36", tspan=tspan_He, tspan_bg=tspan_bgs["He"])[1]) / sensitivity_factor  # average 18O2 flux in [mol/s]
-    I_He = np.mean(m.meas.grab("raw_current", tspan=tspan_He)[1]) * 1e-3   # average current in [A]
+    n_dot_M34_He = (
+        np.mean(m.meas.grab("M34", tspan=tspan_He, tspan_bg=tspan_bgs["He"])[1])
+        / sensitivity_factor
+    )  # average 16O18O flux in [mol/s]
+    n_dot_M36_He = (
+        np.mean(m.meas.grab("M36", tspan=tspan_He, tspan_bg=tspan_bgs["He"])[1])
+        / sensitivity_factor
+    )  # average 18O2 flux in [mol/s]
+    I_He = (
+        np.mean(m.meas.grab("raw_current", tspan=tspan_He)[1]) * 1e-3
+    )  # average current in [A]
     I_M34_He = n_dot_M34_He * 4 * FARADAY_CONSTANT
     I_M36_He = n_dot_M36_He * 4 * FARADAY_CONSTANT
 
-    n_dot_M34_O2 = np.mean(m.meas.grab("M34", tspan=tspan_O2, tspan_bg=tspan_bgs["O2"])[1]) / sensitivity_factor  # average 16O18O flux in [mol/s]
-    n_dot_M36_O2 = np.mean(m.meas.grab("M36", tspan=tspan_O2, tspan_bg=tspan_bgs["O2"])[1]) / sensitivity_factor  # average 18O2 flux in [mol/s]
-    I_O2 = np.mean(m.meas.grab("raw_current", tspan=tspan_O2)[1]) * 1e-3   # average current in [A]
+    n_dot_M34_O2 = (
+        np.mean(m.meas.grab("M34", tspan=tspan_O2, tspan_bg=tspan_bgs["O2"])[1])
+        / sensitivity_factor
+    )  # average 16O18O flux in [mol/s]
+    n_dot_M36_O2 = (
+        np.mean(m.meas.grab("M36", tspan=tspan_O2, tspan_bg=tspan_bgs["O2"])[1])
+        / sensitivity_factor
+    )  # average 18O2 flux in [mol/s]
+    I_O2 = (
+        np.mean(m.meas.grab("raw_current", tspan=tspan_O2)[1]) * 1e-3
+    )  # average current in [A]
     I_M34_O2 = n_dot_M34_O2 * 4 * FARADAY_CONSTANT
     I_M36_O2 = n_dot_M36_O2 * 4 * FARADAY_CONSTANT
 

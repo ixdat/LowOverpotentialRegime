@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190219-014547_Post measurement-Nancy 5-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Nancy5__2019-02-19 01_45_47__omicron__Post measurement.pickle",
+            "pickle_name": "Nancy5__2019-02-19 01_45_47__omicron__Post measurement.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-19 01:45:47",
             "timestamp": 1550537147.0,
@@ -15,7 +15,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190219-001502_Post measurement-Nancy 5-ESpHybrid_NanoSAM_ISS--3_1-Detector_Region.vms",
-            "pickle_name": "Nancy5__2019-02-19 00_15_02__omicron__Post measurement.pickle",
+            "pickle_name": "Nancy5__2019-02-19 00_15_02__omicron__Post measurement.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-19 00:15:02",
             "timestamp": 1550531702.0,

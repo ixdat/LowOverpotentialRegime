@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS_cont/Mono 400\u00b5m/Melih2/He ISS.avg",
-            "pickle_name": "Melih2__2019-04-19 16_17_56__thetaprobe__.pickle",
+            "pickle_name": "Melih2__2019-04-19 16_17_56__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-19 16:17:56",
             "timestamp": 1555683476.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190226-043610_Treated 05-Melih 2-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-26 04_36_10__omicron__Treated 05.pickle",
+            "pickle_name": "Melih2__2019-02-26 04_36_10__omicron__Treated 05.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-26 04:36:10",
             "timestamp": 1551152170.0,
@@ -25,7 +25,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190225-035244_Treated 03-Melih 2-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-25 03_52_44__omicron__Treated 03.pickle",
+            "pickle_name": "Melih2__2019-02-25 03_52_44__omicron__Treated 03.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-25 03:52:44",
             "timestamp": 1551063164.0,
@@ -37,7 +37,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190226-225100_Air exposure-Melih 2-ESpHybrid_NanoSAM_ISS--6_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-26 22_51_00__omicron__Air exposure.pickle",
+            "pickle_name": "Melih2__2019-02-26 22_51_00__omicron__Air exposure.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-26 22:51:00",
             "timestamp": 1551217860.0,
@@ -49,7 +49,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190225-014442_Treated 02-Melih 2-ESpHybrid_NanoSAM_ISS--1_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-25 01_44_42__omicron__Treated 02.pickle",
+            "pickle_name": "Melih2__2019-02-25 01_44_42__omicron__Treated 02.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-25 01:44:42",
             "timestamp": 1551055482.0,
@@ -61,7 +61,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190224-232058_As prepared-Melih 2-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-24 23_20_58__omicron__As prepared.pickle",
+            "pickle_name": "Melih2__2019-02-24 23_20_58__omicron__As prepared.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-24 23:20:58",
             "timestamp": 1551046858.0,
@@ -73,7 +73,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190225-054956_Treated 04-Melih 2-ESpHybrid_NanoSAM_ISS--6_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-25 05_49_56__omicron__Treated 04.pickle",
+            "pickle_name": "Melih2__2019-02-25 05_49_56__omicron__Treated 04.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-25 05:49:56",
             "timestamp": 1551070196.0,
@@ -85,7 +85,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Melih2/20190225-005415_Treated 01-Melih 2-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Melih2__2019-02-25 00_54_15__omicron__Treated 01.pickle",
+            "pickle_name": "Melih2__2019-02-25 00_54_15__omicron__Treated 01.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-25 00:54:15",
             "timestamp": 1551052455.0,

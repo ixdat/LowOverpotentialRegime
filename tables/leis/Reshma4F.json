@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008/Mono 400\u00b5m/Reshma4F/He ISS.avg",
-            "pickle_name": "Reshma4F__2019-10-22 23_01_36__thetaprobe__.pickle",
+            "pickle_name": "Reshma4F__2019-10-22 23_01_36__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:01:36",
             "timestamp": 1571778096.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Reshma4F/He ISS.avg",
-            "pickle_name": "Reshma4F__2019-10-22 23_23_39__thetaprobe__.pickle",
+            "pickle_name": "Reshma4F__2019-10-22 23_23_39__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:23:39",
             "timestamp": 1571779419.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Reshma4F/He ISS.avg",
-            "pickle_name": "Reshma4F__2019-10-20 21_20_37__thetaprobe__.pickle",
+            "pickle_name": "Reshma4F__2019-10-20 21_20_37__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 21:20:37",
             "timestamp": 1571599237.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Reshma4F/He ISS.avg",
-            "pickle_name": "Reshma4F__2019-10-20 20_22_02__thetaprobe__.pickle",
+            "pickle_name": "Reshma4F__2019-10-20 20_22_02__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 20:22:02",
             "timestamp": 1571595722.0,

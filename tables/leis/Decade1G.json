@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-08 19_35_03__thetaprobe__spot.pickle",
+            "pickle_name": "Decade1G__2020-01-08 19_35_03__thetaprobe__spot.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 19:35:03",
             "timestamp": 1578508503.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-08 19_35_02__thetaprobe__.pickle",
+            "pickle_name": "Decade1G__2020-01-08 19_35_02__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 19:35:02",
             "timestamp": 1578508502.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-08 21_39_03__thetaprobe__spot.pickle",
+            "pickle_name": "Decade1G__2020-01-08 21_39_03__thetaprobe__spot.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 21:39:03",
             "timestamp": 1578515943.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Decade1G/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-08 21_39_02__thetaprobe__.pickle",
+            "pickle_name": "Decade1G__2020-01-08 21_39_02__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 21:39:02",
             "timestamp": 1578515942.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-07 14_05_19__thetaprobe__spot.pickle",
+            "pickle_name": "Decade1G__2020-01-07 14_05_19__thetaprobe__spot.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 14:05:19",
             "timestamp": 1578402319.0,
@@ -53,7 +53,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-07 14_05_18__thetaprobe__.pickle",
+            "pickle_name": "Decade1G__2020-01-07 14_05_18__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 14:05:18",
             "timestamp": 1578402318.0,
@@ -63,7 +63,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1G_spot/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__spot.pickle",
+            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__spot.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 16:46:49",
             "timestamp": 1578412009.0,
@@ -73,7 +73,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1G/He ISS.avg",
-            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__.pickle",
+            "pickle_name": "Decade1G__2020-01-07 16_46_49__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 16:46:49",
             "timestamp": 1578412009.0,

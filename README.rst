@@ -19,6 +19,7 @@ Setup
 
      pip install --upgrade ixdat
 
+
 3. Add the folder "src" in this repository to your python path. This will let you import
    from src/pyOER. pyOER is a package that builds on top of ixdat to manage and analyze the
    data in this project.

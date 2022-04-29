@@ -1,3 +1,5 @@
+"""This module is from Part I. It is here for use by part_II_fig5.py."""
+
 import re
 from pyOER.tof import all_tofs, TurnOverFrequency
 import numpy as np

@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L22_Legend_tested/19L22_first_ISS/Mono 400\u00b5m/John4B/He ISS.avg",
-            "pickle_name": "John4B__2019-12-22 15_55_29__thetaprobe__.pickle",
+            "pickle_name": "John4B__2019-12-22 15_55_29__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-22 15:55:29",
             "timestamp": 1577026529.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/John4B/He ISS.avg",
-            "pickle_name": "John4B__2019-12-18 01_23_15__thetaprobe__.pickle",
+            "pickle_name": "John4B__2019-12-18 01_23_15__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-18 01:23:15",
             "timestamp": 1576628595.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/John4B/He ISS.avg",
-            "pickle_name": "John4B__2019-12-17 23_39_09__thetaprobe__.pickle",
+            "pickle_name": "John4B__2019-12-17 23_39_09__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-17 23:39:09",
             "timestamp": 1576622349.0,

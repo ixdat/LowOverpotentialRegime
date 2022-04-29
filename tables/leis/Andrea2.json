@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/Andrea2/He ISS.avg",
-            "pickle_name": "Andrea2__2019-12-18 01_23_17__thetaprobe__.pickle",
+            "pickle_name": "Andrea2__2019-12-18 01_23_17__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-18 01:23:17",
             "timestamp": 1576628597.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/Andrea2/He ISS.avg",
-            "pickle_name": "Andrea2__2019-12-17 23_39_11__thetaprobe__.pickle",
+            "pickle_name": "Andrea2__2019-12-17 23_39_11__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-17 23:39:11",
             "timestamp": 1576622351.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D27_ISS/Mono 400\u00b5m/Andrea2/He ISS.avg",
-            "pickle_name": "Andrea2__2019-04-27 14_03_18__thetaprobe__.pickle",
+            "pickle_name": "Andrea2__2019-04-27 14_03_18__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-27 14:03:18",
             "timestamp": 1556366598.0,

@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Trimi1/He ISS.avg",
-            "pickle_name": "Trimi1__2019-12-21 13_46_28__thetaprobe__.pickle",
+            "pickle_name": "Trimi1__2019-12-21 13_46_28__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-21 13:46:28",
             "timestamp": 1576932388.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_Trimi1_and_Folk5/20A08_first_ISS/Mono 400\u00b5m/Trimi1/He ISS.avg",
-            "pickle_name": "Trimi1__2020-01-08 09_09_22__thetaprobe__.pickle",
+            "pickle_name": "Trimi1__2020-01-08 09_09_22__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 09:09:22",
             "timestamp": 1578470962.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/XPS_and_ISS/Mono 400\u00b5m ISS/Trimi1/He ISS.avg",
-            "pickle_name": "Trimi1__2019-12-09 07_02_14__thetaprobe__.pickle",
+            "pickle_name": "Trimi1__2019-12-09 07_02_14__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 07:02:14",
             "timestamp": 1575871334.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Trimi1/He ISS.avg",
-            "pickle_name": "Trimi1__2019-12-09 05_28_20__thetaprobe__.pickle",
+            "pickle_name": "Trimi1__2019-12-09 05_28_20__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 05:28:20",
             "timestamp": 1575865700.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Trimi1_2/He ISS.avg",
-            "pickle_name": "Trimi1__2019-12-09 05_28_20__thetaprobe__2.pickle",
+            "pickle_name": "Trimi1__2019-12-09 05_28_20__thetaprobe__2.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 05:28:20",
             "timestamp": 1575865700.0,

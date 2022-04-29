@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29_Goof1/19D29_ISS/Mono 400\u00b5m/Folk3/He ISS.avg",
-            "pickle_name": "Folk3__2019-04-29 08_24_17__thetaprobe__.pickle",
+            "pickle_name": "Folk3__2019-04-29 08_24_17__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-29 08:24:17",
             "timestamp": 1556519057.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29_Goof1/19D29_XPS/Mono 400\u00b5m/Folk3/He ISS.avg",
-            "pickle_name": "Folk3__2019-04-29 07_00_41__thetaprobe__.pickle",
+            "pickle_name": "Folk3__2019-04-29 07_00_41__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-29 07:00:41",
             "timestamp": 1556514041.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/XPS_and_ISS/Mono 400\u00b5m ISS/Folk3/He ISS.avg",
-            "pickle_name": "Folk3__2019-12-09 07_02_09__thetaprobe__.pickle",
+            "pickle_name": "Folk3__2019-12-09 07_02_09__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 07:02:09",
             "timestamp": 1575871329.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Folk3/He ISS.avg",
-            "pickle_name": "Folk3__2019-12-09 05_21_57__thetaprobe__.pickle",
+            "pickle_name": "Folk3__2019-12-09 05_21_57__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 05:21:57",
             "timestamp": 1575865317.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/ISS_10_scans/Mono 400\u00b5m ISS/Folk3/He ISS.avg",
-            "pickle_name": "Folk3__2019-12-09 10_09_09__thetaprobe__.pickle",
+            "pickle_name": "Folk3__2019-12-09 10_09_09__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 10:09:09",
             "timestamp": 1575882549.0,

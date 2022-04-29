@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A12_Sofie_and_Jazz_and_friends/20A12_first_ISS/Mono 400\u00b5m/Reshma4Si/He ISS.avg",
-            "pickle_name": "Reshma4Si__2020-01-13 05_12_57__thetaprobe__.pickle",
+            "pickle_name": "Reshma4Si__2020-01-13 05_12_57__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-13 05:12:57",
             "timestamp": 1578888777.0,

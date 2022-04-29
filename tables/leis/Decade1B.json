@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Decade1B/He ISS.avg",
-            "pickle_name": "Decade1B__2020-01-07 14_05_18__thetaprobe__.pickle",
+            "pickle_name": "Decade1B__2020-01-07 14_05_18__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 14:05:18",
             "timestamp": 1578402318.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Decade1B/He ISS.avg",
-            "pickle_name": "Decade1B__2020-01-07 16_46_48__thetaprobe__.pickle",
+            "pickle_name": "Decade1B__2020-01-07 16_46_48__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 16:46:48",
             "timestamp": 1578412008.0,

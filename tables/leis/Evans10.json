@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D19_labeled_RuO2/19D19_ISS_cont/Mono 400\u00b5m/Evans10/He ISS.avg",
-            "pickle_name": "Evans10__2019-04-19 16_17_55__thetaprobe__.pickle",
+            "pickle_name": "Evans10__2019-04-19 16_17_55__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-19 16:17:55",
             "timestamp": 1555683475.0,

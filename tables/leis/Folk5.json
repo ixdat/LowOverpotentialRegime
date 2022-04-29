@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Folk5_smooth/He ISS.avg",
-            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__smooth.pickle",
+            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__smooth.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-21 13:46:29",
             "timestamp": 1576932389.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Folk5_bumpy/He ISS.avg",
-            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__bumpy.pickle",
+            "pickle_name": "Folk5__2019-12-21 13_46_29__thetaprobe__bumpy.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-21 13:46:29",
             "timestamp": 1576932389.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_Trimi1_and_Folk5/20A08_first_ISS/Mono 400\u00b5m/Folk5/He ISS.avg",
-            "pickle_name": "Folk5__2020-01-08 09_09_21__thetaprobe__.pickle",
+            "pickle_name": "Folk5__2020-01-08 09_09_21__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 09:09:21",
             "timestamp": 1578470961.0,

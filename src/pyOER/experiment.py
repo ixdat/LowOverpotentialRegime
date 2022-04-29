@@ -369,11 +369,11 @@ class Experiment:
             self._alpha = alpha or STANDARD_ALPHA
         return self._alpha
 
-    def calc_flux(self, mol, tspan, removebackground=True, **kwargs):
+    def calc_flux(self, mol, tspan, remove_background=True, **kwargs):
         """Return the flux for a calibrated mol (a key to self.mdict)"""
         m = self.mdict[mol]
         return self.meas.grab_flux(
-            m, tspan=tspan, removebackground=removebackground, **kwargs
+            m, tspan=tspan, remove_background=remove_background, **kwargs
         )
 
     def get_tofs(self):
@@ -398,12 +398,12 @@ class Experiment:
 
     def correct_current(self):
         I_bg = self.calc_background_current()
-        I_str = self.meas.I_str
-        J_str = self.meas.J_str
+        I_name = self.meas.I_name
+        J_name = self.meas.J_name
         A_el = self.meas.A_el
-        print(f"subtracting {I_bg * 1e3 / A_el} from '{J_str}'")
-        self.meas.correct_data(I_str, self.meas[I_str].data - I_bg * 1e3)
-        self.meas.correct_data(J_str, self.meas[J_str].data - I_bg * 1e3 / A_el)
+        print(f"subtracting {I_bg * 1e3 / A_el} from '{J_name}'")
+        self.meas.correct_data(I_name, self.meas[I_name].data - I_bg * 1e3)
+        self.meas.correct_data(J_name, self.meas[J_name].data - I_bg * 1e3 / A_el)
 
 
 class StandardExperiment(Experiment):
@@ -531,8 +531,8 @@ class StandardExperiment(Experiment):
         Returns list of Axes:
             0: The minority-isotope signals (^{18}O2 and ^{16}O^{18}O fluxes)
             1: The electrochemical potential
-            2: The electrochemical current
-            3: The majority-isotope signal (^{16}O2 flux)
+            2: The majority-isotope signal (^{16}O2 flux)
+            3: The electrochemical current
             4: The ICPMS-determined dissolution rate
         """
 
@@ -547,7 +547,7 @@ class StandardExperiment(Experiment):
         # the list of axes for the EC-MS data:
         axes = [plt.subplot(gs[1:3, 0])]
         axes += [plt.subplot(gs[3, 0])]
-        axes += [axes[1].twinx(), axes[0].twinx()]
+        axes += [axes[0].twinx(), axes[1].twinx()]
 
         fig = plt.gcf()
         fig.set_figwidth(8)
@@ -565,19 +565,19 @@ class StandardExperiment(Experiment):
             legend=False,
         )
         # get the flux in mol/s
-        x32, y32 = self.meas.grab_flux(O2_M32, tspan=tspan, removebackground=True)
-        x34, y34 = self.meas.grab_flux(O2_M34, tspan=tspan, removebackground=True)
+        x32, y32 = self.meas.grab_flux(O2_M32, tspan=tspan, remove_background=True)
+        x34, y34 = self.meas.grab_flux(O2_M34, tspan=tspan, remove_background=True)
         if unit == "pmol/s/cm^2":
             axes[0].set_ylabel("$^{18}$O flux / \n (pmol s$^{-1}$cm$^{-2}$)")
-            axes[-1].set_ylabel("$^{16}$O$_2$ flux / \n (pmol s$^{-1}$cm$^{-2}$)")
+            axes[2].set_ylabel("$^{16}$O$_2$ flux / \n (pmol s$^{-1}$cm$^{-2}$)")
             y32 = y32 * 1e12 / self.meas.A_el  # pmol/s/cm^2
             y34 = y34 * 1e12 / self.meas.A_el  # pmol/s/cm^2
         else:
             unit = "mol/s"
             axes[0].set_ylabel("$^{18}$O / (" + unit + ")")
-            axes[-1].set_ylabel("$^{16}$O$_2$ / (" + unit + ")")
+            axes[2].set_ylabel("$^{16}$O$_2$ / (" + unit + ")")
         axes[1].set_ylabel("U vs RHE / (V)")
-        axes[2].set_ylabel("J / (mA cm$^{-2}$)")
+        axes[3].set_ylabel("J / (mA cm$^{-2}$)")
         axes[1].set_xlabel("time / (s)")
         # colorax(ax[0], O2_M34.get_color(), lr='left')
 
@@ -593,7 +593,7 @@ class StandardExperiment(Experiment):
             axis="x", bottom=True, top=True, labelbottom=False, labeltop=False
         )
         axes[0].set_xlabel("")
-        axes[-1].tick_params(
+        axes[2].tick_params(
             axis="x", bottom=True, top=True, labelbottom=False, labeltop=False
         )
 
@@ -639,7 +639,7 @@ class StandardExperiment(Experiment):
         # scale M32 axis according to M34 axis limits and natural O isotope ratio!
         ylim_1 = axes[0].get_ylim()
         ylim_2_corrected = [ylim_1[0] / beta, ylim_1[-1] / beta]
-        axes[3].set_ylim(ylim_2_corrected)
+        axes[2].set_ylim(ylim_2_corrected)
 
         ylims = ylims or self.plot_specs.get("ylims", {})
         for key, ylim in ylims.items():
@@ -650,7 +650,7 @@ class StandardExperiment(Experiment):
                 break
             ax.set_ylim(ylim)
             if key == 0:  # keep the isotopic scaling!
-                axes[3].set_ylim([lim / beta for lim in ylim])
+                axes[2].set_ylim([lim / beta for lim in ylim])
 
         return axes
 
@@ -707,9 +707,9 @@ class ActExperiment(Experiment):
         if not axes:
             fig, ax1 = plt.subplots()
             ax2 = ax1.twinx()
-            ax1.set_xlabel(self.meas.V_str)
+            ax1.set_xlabel(self.meas.U_name)
             ax1.set_ylabel("Faradaic efficiency / [%]")
-            ax2.set_ylabel(self.meas.J_str)
+            ax2.set_ylabel(self.meas.J_name)
         else:
             ax1, ax2 = axes
 

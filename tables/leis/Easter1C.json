@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D29_Goof1/19D29_ISS/Mono 400\u00b5m/Easter1C/He ISS.avg",
-            "pickle_name": "Easter1C__2019-04-29 08_24_16__thetaprobe__.pickle",
+            "pickle_name": "Easter1C__2019-04-29 08_24_16__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-29 08:24:16",
             "timestamp": 1556519056.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008/Mono 400\u00b5m/Easter1C/He ISS.avg",
-            "pickle_name": "Easter1C__2019-10-22 23_01_36__thetaprobe__.pickle",
+            "pickle_name": "Easter1C__2019-10-22 23_01_36__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:01:36",
             "timestamp": 1571778096.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Easter1C/He ISS.avg",
-            "pickle_name": "Easter1C__2019-10-22 23_23_39__thetaprobe__.pickle",
+            "pickle_name": "Easter1C__2019-10-22 23_23_39__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:23:39",
             "timestamp": 1571779419.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS_and_XPS/Mono 400\u00b5m/Easter1C/He ISS.avg",
-            "pickle_name": "Easter1C__2019-10-20 21_20_38__thetaprobe__.pickle",
+            "pickle_name": "Easter1C__2019-10-20 21_20_38__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 21:20:38",
             "timestamp": 1571599238.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J20_before_new_tests/19J20_ISS/Mono 400\u00b5m/Easter1C/He ISS.avg",
-            "pickle_name": "Easter1C__2019-10-20 20_22_03__thetaprobe__.pickle",
+            "pickle_name": "Easter1C__2019-10-20 20_22_03__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-20 20:22:03",
             "timestamp": 1571595723.0,

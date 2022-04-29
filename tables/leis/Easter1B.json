@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_first_ISS/Iteration #008/Mono 400\u00b5m/Easter1B/He ISS.avg",
-            "pickle_name": "Easter1B__2019-10-22 23_01_36__thetaprobe__.pickle",
+            "pickle_name": "Easter1B__2019-10-22 23_01_36__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:01:36",
             "timestamp": 1571778096.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19J22_after_new_tests/19J22_XPS_and_ISS/Iteration #008/Mono 400\u00b5m/Easter1B/He ISS.avg",
-            "pickle_name": "Easter1B__2019-10-22 23_23_38__thetaprobe__.pickle",
+            "pickle_name": "Easter1B__2019-10-22 23_23_38__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-10-22 23:23:38",
             "timestamp": 1571779418.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D27_XPS/Mono 400\u00b5m/Easter1B/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-27 13_55_50__thetaprobe__.pickle",
+            "pickle_name": "Easter1B__2019-04-27 13_55_50__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-27 13:55:50",
             "timestamp": 1556366150.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_960s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 13_24_30__thetaprobe__960s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 13_24_30__thetaprobe__960s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 13:24:30",
             "timestamp": 1556450670.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_point_2_for_real/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 13_57_11__thetaprobe__point-2-for-real.pickle",
+            "pickle_name": "Easter1B__2019-04-28 13_57_11__thetaprobe__point-2-for-real.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 13:57:11",
             "timestamp": 1556452631.0,
@@ -53,7 +53,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_240s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 11_59_19__thetaprobe__240s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 11_59_19__thetaprobe__240s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 11:59:19",
             "timestamp": 1556445559.0,
@@ -63,7 +63,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_point_2/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 13_40_30__thetaprobe__point-2.pickle",
+            "pickle_name": "Easter1B__2019-04-28 13_40_30__thetaprobe__point-2.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 13:40:30",
             "timestamp": 1556451630.0,
@@ -73,7 +73,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_480s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 12_13_31__thetaprobe__480s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 12_13_31__thetaprobe__480s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 12:13:31",
             "timestamp": 1556446411.0,
@@ -83,7 +83,7 @@
         },
         "8": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_point_4/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 14_30_44__thetaprobe__point-4.pickle",
+            "pickle_name": "Easter1B__2019-04-28 14_30_44__thetaprobe__point-4.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 14:30:44",
             "timestamp": 1556454644.0,
@@ -93,7 +93,7 @@
         },
         "9": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_30s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 11_13_25__thetaprobe__30s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 11_13_25__thetaprobe__30s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 11:13:25",
             "timestamp": 1556442805.0,
@@ -103,7 +103,7 @@
         },
         "10": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_120s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 11_42_31__thetaprobe__120s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 11_42_31__thetaprobe__120s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 11:42:31",
             "timestamp": 1556444551.0,
@@ -113,7 +113,7 @@
         },
         "11": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_60s_Ar/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 11_24_16__thetaprobe__60s-Ar.pickle",
+            "pickle_name": "Easter1B__2019-04-28 11_24_16__thetaprobe__60s-Ar.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 11:24:16",
             "timestamp": 1556443456.0,
@@ -123,7 +123,7 @@
         },
         "12": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B_point_3/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 14_23_54__thetaprobe__point-3.pickle",
+            "pickle_name": "Easter1B__2019-04-28 14_23_54__thetaprobe__point-3.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 14:23:54",
             "timestamp": 1556454234.0,
@@ -133,7 +133,7 @@
         },
         "13": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D28_ISS_sputter_profile/Mono 400\u00b5m/Easter1B/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-28 10_58_36__thetaprobe__.pickle",
+            "pickle_name": "Easter1B__2019-04-28 10_58_36__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-28 10:58:36",
             "timestamp": 1556441916.0,
@@ -143,7 +143,7 @@
         },
         "14": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19D27_tested_RuO2/19D27_ISS/Mono 400\u00b5m/Easter1B/He ISS.avg",
-            "pickle_name": "Easter1B__2019-04-27 14_03_17__thetaprobe__.pickle",
+            "pickle_name": "Easter1B__2019-04-27 14_03_17__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-04-27 14:03:17",
             "timestamp": 1556366597.0,

@@ -39,7 +39,7 @@ axes_b = e1.measurement.plot(
 axes_b[0].set_ylim([1e-13, 1e-7])
 axes_b[0].set_ylabel("raw MS signal / (A)")
 axes_b[1].set_ylabel("E vs RHE / (V)")
-axes_b[2].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
+axes_b[3].set_ylabel("J / (mA cm$^{-2}_{geo}$)")
 axes_b[0].set_xlabel("time / (s)")
 axes_b[1].set_xlabel("time / (s)")
 

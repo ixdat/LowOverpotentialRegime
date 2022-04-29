@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190224-162232_After EC-Nancy 1-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Nancy1__2019-02-24 16_22_32__omicron__After EC.pickle",
+            "pickle_name": "Nancy1__2019-02-24 16_22_32__omicron__After EC.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-24 16:22:32",
             "timestamp": 1551021752.0,
@@ -15,7 +15,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/Characterizations/Ruthenium/Nancies/20190224-175105_After EC-Nancy 1-ESpHybrid_NanoSAM_ISS--2_1-Detector_Region.vms",
-            "pickle_name": "Nancy1__2019-02-24 17_51_05__omicron__After EC.pickle",
+            "pickle_name": "Nancy1__2019-02-24 17_51_05__omicron__After EC.pkl",
             "recorded_on": "omicron",
             "datetime": "2019-02-24 17:51:05",
             "timestamp": 1551027065.0,

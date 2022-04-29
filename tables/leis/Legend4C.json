@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L21_Legend_fresh/19L21_ISS_and_XPS/Mono 400\u00b5m/Legend4C/He ISS.avg",
-            "pickle_name": "Legend4C__2019-12-21 13_46_28__thetaprobe__.pickle",
+            "pickle_name": "Legend4C__2019-12-21 13_46_28__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-21 13:46:28",
             "timestamp": 1576932388.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__center.pickle",
+            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 19:35:03",
             "timestamp": 1578508503.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_first_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__edge.pickle",
+            "pickle_name": "Legend4C__2020-01-08 19_35_03__thetaprobe__edge.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 19:35:03",
             "timestamp": 1578508503.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__center.pickle",
+            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 21:39:03",
             "timestamp": 1578515943.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A08_for_mostly_post_test/20A08_ISS_after_XPS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__edge.pickle",
+            "pickle_name": "Legend4C__2020-01-08 21_39_03__thetaprobe__edge.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-08 21:39:03",
             "timestamp": 1578515943.0,
@@ -53,7 +53,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-07 14_05_19__thetaprobe__center.pickle",
+            "pickle_name": "Legend4C__2020-01-07 14_05_19__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 14:05:19",
             "timestamp": 1578402319.0,
@@ -63,7 +63,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_first_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-07 14_05_20__thetaprobe__edge.pickle",
+            "pickle_name": "Legend4C__2020-01-07 14_05_20__thetaprobe__edge.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 14:05:20",
             "timestamp": 1578402320.0,
@@ -73,7 +73,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Legend4C_center/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-07 16_46_49__thetaprobe__center.pickle",
+            "pickle_name": "Legend4C__2020-01-07 16_46_49__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 16:46:49",
             "timestamp": 1578412009.0,
@@ -83,7 +83,7 @@
         },
         "8": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/20A07_Decade_and_Legend_before_testing/20A07_second_ISS/Mono 400\u00b5m/Legend4C_edge/He ISS.avg",
-            "pickle_name": "Legend4C__2020-01-07 16_46_50__thetaprobe__edge.pickle",
+            "pickle_name": "Legend4C__2020-01-07 16_46_50__thetaprobe__edge.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2020-01-07 16:46:50",
             "timestamp": 1578412010.0,

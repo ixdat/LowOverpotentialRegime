@@ -50,5 +50,3 @@ for m in all_measurements():
                 new_data_path = new_data_path + "/" + part
         m.raw_data_path = new_data_path
         m.save()
-
-

@@ -10,7 +10,11 @@ import datetime
 from ixdat import Measurement as Meas
 from .constants import MEASUREMENT_DIR, MEASUREMENT_ID_FILE, STANDARD_ELECTRODE_AREA
 from .tools import singleton_decorator, CounterWithFile, FLOAT_MATCH
-from .settings import DATA_DIR
+
+try:
+    from .settings import DATA_DIR
+except ImportError:
+    from .constants import DEFAULT_DATA_DIR as DATA_DIR
 
 
 @singleton_decorator
@@ -288,7 +292,7 @@ class Measurement:
             notes = self.elog.notes
             if self.EC_tag:
                 try:
-                    EC_tag_match = re.search(fr"\n\s+{self.EC_tag}", notes)
+                    EC_tag_match = re.search(rf"\n\s+{self.EC_tag}", notes)
                 except TypeError:
                     print(f"[problem searching for '{self.EC_tag}' in:\n{notes}]\n")
                     return

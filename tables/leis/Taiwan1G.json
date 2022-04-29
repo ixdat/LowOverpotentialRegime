@@ -3,7 +3,7 @@
     "data": {
         "0": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/Taiwan1G_dark/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-18 01_23_19__thetaprobe__dark.pickle",
+            "pickle_name": "Taiwan1G__2019-12-18 01_23_19__thetaprobe__dark.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-18 01:23:19",
             "timestamp": 1576628599.0,
@@ -13,7 +13,7 @@
         },
         "1": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/Taiwan1G_light/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-18 01_23_18__thetaprobe__light.pickle",
+            "pickle_name": "Taiwan1G__2019-12-18 01_23_18__thetaprobe__light.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-18 01:23:18",
             "timestamp": 1576628598.0,
@@ -23,7 +23,7 @@
         },
         "2": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/XPS_and_ISS/Mono 400\u00b5m/Taiwan1G_center/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-18 01_23_19__thetaprobe__center.pickle",
+            "pickle_name": "Taiwan1G__2019-12-18 01_23_19__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-18 01:23:19",
             "timestamp": 1576628599.0,
@@ -33,7 +33,7 @@
         },
         "3": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/Taiwan1G_dark/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-17 23_39_11__thetaprobe__dark.pickle",
+            "pickle_name": "Taiwan1G__2019-12-17 23_39_11__thetaprobe__dark.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-17 23:39:11",
             "timestamp": 1576622351.0,
@@ -43,7 +43,7 @@
         },
         "4": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/Taiwan1G_light/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-17 23_39_11__thetaprobe__light.pickle",
+            "pickle_name": "Taiwan1G__2019-12-17 23_39_11__thetaprobe__light.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-17 23:39:11",
             "timestamp": 1576622351.0,
@@ -53,7 +53,7 @@
         },
         "5": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L17_John4_and_Taiwan1G/first_ISS/Mono 400\u00b5m/Taiwan1G_center/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-17 23_39_12__thetaprobe__center.pickle",
+            "pickle_name": "Taiwan1G__2019-12-17 23_39_12__thetaprobe__center.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-17 23:39:12",
             "timestamp": 1576622352.0,
@@ -63,7 +63,7 @@
         },
         "6": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/XPS_and_ISS/Mono 400\u00b5m ISS/Taiwan1G/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-09 07_02_13__thetaprobe__.pickle",
+            "pickle_name": "Taiwan1G__2019-12-09 07_02_13__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 07:02:13",
             "timestamp": 1575871333.0,
@@ -73,7 +73,7 @@
         },
         "7": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/XPS_and_ISS/Mono 400\u00b5m ISS/Taiwan1G_2/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-09 07_02_13__thetaprobe__2.pickle",
+            "pickle_name": "Taiwan1G__2019-12-09 07_02_13__thetaprobe__2.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 07:02:13",
             "timestamp": 1575871333.0,
@@ -83,7 +83,7 @@
         },
         "8": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Taiwan1G/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-09 05_28_18__thetaprobe__.pickle",
+            "pickle_name": "Taiwan1G__2019-12-09 05_28_18__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 05:28:18",
             "timestamp": 1575865698.0,
@@ -93,7 +93,7 @@
         },
         "9": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/first_ISS/Mono 400\u00b5m/Taiwan1G_2/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-09 05_28_18__thetaprobe__2.pickle",
+            "pickle_name": "Taiwan1G__2019-12-09 05_28_18__thetaprobe__2.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 05:28:18",
             "timestamp": 1575865698.0,
@@ -103,7 +103,7 @@
         },
         "10": {
             "raw_data_path": "/home/jejsor/Dropbox/DTU-MIT RuO2/Thetaprobe/All_data_and_text_files/19L08_Taiwan_after_first_testing/ISS_10_scans/Mono 400\u00b5m ISS/Taiwan1G/He ISS.avg",
-            "pickle_name": "Taiwan1G__2019-12-09 10_09_12__thetaprobe__.pickle",
+            "pickle_name": "Taiwan1G__2019-12-09 10_09_12__thetaprobe__.pkl",
             "recorded_on": "thetaprobe",
             "datetime": "2019-12-09 10:09:12",
             "timestamp": 1575882552.0,
