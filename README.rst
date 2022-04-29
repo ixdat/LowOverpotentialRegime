@@ -38,6 +38,8 @@ Setup
           # Change below path to match the path to the shared folder of your project.
           DATA_DIR = Path(r"C:\DATA\other_peoples_data\LowOverpotentialRegime")
 
+5. If you have any problems, questions, or comments, please contact us! Log an `Issue <https://github.com/ixdat/LowOverpotentialRegime/issues>`_ or write to sbscott@ic.ac.uk
+
 
 Figures
 -------
@@ -51,7 +53,7 @@ Figure 1
 
 (d) and (e):
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig1.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig1.py
 
 Requires downloading the raw data files.
 
@@ -64,7 +66,7 @@ Figure 2
 
 (a), (b), (c), and (d):
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig2.py
 
 (a), (b), and (d) show plots of activity measurements. (c) shows an analysis of the Faradaic Efficiency during the activity measurement in (b).
 
@@ -73,7 +75,7 @@ Requires downloading the raw data files.
 Figure 3
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig3.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig3.py
 
 This script defines a function ``plot_all_activity_results`` which is imported by fig5.py amoung others. 
 This function is used to make a figure in the lower part (under ``if __name__ == "__main__"``
@@ -88,7 +90,7 @@ This was made in Origin. Contact R. R. R.
 Figure 5
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_main_figs/part_I_fig5.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig5.py
 
 In addition to making the figure (using an import from fig3.py, this script also solves the model described in `the ESI <https://www.rsc.org/suppdata/d1/ee/d1ee03914h/d1ee03914h1.pdf>`_ for j0, dG1 and dG2.
 
@@ -102,7 +104,7 @@ On its way.
 Figure S2
 ^^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_SI_figs/part_I_figS2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_SI_figs/part_I_figS2.py
 
 Requires downloading the raw data files.
 
@@ -134,7 +136,7 @@ Made in Origin
 Figure S8
 ^^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_I_SI_figs/part_I_figS8.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_SI_figs/part_I_figS8.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
@@ -153,28 +155,28 @@ Figure 2
 
 (b):
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig2.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig2.py
 
 Requires downloading the raw data files.
 
 Figure 3
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig3.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig3.py
 
 Requires downloading the raw data files.
 
 Figure 4
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig4.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig4.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
 Figure 5
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig5.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig5.py
 
 This uses the plotting function from Figures 3 and 5 of Paper 1.
 
@@ -183,7 +185,7 @@ Does not require downloading the raw data, as it uses the results stored in the 
 Figure 6
 ^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_main_figs/part_II_fig6.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig6.py
 
 Figure 7
 ^^^^^^^^
@@ -213,4 +215,4 @@ On its way.
 Figure S5
 ^^^^^^^^^
 
-https://github.com/ixdat/LowOverpotentialRegime/blob/move_leis/figures/part_II_SI_figs/part_II_figS5.py
+https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_SI_figs/part_II_figS5.py
