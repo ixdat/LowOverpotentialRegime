@@ -228,31 +228,42 @@ use. Each table corresponds to a class in pyOER, and each row corresponds to an 
 The tables include but are not limited to:
 
 - **measurements**. A measurement is a collection of metadata about a single EC, MS or EC-MS measurement.
-It includes a pointer to any notes taken during the measurement (elog table), as well as the raw data file.
-pyOER is lazy in that raw data is not loaded by the measurement object until it is needed, saving RAM.
+  It includes a pointer to any notes taken during the measurement (elog table), as well as the raw data file.
+  pyOER is lazy in that raw data is not loaded by the measurement object until it is needed, saving RAM.
+  A ``pyOER.Measurement`` can be thought of as a wrapper around an ``ixdat.Measurement`` object 
+  (the classes unfortunately share the same name), and should ideally be incorporated into the latter.
 
 - **icpms**. An row in this table represents a single ICPMS measurement, with the counts and metadata
-including which element was measured, which ICPMS calibration it corresponds to, which measurement the
-electrolyte sample was taken during (measurement table) and when in that measurement.
+  including which element was measured, which ICPMS calibration it corresponds to, which measurement the
+  electrolyte sample was taken during (measurement table) and when in that measurement.
 
 - **experiments**. An experiment contains the additional metadata needed to do a standard analysis of
-a measurement (measurements table) to extract results such as activity, faradaic efficiency, lattice oxygen evolution rate,
-and dissolution rates. The additional metadata can include references to where in the measurement or elsewhere
-to read the calibration of the O2 signal at m/z=32 and the 16O/18O isotopic ratio in the electrolyte
+  a measurement (measurements table) to extract results such as activity, faradaic efficiency, lattice oxygen evolution rate,
+  and dissolution rates. The additional metadata can include references to where in the measurement or elsewhere
+  to read the calibration of the O2 signal at m/z=32 and the 16O/18O isotopic ratio in the electrolyte
 
 - **tofs**. A row in this table represents a result, which is a rate of oxygen evolution, lattice oxygen evolution,
-or dissolution. It also includes a capacitance value for normalization to number of sites (thus the name of the
-table, for turn-over frequency). Each row also includes all the metadata used to derive the result - most importantly a pointer
-to the corresponding experiment (experiment table) and the timespan during that experiment for which the rate applies.
+  or dissolution. It also includes a capacitance value for normalization to number of sites (thus the name of the
+  table, for turn-over frequency). Each row also includes all the metadata used to derive the result - most importantly a pointer
+  to the corresponding experiment (experiment table) and the timespan during that experiment for which the rate applies.
 
 - **elog**. A row in this table includes an entry in the electronic lab notebook. They contain metadata and the
-some of the experimenter's thoughts during the measurement, and can be useful if a specific measurement
-seems hard to interpret.
+  some of the experimenter's thoughts during the measurement, and can be useful if a specific measurement
+  seems hard to interpret.
 
 The tables were populated semi-automatically using the scripts in data_processing/
 
 Raw data is at present available only to the authors via a dropbox folder.
 It will be made publically available upon publication.
+
+
+pyOER
+-----
+
+``pyOER`` is the python package with tools used to navigate the database and analyze the raw data. 
+It includes classes corresponding to each of the tables in the database. 
+Data processing and Figure scripts import from this package. 
+It can be thought of as an extension of ``ixdat``, and a clumsy first attempt at the project-level organization we hope to incorporate into ``ixdat``.
 
 
 Data Processing
