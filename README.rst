@@ -19,7 +19,12 @@ Setup
 
      pip install --upgrade ixdat
 
-3. To enable full analysis, download the raw data using this dropbox link:
+
+3. Add the folder "src" in this repository to your python path. This will let you import
+   from src/pyOER. pyOER is a package that builds on top of ixdat to manage and analyze the
+   data in this project.
+
+4. To enable full analysis, download the raw data using this dropbox link:
    https://www.dropbox.com/sh/u0ttselmhd08ntq/AAA43jVl42MB--sV5pyf_6CPa?dl=0
 
    The size is 3 GB.
