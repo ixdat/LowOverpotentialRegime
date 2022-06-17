@@ -1,7 +1,10 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
-from pyOER import Measurement
+from pyOER import Measurement as DBMeasurement
+from ixdat import Measurement
+
+from pyOER.constants import EXPORT_DATA_DIR
 from ixdat.constants import FARADAY_CONSTANT
 
 forpublication = True
@@ -21,14 +24,23 @@ plt.close("all")
 T = 298.15
 A_el = 0.196
 
-measurement = Measurement.open(10)
+path_to_export = EXPORT_DATA_DIR / "meas_part_1_fig1.csv"
 
-meas = measurement.meas
+if False:
+    # use the raw data in the database.
+    # This has a higher datapoint density (time resolution)
+    measurement = DBMeasurement.open(10)
+    meas = measurement.meas
+    if not path_to_export.exists():
+        # This creates the export used otherwise
+        meas.export(path_to_export, time_step=2, tspan=[0, 6700])
+else:  # use the exported file. This has a lower datapoint density.
+    meas = Measurement.read(path_to_export, reader="ixdat")
 
 meas.plot()
 
-V_str = meas.calibrate_RE(RE_vs_RHE=0.715)
-J_str = meas.normalize_current(A_el=0.196)
+meas.calibrate_RE(RE_vs_RHE=0.715)
+meas.normalize_current(A_el=0.196)
 
 O2 = meas.ecms_calibration(mol="O2", mass="M32", tspan=[300, 350], n_el=4)
 cv = meas.cut(tspan=[6370, 6700], t_zero="start").as_cv()
@@ -52,8 +64,8 @@ if forpublication:
 
 cv1 = cv.cut(tspan=[86, 172])
 
-t, v = cv1.grab(V_str)
-j = cv1.grab_for_t(J_str, t)
+t, v = cv1.grab("potential")
+j = cv1.grab_for_t("current", t)
 
 fig, ax = plt.subplots()
 ax.plot(v, j, "b")

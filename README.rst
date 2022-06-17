@@ -29,7 +29,7 @@ Setup
 
    The size is 3 GB.
 
-   a. By default, the code will look for raw data in ``~/Dropbox/DATA/LowOverpotentialRegime``.
+   a. By default, the code will look for raw data in ``LowOverpotentialRegime/data_raw/``.
       If you download the data to another location, you must create the file ``src/pyOER/settings.py``
       and in it, define the ``DATA_DIR`` variable. An example ``settings.py``::
 
