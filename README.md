@@ -1,20 +1,18 @@
-LowOverpotentialRegime
-======================
+# LowOverpotentialRegime
 
 Data and analysis for:
 
-Soren B. Scott and Reshma R. Rao, Choongman Moon, Jakob Ejler Sørensen, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part I: The importance of O2 detection**. `Energy & Environmental Science. **2022**, 15, 1977-1987. <https://doi.org/10.1039/D1EE03914H>`_
+Soren B. Scott and Reshma R. Rao, Choongman Moon, Jakob Ejler Sørensen, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part I: The importance of O2 detection**. [Energy & Environmental Science. **2022**, 15, 1977-1987.](https://doi.org/10.1039/D1EE03914H)
 
 and
 
-Soren B. Scott, Jakob Ejler Sørensen,  Reshma R. Rao, Choongman Moon, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part II: Trends in metal and oxygen stability numbers**.  `Energy & Environmental Science, **2022**, 15, 1988-2001. <https://doi.org/10.1039/D1EE03915F>`_
+Soren B. Scott, Jakob Ejler Sørensen,  Reshma R. Rao, Choongman Moon, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part II: Trends in metal and oxygen stability numbers**.  [Energy & Environmental Science, **2022**, 15, 1988-2001](https://doi.org/10.1039/D1EE03915F)
 
-Setup
------
+## Setup
 
 1. Clone or download the repository
 
-2. Install ``ixdat`` version 0.2.2 or above using::
+2. Install `ixdat` version 0.2.2 or above using::
 
      pip install --upgrade ixdat
 
@@ -28,26 +26,25 @@ Setup
 
    The size is 3 GB.
 
-   a. By default, the code will look for raw data in ``LowOverpotentialRegime/data_raw/``.
-      If you download the data to another location, you must create the file ``src/pyOER/settings.py``
-      and in it, define the ``DATA_DIR`` variable. An example ``settings.py``::
+   a. By default, the code will look for raw data in **LowOverpotentialRegime/data_raw/**.
+      If you download the data to another location, you must create the file **src/pyOER/settings.py**
+      and in it, define the `DATA_DIR` variable. An example `settings.py`:
+      ```
+      from pathlib import Path
 
-          from pathlib import Path
+      # Change below path to match the path to the shared folder of your project.
+      DATA_DIR = Path(r"C:\DATA\other_peoples_data\LowOverpotentialRegime")
+      ```
 
-          # Change below path to match the path to the shared folder of your project.
-          DATA_DIR = Path(r"C:\DATA\other_peoples_data\LowOverpotentialRegime")
-
-5. If you have any problems, questions, or comments, please contact us! Log an `Issue <https://github.com/ixdat/LowOverpotentialRegime/issues>`_ or write to sbscott@ic.ac.uk
+5. If you have any problems, questions, or comments, please contact us! Log an [Issue](https://github.com/ixdat/LowOverpotentialRegime/issues) or write to sbscott@ic.ac.uk
 
 
-Figures
--------
+# Figures
 
-`Part I: The importance of O2 detection. <https://doi.org/10.1039/D1EE03914H>`_
-...............................................................................
+## [Part I: The importance of O2 detection](https://doi.org/10.1039/D1EE03914H>)
 
-Figure 1
-^^^^^^^^
+### Figure 1
+
 (a), (b), and (c) are diagrams. 
 
 (d) and (e):
@@ -60,8 +57,7 @@ These panels compare working electrode current and oxygen production during cycl
 
 Note also that we added annotations to most figures in Inkscape after making the panels with these scripts.
 
-Figure 2
-^^^^^^^^
+### Figure 2
 
 (a), (b), (c), and (d):
 
@@ -71,84 +67,71 @@ https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_fi
 
 Requires downloading the raw data files.
 
-Figure 3
-^^^^^^^^
+### Figure 3
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig3.py
 
-This script defines a function ``plot_all_activity_results`` which is imported by fig5.py amoung others. 
-This function is used to make a figure in the lower part (under ``if __name__ == "__main__"``
+This script defines a function `plot_all_activity_results` which is imported by fig5.py amoung others. 
+This function is used to make a figure in the lower part (under `if __name__ == "__main__"`
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
-Figure 4
-^^^^^^^^
+### Figure 4
 
 This was made in Origin. Contact R. R. R.
 
-Figure 5
-^^^^^^^^
+### Figure 5
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_main_figs/part_I_fig5.py
 
-In addition to making the figure (using an import from fig3.py, this script also solves the model described in `the ESI <https://www.rsc.org/suppdata/d1/ee/d1ee03914h/d1ee03914h1.pdf>`_ for j0, dG1 and dG2.
+In addition to making the figure (using an import from fig3.py, this script also solves the model described in [the ESI](https://www.rsc.org/suppdata/d1/ee/d1ee03914h/d1ee03914h1.pdf) for j0, dG1 and dG2.
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
-Figure S1
-^^^^^^^^^
+### Figure S1
 
 On its way.
 
-Figure S2
-^^^^^^^^^
+### Figure S2
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_SI_figs/part_I_figS2.py
 
 Requires downloading the raw data files.
 
-Figure S3
-^^^^^^^^^
+### Figure S3
 
 On its way.
 
-Figure S4
-^^^^^^^^^
+### Figure S4
 
 Made in Origin
 
-Figure S5
-^^^^^^^^^
+### Figure S5
 
 Made in Origin
 
-Figure S6
-^^^^^^^^^
+### Figure S6
 
 Made in Origin
 
-Figure S7
-^^^^^^^^^
+## Figure S7
 
 Made in Origin
 
-Figure S8
-^^^^^^^^^
+### Figure S8
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_I_SI_figs/part_I_figS8.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
-`Part II: Trends in metal and oxygen stability numbers. <https://doi.org/10.1039/D1EE03915F>`_
-.................................................................................................
+## [Part II: Trends in metal and oxygen stability numbers](https://doi.org/10.1039/D1EE03915F)
 
-Figure 1
-^^^^^^^^
+
+### Figure 1
 
 This is a diagram made with Inkscape.
 
-Figure 2
-^^^^^^^^
+### Figure 2
 
 (a) is a diagram.
 
@@ -158,22 +141,19 @@ https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_f
 
 Requires downloading the raw data files.
 
-Figure 3
-^^^^^^^^
+### Figure 3
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig3.py
 
 Requires downloading the raw data files.
 
-Figure 4
-^^^^^^^^
+### Figure 4
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig4.py
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
-Figure 5
-^^^^^^^^
+### Figure 5
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig5.py
 
@@ -181,44 +161,37 @@ This uses the plotting function from Figures 3 and 5 of Paper 1.
 
 Does not require downloading the raw data, as it uses the results stored in the tables of the repository.
 
-Figure 6
-^^^^^^^^
+### Figure 6
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_main_figs/part_II_fig6.py
 
-Figure 7
-^^^^^^^^
+### Figure 7
 
 This is a diagram.
 
-Figure S1
-^^^^^^^^^
+### Figure S1
 
 This is a diagram.
 
-Figure S2
-^^^^^^^^^
+### Figure S2
 
 On its way.
 
-Figure S3
-^^^^^^^^^
+### Figure S3
 
 On its way.
 
-Figure S4
-^^^^^^^^^
+### Figure S4
 
 On its way.
 
-Figure S5
-^^^^^^^^^
+### Figure S5
 
 https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/part_II_SI_figs/part_II_figS5.py
 
+# The rest of the repository
 
-Database
---------
+## Database
 
 The relational database is represented in tables/ . Each subfolder of table/ acts as a database table, with
 each .json file acts as a row. The .json files can be opened with any text editor (e.g. Notepad) for ease of
@@ -227,16 +200,14 @@ use. Each table corresponds to a class in pyOER, and each row corresponds to an 
 The database is approximately represented here:
 https://dbdiagram.io/d/25C18_pyOER-67d9952375d75cc8448d0bd1 
 
-.. image:: https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/database_diagram.png?raw=true
-
-   A sketch approximating the data structure represented in the tables folder.
+![database_diagram](./figures/database_diagram.png)
 
 The tables include but are not limited to:
 
 - **measurements**. A measurement is a collection of metadata about a single EC, MS or EC-MS measurement.
   It includes a pointer to any notes taken during the measurement (elog table), as well as the raw data file.
   pyOER is lazy in that raw data is not loaded by the measurement object until it is needed, saving RAM.
-  A ``pyOER.Measurement`` can be thought of as a wrapper around an ``ixdat.Measurement`` object 
+  A `pyOER.Measurement` can be thought of as a wrapper around an `ixdat.Measurement` object 
   (the classes unfortunately share the same name), and should ideally be incorporated into the latter.
 
 - **icpms**. An row in this table represents a single ICPMS measurement, with the counts and metadata
@@ -263,17 +234,15 @@ Raw data is at present available only to the authors via a dropbox folder.
 It will be made publically available upon publication.
 
 
-pyOER
------
+## pyOER
 
-``pyOER`` is the python package with tools used to navigate the database and analyze the raw data. 
+`pyOER` is the python package with tools used to navigate the database and analyze the raw data. 
 It includes classes corresponding to each of the tables in the database. 
 Data processing and Figure scripts import from this package. 
-It can be thought of as an extension of ``ixdat``, and a clumsy first attempt at the project-level organization we hope to incorporate into ``ixdat``.
+It can be thought of as an extension of `ixdat`, and a clumsy first attempt at the project-level organization we hope to incorporate into `ixdat`.
 
 
-Data Processing
----------------
+## Data Processing
 
 The rows of the tables in the database were generated by data processing scripts. We have not copied those over yet but
 left them in the repository that was in use before publication of the manuscripts, which is now made public. See 
