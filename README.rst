@@ -3,12 +3,11 @@ LowOverpotentialRegime
 
 Data and analysis for:
 
-Soren B. Scott and Reshma R. Rao, Choongman Moon, Jakob Ejler Sørensen, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part I: The importance of O2 detection**. `Energy & Environmental Science. In Press. <https://doi.org/10.1039/D1EE03914H>`_
+Soren B. Scott and Reshma R. Rao, Choongman Moon, Jakob Ejler Sørensen, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part I: The importance of O2 detection**. `Energy & Environmental Science. **2022**, 15, 1977-1987. <https://doi.org/10.1039/D1EE03914H>`_
 
 and
 
-
-Soren B. Scott, Jakob Ejler Sørensen,  Reshma R. Rao, Choongman Moon, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part II: Trends in metal and oxygen stability numbers**.  `Energy & Environmental Science. In Press. <https://doi.org/10.1039/D1EE03915F>`_
+Soren B. Scott, Jakob Ejler Sørensen,  Reshma R. Rao, Choongman Moon, Jakob Kibsgaard, Yang Shao-Horn, and Ib Chorkendorff. **The low overpotential regime of acidic water oxidation part II: Trends in metal and oxygen stability numbers**.  `Energy & Environmental Science, **2022**, 15, 1988-2001. <https://doi.org/10.1039/D1EE03915F>`_
 
 Setup
 -----
@@ -224,6 +223,13 @@ Database
 The relational database is represented in tables/ . Each subfolder of table/ acts as a database table, with
 each .json file acts as a row. The .json files can be opened with any text editor (e.g. Notepad) for ease of
 use. Each table corresponds to a class in pyOER, and each row corresponds to an object of that class.
+
+The database is approximately represented here:
+https://dbdiagram.io/d/25C18_pyOER-67d9952375d75cc8448d0bd1 
+
+.. image:: https://github.com/ixdat/LowOverpotentialRegime/blob/main/figures/database_diagram.png?raw=true
+
+   A sketch approximating the data structure represented in the tables folder.
 
 The tables include but are not limited to:
 
